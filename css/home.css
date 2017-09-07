@@ -513,11 +513,25 @@ nav.scroll{
 .hsocialbox{
     height: 400px;
     width: 350px;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 20px 0px 20px;
+    align-items: center;
     display: flex;
     flex-direction: column;
     display: -webkit-flex;
     -webkit-flex-direction: column;
+    -webkit-align-items: center;
+}
+.hsocial_link{
+    font-size: 14px;
+    color:rgb(251,118,96);
+    font-family: poppins;
+    font-weight: 400;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.hsocial_link:hover,.hsocial_link:active,.hsocial_link:focus{
+    font-weight: 600;
 }
 #foot{
     height: 100px;
