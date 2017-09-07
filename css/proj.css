@@ -1,0 +1,115 @@
+#main_proj{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+#hprojshirt{
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+    background-color: rgba(30,30,30,0.5);
+    justify-content: center;
+    left: 0;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    box-sizing: border-box;
+}
+#proj_cont{
+    width: 100%;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    box-sizing: border-box;
+}
+.projbox{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;  
+}
+.sprojtxt{
+    width: 420px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.hprojtitl{
+    font-size: 50px;
+    color: rgb(251,118,96);
+}
+.hprojtxt{
+    font-size: 20px;
+    color: rgb(30,30,30);
+    margin-top: 30px;
+}
+mh{
+    width: 1200px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction:row;
+    position: absolute;
+    z-index: 90;
+    list-style: none;
+}
+.sidemenu{
+    top: 40vh;
+    width: 160px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    line-height:50px;
+    position: fixed;
+    z-index: 90;
+    align-self: flex-start;
+    text-underline-position: left;
+    text-align: right;
+}
+.ap{
+    font-size: 30px; 
+    color: rgb(251,118,96);
+}
+.ap:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: -4px;
+    right: 0;
+    background-color: rgb(251,118,96);
+    -webkit-transition: width 0.2s ease;
+    -moz-transition: width 0.2s ease;
+    -o-transition: width 0.2s ease;
+    transition: width .2s ease;
+}
+.ap:hover:after{
+  width: 100%;
+  left: 0;
+  background-color: rgb(251,118,96);
+}
+.ap.active {
+    color: rgb(251,118,96);
+}
+.ap.active:after {
+	 content: '';
+  position: absolute;
+  width: 100%; height: 3px;
+  display: block;
+  margin-top: -4px;
+  left: 0;
+  background: rgb(251,118,96);
+}
