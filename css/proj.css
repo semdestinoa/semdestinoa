@@ -1,5 +1,6 @@
 #main_proj{
     width: 1200px;
+    height: 5000px;
     display: flex;
     flex-direction: column;
     display: -webkit-flex;
@@ -47,6 +48,7 @@
     -webkit-flex-direction: column;
 }
 .hprojtitl{
+    font-family: poppins;
     font-size: 50px;
     color: rgb(251,118,96);
 }
@@ -80,7 +82,24 @@ mh{
     text-align: right;
 }
 .ap{
-    font-size: 30px; 
+    font-size: 30px;
+    font-family: poppins;
+    color: rgb(251,118,96);
+    font-weight: 400;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight .2s ease;
+}
+.ap:hover,.ap:focus,.ap:active{
+    font-weight: 600;
+}
+.ap.active{
+    font-weight: 600;
+}
+/*.ap{
+    font-size: 30px;
+    font-family: poppins;
     color: rgb(251,118,96);
 }
 .ap:after{
@@ -112,4 +131,4 @@ mh{
   margin-top: -4px;
   left: 0;
   background: rgb(251,118,96);
-}
+}*/

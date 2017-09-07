@@ -27,6 +27,10 @@ a {
     color: rgb(251,118,96);
     cursor: pointer;
 }
+t{
+    font-weight: 300;
+    margin-left: 10px;
+}
 b{
     font-weight: 600;
 }
@@ -211,6 +215,7 @@ nav.scroll{
     box-sizing: border-box;
 }
 #shirttxt{
+    font-family: Poppins;
     width: 1000px;
     display: flex;
     display: -webkit-flex;
@@ -219,7 +224,6 @@ nav.scroll{
 }
 .headtitl{
     font-size: 36px;
-    font-family: Poppins;
     color: rgb(255,255,255);
     margin-bottom: 10px;
 }
@@ -404,6 +408,7 @@ nav.scroll{
     margin: 0px 0px 0px 300px;
 }
 .hmain_stxt2{
+    font-weight: 400;
     color: rgb(251,118,96);
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
@@ -411,7 +416,7 @@ nav.scroll{
     transition: font-weight 0.2s ease;
 }
 .hmain_stxt2:hover,.hmain_stxt2:focus,.hmain_stxt2:active{
-    font-weight: 700;
+    font-weight: 600;
 }
 .hmain_txt{
     font-weight: 400;
@@ -457,7 +462,7 @@ nav.scroll{
     font-weight: 700;
 }
 .hmain_ablk{
-    margin-left: 20px;
+    margin:0px 0px 40px 20px;
     display: flex;
     flex-direction: column;
     display: -webkit-flex;
@@ -485,7 +490,7 @@ nav.scroll{
 .hmain_atitl{
     font-size: 18px;
     color: rgb(251,118,96);
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 .hmain_attxt{
     font-size: 14px;
@@ -503,7 +508,16 @@ nav.scroll{
     transition: font-weight 0.2s ease;
 }
 .hmoreico:hover,.hmoreico:focus,.hmoreico:active {
-    font-weight: 600;
+    font-weight: 700;
+}
+.hsocialbox{
+    margin-top: 60px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
 }
 #foot{
     height: 100px;
@@ -528,11 +542,13 @@ nav.scroll{
 }
 .foottitl{
     color: white;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 10px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 .foottxt{
+    font-weight: 300;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 }

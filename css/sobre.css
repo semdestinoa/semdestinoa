@@ -73,7 +73,10 @@ nav{
   position: relative;
   margin-bottom: 40px;
     display: flex;
-    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
 }
 
 /* Next & previous buttons */
