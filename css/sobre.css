@@ -73,10 +73,10 @@ nav{
   position: relative;
   margin-bottom: 40px;
     display: flex;
+    flex-direction: column;
     display: -webkit-flex;
     -webkit-flex-direction: column;
-    align-items: center;
-    -webkit-align-items: center;
+    justify-content: center;
 }
 
 /* Next & previous buttons */
@@ -107,7 +107,18 @@ nav{
 .prev:hover, .next:hover {
   color: rgba(255,255,255,1);
 }
-
+.dot_holder{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    
+}
 /* The dots/bullets/indicators */
 .dot {
   cursor:pointer;

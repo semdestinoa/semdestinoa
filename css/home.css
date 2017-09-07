@@ -511,9 +511,9 @@ nav.scroll{
     font-weight: 700;
 }
 .hsocialbox{
-    margin-top: 60px;
     height: 400px;
-    width: 300px;
+    width: 350px;
+    padding: 0px 30px 0px 30px;
     display: flex;
     flex-direction: column;
     display: -webkit-flex;
