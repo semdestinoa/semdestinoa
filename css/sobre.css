@@ -9,14 +9,26 @@ nav{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
-.s_hold{
+.s_hold, .s_holdnames, .s_holdficha{
     margin-bottom: 100px;
     display: flex;
     display: -webkit-flex;
+}
+.s_hold{
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.s_hold, .s_holdficha{
     flex-direction: row;
     -webkit-flex-direction: row;
 }
-#s_intro{
+.s_holdnames{
+    height: 860px;
+    flex-flow: wrap;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.s_intro{
     column-count: 3;
     -webkit-column-count: 3;
 }
@@ -31,7 +43,24 @@ nav{
     font-family: Poppins;
     font-weight: 600;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+.s_btxt,.s_btxt2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.s_btxt2{
+    color: rgb(251,118,96);
+    font-weight: 400;
+    -webkit-transition: font-weight 0.4s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.s_btxt2:hover,.s_btxt2:focus,.s_btxt2:active{
+    font-weight: 600;
 }
 .s_stxt{
     font-family: Poppins;
@@ -40,9 +69,13 @@ nav{
     color: rgb(251,118,96);
     margin-bottom: 10px;
 }
-.s_txt{
+.s_txt, .s_txt2{
     font-size: 14px;
 }
+.s_txt2{
+    margin-bottom: 30px;
+}
+
 .etap_hold{
     margin-left: 490px;
     margin-bottom: 100px;
@@ -64,6 +97,21 @@ nav{
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
+}
+.s_names{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(251,118,96);
+    margin-top: 10px;
+    margin-right: 100px;
+    -webkit-transition: font-weight 0.4s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.s_names:hover,.s_names:focus,.s_names:active{
+    font-weight: 600;
 }
 .mySlides {display:none}
 

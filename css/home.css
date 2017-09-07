@@ -338,21 +338,27 @@ nav.scroll{
     -webkit-flex-direction: column;
     -webkit-justify-content: space-between;
 }
-.hmain_blkt1, .hmain_blkt2,.hmain_blkt3,.hmain_blkt4{
+.hmain_blkt1,.hmain_blkt3,.hmain_blkt4{
     width: 100%;
     display: flex;
     justify-content: space-between;
     display: -webkit-flex;
     flex-direction: row;
     -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
 }
 .hmain_blkt1{
     margin-bottom: 60px;
 }
 .hmain_blkt2{
+    width: 100%;
     margin-bottom: 60px;
+    display:flex;
+    justify-content: space-between;
+    display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
+    -webkit-justify-content: space-between;
 }
 .hmain_blkt3{
     padding: 70px 100px 0px 140px;
@@ -371,19 +377,24 @@ nav.scroll{
 }
 .hmain_blk2{
     justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     padding: 0px 120px 100px 180px;
 }
 .hmain_blk3{
     justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     padding: 0px 200px 0px 180px;
 }
-.hmain_titl, .hmain_titl2{
+.hmain_titl{
     font-weight: 600;
     font-family: poppins;
     font-size: 40px;
     margin: 100px 0px 10px 140px;
 }
 .hmain_titl2{
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 40px;
     margin-bottom: 80px;
 }
 .hmain_stitl{
@@ -402,10 +413,12 @@ nav.scroll{
     margin: 0px 0px 0px 300px;
 }
 .hmain_stxt1,.hmain_stxt2{
-    font-weight: 600;
     font-family: poppins;
     font-size: 30px;
     margin: 0px 0px 0px 300px;
+}
+.hmain_stxt1{
+    font-weight: 600;
 }
 .hmain_stxt2{
     font-weight: 400;
