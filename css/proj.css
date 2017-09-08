@@ -96,7 +96,7 @@ mh{
 .sidemenu{
     top: 40vh;
     width: 140px;
-    line-height:50px;
+    line-height:40px;
     position: fixed;
     z-index: 90;
     display: flex;
@@ -105,7 +105,7 @@ mh{
     -webkit-flex-direction: column;
 }
 .ap{
-    font-size: 16px;
+    font-size: 14px;
     font-family: poppins;
     color: rgb(251,118,96);
     font-weight: 400;
