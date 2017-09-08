@@ -23,10 +23,10 @@ nav{
     margin-left: 240px;
     margin-top: -30px;
     display: flex;
-    flex-flow: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
     display: -webkit-flex;
-    -webkit-flex-flow: wrap;
+    -webkit-flex-wrap: wrap;
     -webkit-flex-direction: column;
     
 }

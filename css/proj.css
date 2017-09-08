@@ -1,6 +1,5 @@
 #main_proj{
     width: 1200px;
-    height: 5000px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -48,7 +47,7 @@
     box-sizing: border-box;
 }
 #proj_cont{
-    width: 940px;
+    width: 1000px;
     margin-top: 80px;
     z-index: 10;
     display: flex;
@@ -58,13 +57,15 @@
     box-sizing: border-box;
 }
 .projbox{
+    margin-bottom: 40px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
-    -webkit-flex-direction: column;  
+    -webkit-flex-direction: column; 
 }
-.tprojtxtb{
-    width: 420px;
+.hprojtxtb{
+    width: 500px;
+    margin-bottom: 40px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -72,16 +73,73 @@
 }
 .hprojtitl{
     font-family: poppins;
-    font-size: 50px;
-    color: rgb(251,118,96);
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 30px;
 }
 .hprojtxt{
+    font-family: poppins;
     font-size: 20px;
-    color: rgb(30,30,30);
-    margin-top: 30px;
 }
-.tprojtxt{
+.mprojtxtb{
+    width: 300px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.mprojtitl{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.mprojtxt{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.mprojstxt{
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.msprojtitl{
+    font-family: poppins;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.proj_tplaygrnd{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
     
+}
+.proj_tbox{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.proj_timg{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.proj_ttitl{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(251,118,96);
+    margin-bottom: 6px;
+}
+.proj_ttxt{
+    font-size: 10px;
 }
 mh{
     width: 1200px;
@@ -95,8 +153,8 @@ mh{
 }
 .sidemenu{
     top: 40vh;
-    width: 140px;
-    line-height:40px;
+    line-height:50px;
+    margin-left: 20px;
     position: fixed;
     z-index: 90;
     display: flex;
@@ -105,10 +163,10 @@ mh{
     -webkit-flex-direction: column;
 }
 .ap{
-    font-size: 14px;
+    font-size: 16px;
     font-family: poppins;
     color: rgb(251,118,96);
-    font-weight: 400;
+    font-weight: 300;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
     -o-transition: font-weight 0.2s ease;
@@ -136,10 +194,10 @@ mh{
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: height 0.6s ease;
+    -moz-transition: height 0.6s ease;
+    -o-transition: height 0.6s ease;
+    transition: height 0.6s ease;
 }
 .ap2_title{
     font-size: 14px;
@@ -149,19 +207,19 @@ mh{
 }
 .ap2{
     font-size: 12px;
-    color: rgb(30,30,30);
+    color: rgb(251,118,96);
     font-family: poppins;
-    font-weight: 400;
+    font-weight: 300;
     -webkit-transition: color 0.2s ease;
     -moz-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
     transition: color 0.2s ease;
 }
 .ap2:hover,.ap2:active{
-    color: rgb(251,118,96);
+    font-weight: 400;
 }
 .ap2.active{
-    color: rgb(251,118,96);
+    font-weight: 300;
 }
 .apv:hover .ap2_hold,.apv:active .ap2_hold,.apv:focus .ap2_hold{
     height: 300px;

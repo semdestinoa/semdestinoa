@@ -29,7 +29,7 @@ jQuery( document ).ready(function() {
 	var topMenu = $(".sidemenu");
     var winH = $( window ).height();
 	// All list items
-	var menuItems = topMenu.find("a");
+	var menuItems = topMenu.find(".ap");
 	// Anchors corresponding to menu items
 	scrollItems = menuItems.map(function(){
 	  var item = $($(this).attr("href"));
@@ -40,7 +40,7 @@ jQuery( document ).ready(function() {
 	// so we can get a fancy scroll animation
 	menuItems.click(function(e){
 	  var href = $(this).attr("href");
-	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.5;
+	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/3;
 	  $('html, body').stop().animate({ 
 		  scrollTop: offsetTop
 	  }, 300);
