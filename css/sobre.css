@@ -132,7 +132,7 @@ nav{
     -webkit-flex-direction: row;
 }
 .s_holdfsec3{
-    height: 256px;
+    height: 264px;
     flex-direction: column;
     -webkit-flex-direction: column;
 }
@@ -142,12 +142,10 @@ nav{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
-.s_fblks{
-    width: 180px;
-    margin-right: 50px;
+.s_fblks,.s_fbblk1, .s_fbblk2, .s_fbblk3{
+    width: 220px;
 }
-.s_fbblk1, .s_fbblk2, .s_fbblk3{
-    width: 200px;
+.s_fblks,.s_fbblk1, .s_fbblk2{
     margin-right: 30px;
 }
 .s_fblks, .s_fblks2{
@@ -163,23 +161,31 @@ nav{
 .s_fbblk1{
 }
 .s_fbblk2{
-    margin-top: 100px;
+    margin-top: 124px;
 }
 .s_fbblk3{
-    margin-top: 200px;
+    margin-top: 248px;
 }
 .s_fbtitl{
     font-family: poppins;
     font-size: 16px;
     font-weight: 600;
 }
-.s_ftitl, .s_ftxt{
+.s_fstitl, .s_ftxt{
     font-family: poppins;
     font-size: 12px;
 }
 .s_ftitl{
     font-weight: 600;
     margin-bottom: 10px;
+}
+.s_fstitl{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.s_ftitl{
+    font-family: poppins;
+    font-size: 14px;
 }
 .s_ftxt{
     font-weight: 400;
