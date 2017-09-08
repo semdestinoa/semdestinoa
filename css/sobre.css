@@ -9,24 +9,30 @@ nav{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
-.s_hold, .s_holdnames, .s_holdficha{
-    margin-bottom: 100px;
+.s_hold, .s_holdficha{
     display: flex;
     display: -webkit-flex;
-}
-.s_hold{
-    flex-direction: row;
-    -webkit-flex-direction: row;
-}
-.s_holdnames{
-    height: 860px;
-    flex-flow: wrap;
-}
-.s_holdnames,.s_holdficha{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
+.s_hold{
+    margin-bottom: 100px;
+}
+#s_holdnames{
+    height: 860px;
+    margin-left: 240px;
+    margin-top: -30px;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-flow: wrap;
+    -webkit-flex-direction: column;
+    
+}
 .s_intro{
+    margin-left: 240px;
+    margin-top: -30px;
     column-count: 3;
     -webkit-column-count: 3;
 }
@@ -34,8 +40,6 @@ nav{
     font-family: Poppins;
     font-weight: 600;
     font-size: 30px;
-    margin-bottom: 60px;
-    margin-right: 160px;
 }
 .s_stitl{
     font-family: Poppins;
@@ -101,7 +105,7 @@ nav{
     font-weight: 400;
     font-size: 16px;
     color: rgb(251,118,96);
-    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 100px;
     -webkit-transition: font-weight 0.4s ease;
     -moz-transition: font-weight 0.2s ease;
@@ -110,6 +114,89 @@ nav{
 }
 .s_names:hover,.s_names:focus,.s_names:active{
     font-weight: 600;
+}
+#s_holdfcont{
+    margin: 100px 0px 0px 240px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.s_holdfsec1,.s_holdfsec2,.s_holdfsec3{
+    display: flex;
+    display: -webkit-flex;
+}
+.s_holdfsec1,.s_holdfsec2{
+    margin-bottom: 40px;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+.s_holdfsec3{
+    height: 256px;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.s_fblks, #sfbblk1,#sfbblk2,#sfbblk3,.sfiblks{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.s_fblks{
+    width: 180px;
+    margin-right: 50px;
+}
+.s_fbblk1, .s_fbblk2, .s_fbblk3{
+    width: 200px;
+    margin-right: 30px;
+}
+.s_fblks, .s_fblks2{
+    margin-bottom: 20px;
+}
+.s_fblks2{
+    margin-right: 30px;
+}
+.s_fiblks{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.s_fbblk1{
+}
+.s_fbblk2{
+    margin-top: 100px;
+}
+.s_fbblk3{
+    margin-top: 200px;
+}
+.s_fbtitl{
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+}
+.s_ftitl, .s_ftxt{
+    font-family: poppins;
+    font-size: 12px;
+}
+.s_ftitl{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.s_ftxt{
+    font-weight: 400;
+}
+.s_fpshelf{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+.s_fpatrns{
+    height: 100px;
+    width: 100px;
+    margin: 20px 20px 0px 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .mySlides {display:none}
 
@@ -175,7 +262,7 @@ nav{
   cursor:pointer;
   height: 13px;
   width: 13px;
-  margin: 0 2px;
+  margin: 0 4px;
   background-color: rgba(255,255,255,0.5);
   border-radius: 50%;
   display: inline-block;

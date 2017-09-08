@@ -223,22 +223,22 @@ nav.scroll{
     -webkit-flex-direction: column;
 }
 .headtitl{
-    font-size: 36px;
+    font-size: 40px;
     color: rgb(255,255,255);
     margin-bottom: 10px;
 }
 .headtxt{
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(255,255,255);
     margin-bottom: 40px;
 }
 .headtxt2{
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(255,255,255);
     margin-bottom: 120px;
 }
 .headdates{
-    font-size: 24px;
+    font-size: 30px;
     color: rgb(255,255,255);
     margin-bottom: 20px;
 }
@@ -544,7 +544,7 @@ nav.scroll{
     font-weight: 600;
 }
 #foot{
-    height: 100px;
+    height: 110px;
     width: 1200px;
     text-align: right;
     align-items: center;
