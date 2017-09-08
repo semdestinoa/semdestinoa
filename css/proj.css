@@ -63,7 +63,7 @@
     flex-direction: column;
     -webkit-flex-direction: column;  
 }
-.sprojtxt{
+.tprojtxtb{
     width: 420px;
     display: flex;
     display: -webkit-flex;
@@ -79,6 +79,9 @@
     font-size: 20px;
     color: rgb(30,30,30);
     margin-top: 30px;
+}
+.tprojtxt{
+    
 }
 mh{
     width: 1200px;
@@ -102,19 +105,19 @@ mh{
     -webkit-flex-direction: column;
 }
 .ap{
-    font-size: 20px;
+    font-size: 16px;
     font-family: poppins;
     color: rgb(251,118,96);
     font-weight: 400;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
     -o-transition: font-weight 0.2s ease;
-    transition: font-weight .2s ease;
+    transition: font-weight 0.2s ease;
 }
 .ap:hover,.ap:active{
     font-weight: 600;
 }
-.ap.active{
+.ap.active {
     font-weight: 600;
 }
 .apv{
@@ -122,12 +125,6 @@ mh{
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-}
-.apv:hover,.apv:active{
-    font-weight: 600;
-}
-.apv.active{
-    font-weight: 600;
 }
 .ap2_hold{
     width: 100px;
@@ -145,20 +142,20 @@ mh{
     transition: all 1s ease;
 }
 .ap2_title{
-    font-size: 18px;
+    font-size: 14px;
     font-family: poppins;
     color: rgb(251,118,96);
     font-weight: 600;
 }
 .ap2{
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(30,30,30);
     font-family: poppins;
     font-weight: 400;
     -webkit-transition: color 0.2s ease;
     -moz-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
-    transition: color .2s ease;
+    transition: color 0.2s ease;
 }
 .ap2:hover,.ap2:active{
     color: rgb(251,118,96);
@@ -167,7 +164,7 @@ mh{
     color: rgb(251,118,96);
 }
 .apv:hover .ap2_hold,.apv:active .ap2_hold,.apv:focus .ap2_hold{
-    height: 280px;
+    height: 300px;
 }
 /*.ap{
     font-size: 30px;
