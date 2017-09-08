@@ -92,20 +92,17 @@ mh{
 }
 .sidemenu{
     top: 40vh;
-    width: 160px;
+    width: 140px;
+    line-height:50px;
+    position: fixed;
+    z-index: 90;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-    line-height:50px;
-    position: fixed;
-    z-index: 90;
-    align-self: flex-start;
-    text-underline-position: left;
-    text-align: right;
 }
 .ap{
-    font-size: 30px;
+    font-size: 20px;
     font-family: poppins;
     color: rgb(251,118,96);
     font-weight: 400;
@@ -119,6 +116,58 @@ mh{
 }
 .ap.active{
     font-weight: 600;
+}
+.apv{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.apv:hover,.apv:active{
+    font-weight: 600;
+}
+.apv.active{
+    font-weight: 600;
+}
+.ap2_hold{
+    width: 100px;
+    height: 0px;
+    overflow: hidden;
+    margin-left: 20px;
+    line-height:40px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.ap2_title{
+    font-size: 18px;
+    font-family: poppins;
+    color: rgb(251,118,96);
+    font-weight: 600;
+}
+.ap2{
+    font-size: 14px;
+    color: rgb(30,30,30);
+    font-family: poppins;
+    font-weight: 400;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color .2s ease;
+}
+.ap2:hover,.ap2:active{
+    color: rgb(251,118,96);
+}
+.ap2.active{
+    color: rgb(251,118,96);
+}
+.apv:hover .ap2_hold,.apv:active .ap2_hold,.apv:focus .ap2_hold{
+    height: 280px;
 }
 /*.ap{
     font-size: 30px;
