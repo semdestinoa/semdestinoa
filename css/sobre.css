@@ -15,16 +15,14 @@ nav{
     display: -webkit-flex;
 }
 .s_hold{
-    flex-direction: column;
-    -webkit-flex-direction: column;
-}
-.s_hold, .s_holdficha{
     flex-direction: row;
     -webkit-flex-direction: row;
 }
 .s_holdnames{
     height: 860px;
     flex-flow: wrap;
+}
+.s_holdnames,.s_holdficha{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
@@ -132,7 +130,7 @@ nav{
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
+    width: 40px;
     padding: 10px;
     margin-top: -22px;
     color: rgba(255,255,255,0.5);
@@ -143,6 +141,11 @@ nav{
     -o-transition: color 0.4s ease;
     transition: color 0.4s ease;
     border-radius: 0 3px 3px 0;
+    display: flex;
+    flex-direction: row;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    justify-content: center;
 }
 
 /* Position the "next button" to the right */
