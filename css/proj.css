@@ -166,7 +166,7 @@ mh{
     font-size: 16px;
     font-family: poppins;
     color: rgb(251,118,96);
-    font-weight: 300;
+    font-weight: 400;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
     -o-transition: font-weight 0.2s ease;
@@ -194,10 +194,10 @@ mh{
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-    -webkit-transition: height 0.6s ease;
-    -moz-transition: height 0.6s ease;
-    -o-transition: height 0.6s ease;
-    transition: height 0.6s ease;
+    -webkit-transition: height 1s ease;
+    -moz-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
 }
 .ap2_title{
     font-size: 14px;
@@ -210,19 +210,45 @@ mh{
     color: rgb(251,118,96);
     font-family: poppins;
     font-weight: 300;
-    -webkit-transition: color 0.2s ease;
-    -moz-transition: color 0.2s ease;
-    -o-transition: color 0.2s ease;
-    transition: color 0.2s ease;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
 }
 .ap2:hover,.ap2:active{
     font-weight: 400;
 }
-.ap2.active{
-    font-weight: 300;
-}
 .apv:hover .ap2_hold,.apv:active .ap2_hold,.apv:focus .ap2_hold{
     height: 300px;
+}
+.ap_pm{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction:row;
+}
+.ap_plus, .ap_minus{
+    font-size: 16px;
+    font-family: poppins;
+    color: rgb(251,118,96);
+    font-weight: 400;
+    margin-left: 10px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.ap_plus{
+    display: block;
+}
+.ap_minus{
+    display: none;
+}
+.apv:hover .ap_plus,.apv:active .ap_plus,.apv:focus .ap_plus{
+    display: none;
+}
+.apv:hover .ap_minus,.apv:active .ap_minus,.apv:focus .ap_minus{
+    display: block;
 }
 /*.ap{
     font-size: 30px;

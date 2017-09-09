@@ -21,7 +21,6 @@ jQuery(document).ready(function(){
         jQuery('#main_vid').attr('src', '');
    });
 });
-
 jQuery( document ).ready(function() {
 	
 	// Cache selectors
@@ -30,6 +29,7 @@ jQuery( document ).ready(function() {
     var winH = $( window ).height();
 	// All list items
 	var menuItems = topMenu.find(".ap");
+    var bmenuItems = topMenu.find(".ap2");
 	// Anchors corresponding to menu items
 	scrollItems = menuItems.map(function(){
 	  var item = $($(this).attr("href"));
@@ -40,13 +40,20 @@ jQuery( document ).ready(function() {
 	// so we can get a fancy scroll animation
 	menuItems.click(function(e){
 	  var href = $(this).attr("href");
-	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/3;
+	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.8;
 	  $('html, body').stop().animate({ 
 		  scrollTop: offsetTop
 	  }, 300);
 	  e.preventDefault();
 	});
-
+    bmenuItems.click(function(e){
+	  var href = $(this).attr("href");
+	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.8;
+	  $('html, body').stop().animate({ 
+		  scrollTop: offsetTop
+	  }, 300);
+	  e.preventDefault();
+	});
 	// Bind to scroll
 	$(window).scroll(function(){
 	   // Get container scroll position
