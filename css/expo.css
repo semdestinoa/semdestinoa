@@ -96,15 +96,14 @@ nav{
     width: 300px;
     height: 300px;
     overflow: hidden;
-    position: relative;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     display: -webkit-flex;
-    -webkit-flex-direction: row;
     -webkit-justify-content: center;
     -webkit-align-items: center;
+    -webkit-flex-direction: row;
 }
 .expo_choimg{
     width: 300px;
@@ -125,10 +124,10 @@ nav{
     font-size: 20px;
     color: rgb(30,30,30);
     position: absolute;
-    left: 50%;
-    top: 50%;
     display: flex;
+    flex-direction: column;
     display: -webkit-flex;
+    -webkit-flex-direction: column;
      -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
