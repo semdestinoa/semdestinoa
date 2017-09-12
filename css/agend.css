@@ -1,11 +1,36 @@
 nav{
     background-color: rgba(255,255,255,0.6);
 }
-#sobremain{
+#agendmain{
     margin-top: 200px;
     width:940px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
+}
+.age_hold{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+}
+.age_titl{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+.age_subtitl{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 26px;
+}
+.age_btxt{
+    width: 380px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
 }

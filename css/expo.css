@@ -26,6 +26,7 @@ nav{
     justify-content: space-between;
     display: -webkit-flex;
     -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
 }
 .expo_holdb{
     margin-bottom: 100px;

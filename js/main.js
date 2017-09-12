@@ -21,6 +21,19 @@ jQuery(document).ready(function(){
         jQuery('#main_vid').attr('src', '');
    });
 });
+jQuery(document).ready(function(){
+   // Do something with the DOM
+   jQuery('#head_wrap .playgate').click(function(){
+     jQuery('.main_play').addClass('active');
+    jQuery('body').css('overflow','hidden');
+       jQuery('#main_vid2').attr('src', 'https://www.youtube.com/embed/bR-s4ReIxJo?rel=0&amp;showinfo=0;autoplay=1');
+   });
+    jQuery('.main_play .closex').click(function(){
+     jQuery('.main_play').removeClass('active');
+        jQuery('body').css('overflow','visible');
+        jQuery('#main_vid2').attr('src', '');
+   });
+});
 jQuery( document ).ready(function() {
 	
 	// Cache selectors

@@ -7,6 +7,11 @@
     -webkit-flex-direction: column;
     -webkit-align-items: flex-end;
 }
+#main_vid2{ 
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
 #hprojshirt{
     height: 100vh;
     min-height: 600px;
