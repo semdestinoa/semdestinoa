@@ -101,6 +101,7 @@ nav{
     justify-content: center;
     align-items: center;
     display: -webkit-flex;
+    -webkit-flex-direction: row;
     -webkit-justify-content: center;
     -webkit-align-items: center;
 }
@@ -111,6 +112,7 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-filter: blur(4px);
     -webkit-transition: filter 0.2s ease;
     -moz-transition: filter 0.2s ease;
     -o-transition: filter 0.2s ease;
@@ -129,8 +131,7 @@ nav{
 }
 .expo_choice:hover .expo_choimg{
     filter: blur(20px);
-}
-.expo_choice:hover .expo_chotxt{
+    -webkit-filter: blur(20px);
 }
 .mySlides,.mySlides2 {display:none}
 /* Slideshow container */
