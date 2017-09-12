@@ -18,15 +18,20 @@ nav{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
-.expo_holdb{
+.expo_holdb,.expo_holdc{
     width: 100%;
-    margin-bottom: 80px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     display: -webkit-flex;
     -webkit-flex-direction: row;
+}
+.expo_holdb{
+    margin-bottom: 100px;
+}
+.expo_holdc{
+    margin-bottom: 40px;
 }
 .expo_datediagr{
     margin-top: 80px;

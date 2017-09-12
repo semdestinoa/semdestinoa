@@ -1,0 +1,11 @@
+nav{
+    background-color: rgba(255,255,255,0.6);
+}
+#sobremain{
+    margin-top: 200px;
+    width:940px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
