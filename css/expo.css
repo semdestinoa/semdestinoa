@@ -124,11 +124,10 @@ nav{
     font-size: 20px;
     color: rgb(30,30,30);
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    display: -webkit-flex;
-    -webkit-flex-direction: column;
-     -webkit-transition: all 0.2s ease;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
