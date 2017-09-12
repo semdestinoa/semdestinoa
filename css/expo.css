@@ -111,6 +111,7 @@ nav{
     height: 300px;
     filter: blur(4px);
     position: relative;
+    z-index: 10;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
