@@ -1,0 +1,239 @@
+nav{
+    background-color: rgba(255,255,255,0.6);
+}
+#expomain{
+    margin-top: 200px;
+    width:1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-align-items: center;
+}
+.expo_holda{
+    width:940px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.expo_holdb{
+    width: 100%;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+}
+.expo_datediagr{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.expo_datetxta{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.expo_datetxtb{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 80px;
+}
+.expo_datetxtc,.expo_datetxtd{
+    font-weight: 400;
+    font-size: 14px;
+    width: 230px;
+    line-height: 18px;
+}
+.expo_datetxtc{
+    margin: 80px 150px 0px 0px;
+}
+.expo_datetxtd{
+    margin: 0px 60px 0px 0px;
+}
+.expo_datebar{
+    margin: 30px 0px 20px 0px;
+    background-color: rgb(30,30,30);
+    width: 2px;
+    height: 20px;
+    transform: rotate(18deg);
+    align-self: center;
+    -webkit-align-self: center;
+}
+.expo_titl{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+.expo_subtitl{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 26px;
+}
+.expo_btxta{
+    width: 380px;
+    margin-top: 60px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+.expo_btxtb{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin:10px 0px 60px 0px;
+}
+.expo_choice{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+.expo_choimg{
+    width: 300px;
+    height: 300px;
+    filter: blur(4px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: filter 0.2s ease;
+    -moz-transition: filter 0.2s ease;
+    -o-transition: filter 0.2s ease;
+    transition: filter 0.2s ease;
+}
+.expo_chotxt{
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 20px;
+    color: rgb(30,30,30);
+    position: absolute;
+     -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.expo_choice:hover .expo_choimg{
+    filter: blur(20px);
+}
+.expo_choice:hover .expo_chotxt{
+}
+.mySlides,.mySlides2 {display:none}
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    justify-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    padding: 10px;
+    margin-top: -22px;
+    color: rgba(255,255,255,0.5);
+    font-weight: bold;
+    font-size: 50px;
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    border-radius: 0 3px 3px 0;
+    display: flex;
+    flex-direction: row;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    justify-content: center;
+}
+.text {
+  color: rgb(255,255,255);
+  font-size: 16px;
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  text-align: center;
+}
+/* Position the "next button" to the right */
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover{
+  color: rgba(255,255,255,1);
+}
+.dot_holder{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    
+}
+/* The dots/bullets/indicators */
+.dot, .dot2 {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 4px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
+    -moz-transition: background-color 0.6s ease;
+    -o-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover,.active, .dot2:hover {
+  background-color: rgba(255,255,255,1);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text{font-size: 11px}
+}
