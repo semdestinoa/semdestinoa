@@ -109,11 +109,11 @@ nav{
 .expo_choimg{
     width: 300px;
     height: 300px;
-    filter: blur(4px);
+    filter: blur(0px);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-filter: blur(4px);
+    -webkit-filter: blur(0px);
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -123,7 +123,8 @@ nav{
     font-weight: 600;
     font-family: poppins;
     font-size: 20px;
-    color: rgb(30,30,30);
+    color: rgb(255,255,255);
+    text-shadow: rgb(30,30,30) 0px 0px 20px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -134,8 +135,8 @@ nav{
     transition: all 0.2s ease;
 }
 .expo_choice:hover .expo_choimg{
-    filter: blur(20px);
-    -webkit-filter: blur(20px);
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
 }
 .mySlides,.mySlides2 {display:none}
 /* Slideshow container */
