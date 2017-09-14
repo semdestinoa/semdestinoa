@@ -34,6 +34,23 @@ jQuery(document).ready(function(){
         jQuery('#main_vid2').attr('src', '');
    });
 });
+jQuery(document).ready(function(){
+   jQuery('.age_locals1').click(function(){
+       jQuery('.age_locals1').addClass('active');
+       jQuery('.age_locals2').removeClass('active');
+       jQuery('.age_localv').fadeOut('fast',function(){
+       jQuery(this).attr('src', 'age_fbaul.html').fadeIn('fast');
+    });
+   });
+    jQuery('.age_locals1').trigger('click');
+   jQuery('.age_locals2').click(function(){
+       jQuery('.age_locals2').addClass('active');
+       jQuery('.age_locals1').removeClass('active');
+       jQuery('.age_localv').fadeOut('fast',function(){
+       jQuery(this).attr('src', 'age_lxfac.html').fadeIn('fast');
+    });
+   });
+});
 jQuery( document ).ready(function() {
 	
 	// Cache selectors

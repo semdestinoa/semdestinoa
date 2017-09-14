@@ -16,6 +16,9 @@ body{
     -webkit-flex-direction: column;
     -webkit-align-items: center;
 }
+iframe{
+    border: none;
+}
 p{
     margin-top: 0;
     margin-bottom: 20px;
@@ -36,7 +39,7 @@ nav{
     left: 0;
     top: 0;
     right: 0;
-    height: 110px;
+    height: 120px;
     width: 100%;
     background-color: rgba(255,255,255,0);
     position: fixed;
@@ -47,27 +50,27 @@ nav{
     display: -webkit-flex;
     -webkit-justify-content: center;
     -webkit-flex-direction: row;
-}
-nav.scroll{
-    background-color: rgba(255,255,255,0.6);
     -webkit-transition: background-color 0.2s ease;
     -moz-transition: background-color 0.2s ease;
     -o-transition: background-color 0.2s ease;
     transition: background-color 0.2s ease;
 }
+nav.scroll{
+    background-color: rgba(255,255,255,0.98);
+}
 #navbox{
-    width:1200px;
+    width:100%;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     display: -webkit-flex;
     -webkit-flex-direction: row;
     box-sizing: border-box;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 40px 10px 40px;
 }
 #navlogo{
-    height: 70px;
-    width: 80px;
+    height: 80px;
+    width: 90px;
     background-image: url(img/nav_logo.svg);
     background-position: center;
     background-size: contain;
@@ -77,7 +80,7 @@ nav.scroll{
     z-index: 1;
 }
 .navrack{
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -134,7 +137,7 @@ nav.scroll{
     padding-left: 20px;
     color: rgb(251,118,96);
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: Poppins;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
@@ -142,7 +145,7 @@ nav.scroll{
     transition: font-weight 0.2s ease;
 }
 .navlangs:hover,.navlangs:focus,.navlangs:active{
-    font-weight: 400;
+    font-weight: 600;
 }
 #head_wrap{
     height: 100vh;
@@ -390,7 +393,7 @@ nav.scroll{
     margin: 100px 0px 10px 140px;
 }
 .hmain_titl2{
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 .hmain_stitl{
     font-weight: 400;
@@ -429,7 +432,7 @@ nav.scroll{
 .hmain_txt{
     font-weight: 400;
     font-family: poppins;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px 0px 20px 300px;
 }
 #hmain_simg1, #hmain_simg2, #hmain_simg3{
@@ -471,6 +474,7 @@ nav.scroll{
 }
 .hmain_ablk{
     margin:0px 0px 40px 20px;
+    width: 220px;
     display: flex;
     flex-direction: column;
     display: -webkit-flex;
@@ -478,8 +482,8 @@ nav.scroll{
 }
 .hmain_apics{
     margin-bottom: 10px;
-    width: 240px;
-    height:240px;
+    width: 220px;
+    height:200px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -543,13 +547,13 @@ nav.scroll{
 }
 #foot{
     height: 110px;
-    width: 1200px;
+    width: 100%;
     text-align: right;
     align-items: center;
     justify-content: flex-end;
     background-color: rgb(251,118,96);
     box-sizing: border-box;
-    padding-right: 100px;
+    padding:0px 100px 0px 100px;
     display: flex;
     flex-direction: row;
     display: -webkit-flex;
@@ -564,10 +568,9 @@ nav.scroll{
 }
 .foottitl{
     color: white;
-    font-weight: 400;
-    font-size: 10px;
-    font-weight: 700;
-    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 12px;
 }
 .foottxt{
     font-weight: 300;

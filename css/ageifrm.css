@@ -1,0 +1,43 @@
+.ageifrm_m{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-end;
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+}
+.ifrm_box{
+    margin:0px 20px 40px 0px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column; 
+}
+.ifrm_pics{
+    margin-bottom: 10px;
+    width: 220px;
+    height:200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ifrm_date,.ifrm_titl{
+    font-family: poppins;
+    font-weight: 600;
+}
+.ifrm_date{
+    margin:30px 0px 0px 20px;
+    color: rgb(255,255,255);
+    font-size: 16px;
+    z-index: 5;
+    position: absolute;
+}
+.ifrm_titl{
+    font-size: 18px;
+    color: rgb(251,118,96);
+    margin-bottom: 6px;
+}

@@ -1,5 +1,5 @@
 nav{
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.99);
 }
 #expomain{
     margin-top: 200px;
@@ -44,20 +44,20 @@ nav{
 .expo_datetxta{
     font-family: Poppins;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 8px;
 }
 .expo_datetxtb{
     font-family: Poppins;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 80px;
 }
 .expo_datetxtc,.expo_datetxtd{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     width: 230px;
-    line-height: 18px;
+    line-height: 20px;
 }
 .expo_datetxtc{
     margin: 80px 150px 0px 0px;
@@ -141,8 +141,8 @@ nav{
     transition: all 0.2s ease;
 }
 .expo_choice:hover .expo_choimg{
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
 }
 .mySlides,.mySlides2 {display:none}
 /* Slideshow container */

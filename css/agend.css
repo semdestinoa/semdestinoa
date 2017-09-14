@@ -1,5 +1,5 @@
 nav{
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.99);
 }
 #agendmain{
     margin-top: 200px;
@@ -9,8 +9,9 @@ nav{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
-.age_hold{
+.age_hold, .age_holdb{
     width: 100%;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,19 +19,132 @@ nav{
     -webkit-flex-direction: row;
     -webkit-justify-content: space-between;
 }
+.age_hold{
+    width: 100%;
+}
+.age_holdb{
+    width: 720px;
+}
 .age_titl{
     font-family: Poppins;
     font-weight: 600;
     font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
 }
-.age_subtitl{
+.age_stitl{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    width: 200px;
+}
+.age_titllink{
     font-family: Poppins;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 12px;
+    color: rgb(251,118,96);
+    margin-top: 12px;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.age_titllink:hover, .age_titllink:active,.age_titllink:focus{
+    font-weight: 600;
 }
 .age_btxt{
     width: 380px;
     font-family: Poppins;
     font-weight: 600;
     font-size: 20px;
+    margin-top: 60px;
+}
+.age_localh, .age_holdsec1{
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.age_locals1, .age_locals2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+    color: rgb(251,118,96);
+    margin-bottom: 6px;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.age_locals1:hover,.age_locals1:active,.age_locals2:hover,.age_locals2:active{
+    font-weight: 600;
+}
+.age_locals1.active,.age_locals2.active{
+    font-weight: 600;
+}
+.age_localv{
+    width: 740px;
+    height: 580px;
+}
+.age_actbox1, .age_actbox2{
+    margin:0px 20px 40px 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column; 
+}
+.age_actbox2{
+    margin-top: 200px;
+}
+.age_actimg{
+    margin-bottom: 20px;
+    width: 300px;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.age_acttitl{
+    font-family: poppins;
+    font-weight: 600;
+    width: 200px;
+    font-size: 18px;
+    color: rgb(251,118,96);
+    margin: 20px 0px 0px 20px;
+    line-height: 22px;
+}
+.age_acttxt{
+    font-size: 16px;
+    font-weight: 400;
+    width: 220px;
+}
+.age_eabox{
+    margin:0px 20px 40px 0px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column; 
+}
+.age_eaimg{
+    margin-bottom: 10px;
+    width: 220px;
+    height:200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.age_eatitl{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(251,118,96);
+}
+.age_eatxt{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 14px;
 }

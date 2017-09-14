@@ -210,11 +210,11 @@ mh{
     margin-bottom: 10px;
 }
 .mprojtxt{
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 .mprojstxt{
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 40px;
 }
 .msprojtitl{
@@ -270,12 +270,18 @@ mh{
 .proj_tfence2d{
     margin-top: 100px;
 }
-.proj_tbox{
+.proj_tbox1,.proj_tbox2{
     margin: 20px;
     display: flex;
     flex-direction: column;
     display: -webkit-flex;
     -webkit-flex-direction: column;
+}
+.proj_tbox1{
+    width: 160px;
+}
+.proj_tbox2{
+    width: 220px;
 }
 .proj_timg1,.proj_timg2{
     background-position: center;
@@ -298,7 +304,7 @@ mh{
     margin-bottom: 6px;
 }
 .proj_ttxt{
-    font-size: 10px;
+    font-size: 12px;
 }
 /*.ap{
     font-size: 30px;
