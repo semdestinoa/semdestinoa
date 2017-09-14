@@ -476,6 +476,7 @@ nav.scroll{
     margin:0px 0px 40px 20px;
     width: 220px;
     display: flex;
+    position: relative;
     flex-direction: column;
     display: -webkit-flex;
     -webkit-flex-direction: column;

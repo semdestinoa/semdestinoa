@@ -12,6 +12,7 @@
 .ifrm_box{
     margin:0px 20px 40px 0px;
     width: 220px;
+    position: relative;
     display: flex;
     flex-direction: column;
     display: -webkit-flex;
