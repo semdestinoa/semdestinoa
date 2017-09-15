@@ -251,7 +251,7 @@ mh{
     -webkit-justify-content: flex-end;
 }
 .proj_tfence2c{
-    margin-bottom: 200px;
+    margin-bottom: 240px;
 }
 .proj_tfence1b, .proj_tfence2b, .proj_tfence2d{
     display: flex;
@@ -298,6 +298,7 @@ mh{
 }
 .proj_ttitl{
     font-family: poppins;
+    width: 160px;
     font-size: 18px;
     font-weight: 600;
     color: rgb(251,118,96);

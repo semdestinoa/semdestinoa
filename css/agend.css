@@ -10,7 +10,6 @@ nav{
     -webkit-flex-direction: column;
 }
 .age_hold, .age_holdb{
-    width: 100%;
     margin-bottom: 40px;
     display: flex;
     flex-direction: row;
@@ -103,9 +102,18 @@ nav{
     margin-bottom: 20px;
     width: 300px;
     height:300px;
+    box-shadow: 0px 0px 0px rgb(30,30,30);
+    position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-transition: box-shadow 0.2s ease;
+    -moz-transition: box-shadow 0.2s ease;
+    -o-transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease;
+}
+.age_actimg:hover,.age_actimg:focus,.age_actimg:active{
+    box-shadow: 6px 6px 10px rgb(120,120,120);
 }
 .age_acttitl{
     font-family: poppins;

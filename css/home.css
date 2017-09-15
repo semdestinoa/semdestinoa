@@ -39,7 +39,7 @@ nav{
     left: 0;
     top: 0;
     right: 0;
-    height: 120px;
+    height: 110px;
     width: 100%;
     background-color: rgba(255,255,255,0);
     position: fixed;
@@ -65,11 +65,12 @@ nav.scroll{
     flex-direction: row;
     display: -webkit-flex;
     -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
     box-sizing: border-box;
     padding: 20px 40px 10px 40px;
 }
 #navlogo{
-    height: 80px;
+    height: 70px;
     width: 90px;
     background-image: url(img/nav_logo.svg);
     background-position: center;
@@ -80,7 +81,7 @@ nav.scroll{
     z-index: 1;
 }
 .navrack{
-    margin: 20px 0px 0px 0px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -217,7 +218,7 @@ nav.scroll{
 }
 #shirttxt{
     font-family: Poppins;
-    width: 1000px;
+    width: 940px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
