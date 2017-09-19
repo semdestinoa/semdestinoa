@@ -102,27 +102,41 @@ nav{
     margin-bottom: 20px;
     width: 300px;
     height:300px;
-    box-shadow: 0px 0px 0px rgb(30,30,30);
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-transition: box-shadow 0.2s ease;
-    -moz-transition: box-shadow 0.2s ease;
-    -o-transition: box-shadow 0.2s ease;
-    transition: box-shadow 0.2s ease;
 }
-.age_actimg:hover,.age_actimg:focus,.age_actimg:active{
-    box-shadow: 6px 6px 10px rgb(120,120,120);
+.img_over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+    background-color: rgba(255,255,255, 0);
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+.age_actimg:hover .img_over,.age_actimg:focus .img_over,.age_actimg:active .img_over{
+    background-color: rgba(255,255,255, 0.75);
 }
 .age_acttitl{
     font-family: poppins;
     font-weight: 600;
     width: 200px;
-    font-size: 18px;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
     color: rgb(251,118,96);
     margin: 30px 0px 0px 20px;
-    line-height: 22px;
+    line-height: 24px;
+    z-index: 10;
 }
 .age_acttxt{
     font-size: 16px;

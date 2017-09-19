@@ -279,9 +279,23 @@ mh{
 }
 .proj_tbox1{
     width: 160px;
+    -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
 }
 .proj_tbox2{
     width: 220px;
+    -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+}
+.proj_tbox1:hover,.proj_tbox1:active,.proj_tbox1:focus{
+    transform: scale(1.1, 1.1);
+}
+.proj_tbox2:hover,.proj_tbox2:active,.proj_tbox2:focus{
+    transform: scale(1.1, 1.1);
 }
 .proj_timg1,.proj_timg2{
     background-position: center;
@@ -305,6 +319,7 @@ mh{
     margin-bottom: 6px;
 }
 .proj_ttxt{
+    color: rgb(30,30,30);
     font-size: 12px;
 }
 /*.ap{

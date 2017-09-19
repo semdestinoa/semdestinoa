@@ -35,6 +35,23 @@ jQuery(document).ready(function(){
    });
 });
 jQuery(document).ready(function(){
+   // Do something with the DOM
+   jQuery('#navbar .navburger').click(function(){
+     jQuery('.nav_page').addClass('active');
+    jQuery('body').css('overflow','hidden');
+   });
+    jQuery('.nav_page .np_close').click(function(){
+     jQuery('.nav_page').removeClass('active');
+        jQuery('body').css('overflow','visible');
+   });
+});
+jQuery(document).ready(function(){
+    $('.np_back').click(function(){
+        parent.history.back();
+        return false;
+    });
+});
+jQuery(document).ready(function(){
    jQuery('.age_locals1').click(function(){
        jQuery('.age_locals1').addClass('active');
        jQuery('.age_locals2').removeClass('active');

@@ -1,0 +1,174 @@
+nav{
+    background-color: rgba(255,255,255,0.99);
+}
+#sprojmain{
+    margin-top: 200px;
+    width:940px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.sproj_hold{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+}
+.sproj_lhold{
+    color: rgb(251,118,96);
+    font-weight: 400;
+    font-size: 12px;
+}
+.sproj_plhold{
+    margin-top: 80px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.sproj_intro{
+    width: 700px;
+    margin-top: 80px;
+    column-count: 3;
+    -webkit-column-count: 3;
+}
+.sproj_titl{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+}
+.sproj_stitl{
+    font-weight: 600;
+    font-size: 10px;
+}
+.sproj_links{
+    font-weight: 400;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.sproj_links:hover, .sproj_links:active, .sproj_links:focus{
+    font-weight: 600;
+}
+.sproj_plinks{
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 400;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.sproj_plinks:hover, .sproj_plinks:active, .sproj_plinks:focus{
+    font-weight: 600;
+}
+.sproj_txt{
+    font-size: 16px;
+}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    justify-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    padding: 10px;
+    margin-top: -22px;
+    color: rgba(255,255,255,0.5);
+    font-weight: bold;
+    font-size: 50px;
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    border-radius: 0 3px 3px 0;
+    display: flex;
+    flex-direction: row;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    justify-content: center;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: rgba(255,255,255,1);
+}
+.dot_holder{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 4px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
+    -moz-transition: background-color 0.6s ease;
+    -o-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgba(255,255,255,1);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
