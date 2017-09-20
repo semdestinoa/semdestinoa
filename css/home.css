@@ -107,31 +107,28 @@ nav.scroll{
 #navinsta, #navface{
     width: 24px;
     height: 24px;
-    background-color: rgb(251,118,96);
-    mask-position: center;
-    mask-repeat: no-repeat;
-    mask-size: contain;
-    -webkit-mask-position: center;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: contain;
-    -webkit-transition: background-color 0.2s ease;
-    -moz-transition: background-color 0.2s ease;
-    -o-transition: background-color 0.2s ease;
-    transition: background-color 0.2s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
 }
 #navinsta{
     margin-left: 60px;
     margin-right: 20px;
-    mask-image: url(img/instaic.svg);
-    -webkit-mask-image: url(img/instaic.svg);
+    background-image: url(img/instaic.svg);
 }
 #navface{
     margin-right: 40px;
-    mask-image: url(img/faceic.svg);
-    -webkit-mask-image: url(img/faceic.svg);
+    background-image: url(img/faceic.svg);
 }
-#navinsta:hover, #navface:hover,#navinsta:focus, #navface:focus,#navinsta:active, #navface:active{
-    background-color: rgb(255,160,100);
+#navinsta:hover, #navface:hover{
+    transform: scale(1.2,1.2);
+}
+#navinsta:focus, #navface:focus,#navinsta:active, #navface:active{
+    transform: scale(0.8,0.8);
 }
 .navlangs{
     box-sizing: border-box;
@@ -243,6 +240,7 @@ nav.scroll{
     font-size: 40px;
     color: rgb(255,255,255);
     margin-bottom: 10px;
+    width: 600px;
 }
 .headtxt{
     font-size: 30px;
@@ -253,6 +251,7 @@ nav.scroll{
     font-size: 30px;
     color: rgb(255,255,255);
     margin-bottom: 120px;
+    width: 400px;
 }
 .headdateh{
     display: flex;
@@ -276,10 +275,10 @@ nav.scroll{
     flex-direction: column;
     -webkit-flex-direction: column;
     -webkit-align-items: center;
-    -webkit-transition: opacity 0.2s ease;
-    -moz-transition: opacity 0.2s ease;
-    -o-transition: opacity 0.2s ease;
-    transition: opacity 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 .playb{
     height: 100px;
@@ -289,8 +288,13 @@ nav.scroll{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.playgate:hover,.playgate:focus,.playgate:active{
+.playgate:hover{
     opacity: 1;
+    transform: scale(1.2,1.2);
+}
+.playgate:focus,.playgate:active{
+    opacity: 1;
+    transform: scale(0.8,0.8);
 }
 .main_play{
     width: 100%;
@@ -333,15 +337,19 @@ nav.scroll{
     font-family: poppins;
     font-size: 60px;
     font-weight: 400;
-    -webkit-transition: color 0.2s ease;
-    -moz-transition: color 0.2s ease;
-    -o-transition: color 0.2s ease;
-    transition: color 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
-.closex:hover,.closex:focus,.closex:active{
+.closex:hover{
     color: rgba(255,255,255,1);
+    transform: scale(1.2,1.2);
 }
-
+.closex:focus,.closex:active{
+    color: rgba(255,255,255,1);
+    transform: scale(0.8,0.8);
+}
 #hmain_cont{
     width: 1200px;
     display: flex;
@@ -522,15 +530,31 @@ nav.scroll{
     margin-bottom: 10px;
     width: 220px;
     height:200px;
+    position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.hmain_adate,.hmain_atitl,.hmain_attxt{
+.apics_over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+    background-color: rgba(251,118,96, 0);
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+.hmain_atitl,.hmain_attxt{
     font-family: poppins;
     font-weight: 600;
 }
 .hmain_adate{
+    font-family: poppins;
     margin:30px 0px 0px 20px;
     color: rgb(255,255,255);
     font-size: 20px;
@@ -539,6 +563,10 @@ nav.scroll{
     transform: translate(-0%,-0%);
     z-index: 5;
     position: absolute;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
 }
 .hmain_atitl{
     font-size: 18px;
@@ -547,6 +575,13 @@ nav.scroll{
 }
 .hmain_attxt{
     font-size: 14px;
+    color: rgb(30,30,30);
+}
+.hmain_ablk1:hover .apics_over, .hmain_ablk2:hover .apics_over, .hmain_ablk3:hover .apics_over,.hmain_ablk1:active .apics_over, .hmain_ablk2:active .apics_over, .hmain_ablk3:active .hmain_adate,.hmain_ablk1:focus .apics_over, .hmain_ablk2:focus .apics_over, .hmain_ablk3:focus .apics_over{
+    background-color: rgba(251,118,96, 0.4);
+}
+.hmain_ablk1:hover .hmain_adate, .hmain_ablk2:hover .hmain_adate, .hmain_ablk3:hover .hmain_adate,.hmain_ablk1:active .hmain_adate, .hmain_ablk2:active .hmain_adate, .hmain_ablk3:active .hmain_adate,.hmain_ablk1:focus .hmain_adate, .hmain_ablk2:focus .hmain_adate, .hmain_ablk3:focus .hmain_adate{
+    font-weight: 600;
 }
 .hmoreico{
     height: 30px;
@@ -561,7 +596,7 @@ nav.scroll{
     transition: font-weight 0.2s ease;
 }
 .hmoreico:hover,.hmoreico:focus,.hmoreico:active {
-    font-weight: 700;
+    font-weight: 600;
 }
 .hsocialbox{
     height: 350px;
@@ -666,6 +701,8 @@ nav.scroll{
         height: auto;
     }
     #navbox{
+        align-items: center;
+        -webkit-align-items: center;
         padding: 16px 40px 16px 40px;
     }
     #navlogo{
@@ -746,18 +783,38 @@ nav.scroll{
     .np_close{
         color: rgba(255,255,255,1);
         box-sizing: border-box;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 50px 0px 40px;
         font-family: poppins;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 400;
+        -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    }
+    .np_close:hover{
+        transform: scale(1.2,1.2);
+    }
+    .np_close:active,.np_close:focus{
+        transform: scale(0.8,0.8);
     }
     .np_back{
-        height: 60px;
-        width: 80px;
+        height: 50px;
+        width: 60px;
         background-image: url(img/back_b.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+       -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    }
+ .np_back:hover{
+       transform: scale(1.2,1.2);
+    }
+    .np_back:active,.np_back:focus{
+        transform: scale(0.8,0.8);
     }
     .np_cont{
         width: 100%;
@@ -774,15 +831,30 @@ nav.scroll{
     .np_butts{
         font-family: poppins;
         color: rgb(255,255,255);
-        font-size: 30px;
+        font-weight: 400;
+        font-size: 26px;
         margin: 0px 0px 60px 0px;
+        -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+    }
+    .np_butts:hover,.np_butts:active,.np_butts:focus{
+        font-weight: 600;
     }
     .np_langs{
         margin: 0px 20px 0px 20px;
         font-family: poppins;
         color: rgb(255,255,255);
-        font-weight: 300;
-        font-size: 24px;
+        font-weight: 400;
+        font-size: 22px;
+        -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+    }
+    .np_langs:hover,.np_langs:active,.np_langs:focus{
+        font-weight: 600;
     }
     .np_srack{
         margin: 0px 0px 60px 0px;
@@ -805,6 +877,16 @@ nav.scroll{
         -webkit-mask-repeat:no-repeat;
         -webkit-mask-size:contain;
         -webkit-mask-position:center;
+        -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    }
+    .np_social:hover{
+       transform: scale(1.2,1.2);
+    }
+    .np_social:active,.np_social:focus{
+        transform: scale(0.8,0.8);
     }
     .np_foot{
         width: 100%;
@@ -834,6 +916,9 @@ nav.scroll{
         -webkit-flex-direction: column;
     }
     .headtitl{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 80px 0px 0px;
         font-size: 32px;
         margin-bottom: 20px;
         margin-top: 100px;
@@ -842,6 +927,9 @@ nav.scroll{
         font-size: 24px;
     }
     .headtxt2{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 160px 0px 0px;
      font-size: 24px;
         margin-bottom: 200px;
     }
@@ -1041,34 +1129,34 @@ nav.scroll{
         padding: 10px;
     }
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 600px){
     nav{
     height: auto;
     box-sizing: border-box;
-    padding: 16px 40px 16px 40px;
+    padding: 16px 30px 16px 30px;
 }
     .np_bar{
         height: auto;
-       padding: 16px 0px 16px 40px; 
+       padding: 16px 0px 16px 30px; 
     }
 #navbox{
     padding: 0px 0px 0px 0px;
 }
 #navlogo{
-    height: 60px;
-    width: 70px;
+    height: 40px;
+    width: 60px;
 }
     .np_logo{
-       height: 60px;
-    width: 70px;
+       height: 40px;
+    width: 60px;
     }
     .np_close{
-        padding: 0px 40px 0px 40px;
+        padding: 0px 40px 0px 20px;
         font-family: poppins;
-        font-size: 46px;
+        font-size: 24px;
     }
     .navburger{
-        height: 60px;
+        height: 30px;
         width: 40px;
     }
     #head_wrap{
@@ -1079,7 +1167,7 @@ nav.scroll{
 }
 #head_shirt{
     min-height: 100vh;
-    padding: 40px 40px 20px 40px;
+    padding: 20px 30px 20px 30px;
 }
 #shirttxt{
     width: 100%;
@@ -1088,6 +1176,7 @@ nav.scroll{
     font-size: 24px;
     color: rgb(255,255,255);
     margin-bottom: 10px;
+    padding: 0px 40px 0px 0px;
 }
 .headtxt{
     font-size: 16px;
@@ -1097,13 +1186,14 @@ nav.scroll{
 .headtxt2{
     font-size: 18px;
     color: rgb(255,255,255);
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+    padding: 0px 40px 0px 0px
 }
 .headdateh{
     margin-bottom: 20px;
 }
 .headdates{
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(255,255,255);
 }
 .playb{
@@ -1111,12 +1201,12 @@ nav.scroll{
     width: 80px;
 }
 .closex{
-    padding: 10px 40px 10px 40px;
+    padding: 0px 40px 0px 40px;
     font-size: 46px;
 }
     .np_back{
-        height: 50px;
-        width: 70px;
+        height: 40px;
+        width: 60px;
     }
     .np_cont{
         margin-top: 60px;
@@ -1166,7 +1256,7 @@ nav.scroll{
     }
     .hmain_secs, .hmain_secp, .hmain_sece, .hmain_seca, .hmain_secr{
     padding: 0px 0px 60px 0px;
-    margin:60px 0px 0px 0px;
+    margin:40px 0px 0px 0px;
         box-sizing: border-box;
         align-items: center;
         background-position: center;
@@ -1179,13 +1269,13 @@ nav.scroll{
         margin: 0px 0px 0px 0px;
     }
     .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
-    margin:0px 0px 0px 0px;
         height: 120px;
         padding: 0px 0px 0px 40px;
+        margin: 0;
 }
 .hmain_adate{
     width: 160px;
-    padding: 0px 0px 0px 40px;
+    padding: 0px 0px 0px 30px;
     font-size: 20px;
 }
 .hmain_atitl{
@@ -1200,5 +1290,248 @@ nav.scroll{
         display: block;
         width: 60px;
         height: 60px;
+    }
+    .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
+        height: 100px;
+}
+    .hbuylink{
+        margin: 0px 60px 0px 0px;
+    }
+}
+@media only screen and (max-width: 380px){
+    nav{
+    padding: 14px 30px 14px 30px;
+}
+    .np_bar{
+       padding: 14px 0px 14px 30px; 
+    }
+.headtitl{
+    font-size: 20px;
+}
+.headtxt{
+    font-size: 14px;
+}
+.headtxt2{
+    font-size: 16px;
+}
+.headdates{
+    font-size: 16px;
+}
+.playb{
+    height: 60px;
+    width: 60px;
+}
+.closex{
+    padding: 10px 40px 0px 40px;
+    font-size: 30px;
+}
+    .np_cont{
+        margin-top: 60px;
+    }
+    .np_butts{
+        font-size: 18px;
+        margin: 0px 0px 30px 0px;
+    }
+    .np_langs{
+        font-size: 16px;
+    }
+    .np_social{
+        height: 30px;
+        width: 30px;
+    }
+    .hmain_titl,.hmain_titl2{
+    font-size: 26px;
+    margin: 80px 30px 40px 30px;
+}
+    .hmain_btxt1, .hmain_btxt2,.hmain_btxt3{
+        width: auto;
+        font-size: 16px;
+    margin: 0px 30px 20px 30px;
+}
+    .hmoreico{
+        font-size: 50px;
+        align-self: auto;
+        margin-bottom: 20px;
+    }
+    .hmain_stitl{
+        font-size: 22px;
+        margin: 0px 30px 0px 30px;
+    }
+    .hmain_stxt1{
+        margin: 0px 0px 0px 30px;
+    align-self: flex-start;
+    }
+    .hmain_stxt2{
+        font-size: 24px;
+        margin: 20px 0px 0px 0px;
+    }
+    .hmain_secs, .hmain_secp, .hmain_sece, .hmain_seca, .hmain_secr{
+    padding: 0px 0px 40px 0px;
+    margin:20px 0px 0px 0px;
+}
+    .hmain_secr{
+        margin: 0px 0px 0px 0px;
+    }
+    .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
+        height: 120px;
+        padding: 0px 0px 0px 30px;
+        margin: 0;
+}
+.hmain_adate{
+    width: 160px;
+    padding: 0px 0px 0px 30px;
+    font-size: 20px;
+}
+.hmain_atitl{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.hmain_attxt{
+    font-size: 14px;
+}
+    .hmain_soico{
+        margin: 0px 20px 100px 20px;
+        display: block;
+        width: 60px;
+        height: 60px;
+    }
+    .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
+        height: 100px;
+}
+    .hbuylink{
+        margin: 0px 30px 0px 0px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-height: 420px){
+    nav{
+    height: auto;
+    box-sizing: border-box;
+    padding: 16px 30px 16px 30px;
+}
+    .np_bar{
+        height: auto;
+       padding: 16px 0px 16px 30px; 
+    }
+#navbox{
+    padding: 0px 0px 0px 0px;
+}
+#navlogo{
+    height: 40px;
+    width: 60px;
+}
+    .np_logo{
+       height: 40px;
+    width: 60px;
+    }
+    .np_close{
+        padding: 0px 40px 0px 20px;
+        font-family: poppins;
+        font-size: 24px;
+    }
+    .navburger{
+        height: 30px;
+        width: 40px;
+    }
+    #head_wrap{
+    min-height: 100vh;
+}
+.vid_wrap{
+    display: none;
+}
+    #head_shirt{
+    min-height: 100vh;
+    padding: 0px 80px 0px 80px;
+}
+#shirttxt{
+    width: 100%;
+}
+.headtitl{
+    font-size: 20px;
+    color: rgb(255,255,255);
+    margin-bottom: 10px;
+    padding: 0px 200px 0px 0px;
+    margin-top: 60px;
+}
+.headtxt{
+    font-size: 14px;
+    color: rgb(255,255,255);
+    margin-bottom: 16px;
+}
+.headtxt2{
+    font-size: 16px;
+    color: rgb(255,255,255);
+    margin-bottom: 20px;
+    padding: 0px 300px 0px 0px;
+}
+.headdateh{
+    margin-bottom: 14px;
+}
+.headdates{
+    font-size: 16px;
+    color: rgb(255,255,255);
+}
+    .hmain_stitl{
+        font-size: 26px;
+        margin: 0px 200px 0px 80px;
+    }
+    .hmain_stxt1{
+        margin: 0px 0px 0px 80px;
+    align-self: flex-start;
+    }
+    
+    .hmain_btxt1, .hmain_btxt2,.hmain_btxt3{
+        width: auto;
+        font-size: 18px;
+    margin: 0px 140px 30px 80px;
+}
+    .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
+        height: 120px;
+        padding: 0px 0px 0px 80px;
+        margin: 0;
+}
+    .hmain_soico{
+        margin: 0px 20px 100px 20px;
+        display: block;
+        width: 60px;
+        height: 60px;
+    }
+}
+@media only screen and (max-height: 360px){
+    #head_shirt{
+    padding: 0px 60px 0px 60px;
+}
+.headtitl{
+    font-size: 18px;
+    color: rgb(255,255,255);
+    margin-bottom: 6px;
+    padding: 0px 200px 0px 0px;
+    margin-top: 60px;
+}
+.headtxt{
+    font-size: 12px;
+    color: rgb(255,255,255);
+    margin-bottom: 10px;
+}
+.headtxt2{
+    font-size: 14px;
+    color: rgb(255,255,255);
+    margin-bottom: 10px;
+    padding: 0px 260px 0px 0px;
+}
+.headdateh{
+    margin-bottom: 8px;
+}
+.headdates{
+    font-size: 14px;
+    color: rgb(255,255,255);
+}
+    .hmain_stitl{
+        font-size: 26px;
+        margin: 0px 200px 0px 80px;
+    }
+    .hmain_stxt1{
+        margin: 0px 0px 0px 80px;
+    align-self: flex-start;
     }
 }
