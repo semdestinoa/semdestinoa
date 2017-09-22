@@ -9,7 +9,7 @@ nav{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
-.age_hold, .age_holdb{
+.age_hold, .age_holda, .age_holdb{
     margin-bottom: 40px;
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@ nav{
     -webkit-flex-direction: row;
     -webkit-justify-content: space-between;
 }
-.age_hold{
+.age_hold, .age_holda{
     width: 100%;
 }
 .age_holdb{
@@ -188,4 +188,193 @@ nav{
     font-weight: 600;
     font-size: 14px;
     color: rgb(30,30,30);
+}
+@media only screen and (max-width: 1000px){
+    #agendmain{
+    width: 100%;
+        box-sizing: border-box;
+        padding: 0px 40px 0px 40px;
+}
+    .age_stitl{
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    .age_holdb,.age_holda{
+        width: 100%;
+    }
+    .age_hold{
+        flex-direction: column;
+        -webkit-flex-direction:column;
+    }
+    .age_btxt{
+    width: 100%;
+        margin-left: 200px;
+}
+    .age_actbox1, .age_actbox2{
+    margin-right: 0px; 
+}
+    .age_eabox{
+    margin:0px 0px 0px 0px; 
+}
+}
+@media only screen and (max-width: 900px){
+    .age_localv{
+    height: 860px;
+}
+}
+@media only screen and (max-width: 750px){
+    .age_localv{
+    height: 860px;
+}
+    .age_eabox{
+    width: 200px;
+}
+.age_eaimg{
+    width: 200px;
+    height:180px;
+}
+}
+@media only screen and (max-width: 700px){
+    #agendmain{
+        padding: 0px 0px 0px 0px;
+}
+    .age_localh{
+        width: 100%;
+        box-sizing: border-box;
+        padding:0% 20% 0% 20%;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        flex-direction: row;
+        -webkit-justify-content: space-between;
+        -webkit-flex-direction: row;
+    }
+    .age_localv{
+        width: 100%;
+    }
+    .age_holda,.age_holdb{
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+    .age_holda{
+        box-sizing: border-box;
+        padding: 0px 40px 0px 40px;
+    }
+    .age_btxt{
+        margin-left:0px;
+}
+    .age_actbox1, .age_actbox2{
+    margin:0px 0px 20px 0px;
+    width: 100%;
+}
+.age_actbox2{
+    margin-top: 0px;
+}
+    .age_actimg{
+    margin-bottom: 0px;
+    width: 100%;
+    height:200px;
+}
+    .age_acttxt{
+        display: none;
+    }
+    .age_acttitl{
+        width: auto;
+        margin-right: 40%;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .age_stitl{
+        box-sizing: border-box;
+        padding: 0px 40px 0px 40px;
+    }
+    .age_eabox{
+    margin:0px 0px 10px 0px;
+    width: 100%;
+        position: relative;
+}
+.age_eaimg{
+    margin-bottom: 0px;
+    width: 100%;
+    height:120px;
+}
+    .age_eatitl{
+        font-size: 20px;
+        position: absolute;
+        margin: 40px 0px 0px 20px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+}
+.age_eatxt{
+    position: absolute;
+        margin: 80px 0px 0px 20px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+    color: rgb(255,255,255);
+}
+}
+@media only screen and (max-width: 600px){
+    .age_stitl{
+        padding: 0px 160px 0px 30px;
+    }
+    .age_holda{
+        padding: 0px 30px 0px 30px;
+    }
+    .age_titl{
+        width: 100%;
+        align-items: center;
+    }
+    .age_localv{
+    height: 760px;
+}
+}
+@media only screen and (max-width: 540px){
+    .age_holda{
+        box-sizing: border-box;
+        padding: 0px 0px 0px 0px;
+    }
+    .age_localv{
+    height: 700px;
+}
+    .age_btxt{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 30px 0px 30px;
+}
+@media only screen and (max-width: 460px){
+    .age_holda{
+        box-sizing: border-box;
+        padding: 0px 0px 0px 0px;
+    }
+    .age_localv{
+        width: 100%;
+    height: 860px;
+}
+    .age_actbox1, .age_actbox2{
+    margin:0px 0px 20px 0px;
+    width: 100%;
+}
+.age_actbox2{
+    margin-top: 0px;
+}
+    .age_actimg{
+    margin-bottom: 0px;
+    width: 100%;
+    height:180px;
+}
+    .age_acttitl{
+        width: auto;
+        margin-right: 40%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 380px){
+    .age_btxt{
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
