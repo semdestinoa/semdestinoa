@@ -1439,11 +1439,40 @@ nav.scroll{
 #shirttxt{
     width: 100%;
 }
+    .headtitl{
+    font-size: 26px;
+}
+.headtxt{
+    font-size: 20px;
+}
+.headtxt2{
+    font-size: 22px;
+    margin-bottom: 8%;
+}
+    .headdates{
+    font-size: 22px;
+}
 }
 @media only screen and (max-height:580px){
     #head_shirt{
     min-height: 100vh;
     padding: 0px 30px 0px 30px;
+}
+    shirttxt{
+    width: 100%;
+}
+    .headtitl{
+    font-size: 20px;
+}
+.headtxt{
+    font-size: 14px;
+}
+.headtxt2{
+    font-size: 16px;
+    margin-bottom: 20%;
+}
+    .headdates{
+    font-size: 16px;
 }
 }
 @media only screen and (max-height: 420px){
@@ -1506,20 +1535,17 @@ nav.scroll{
 }
 .headtitl{
     font-size: 20px;
-    color: rgb(255,255,255);
     margin-bottom: 10px;
     padding: 0px 200px 0px 0px;
     margin-top: 60px;
 }
 .headtxt{
     font-size: 14px;
-    color: rgb(255,255,255);
     margin-bottom: 16px;
 }
 .headtxt2{
     font-size: 16px;
-    color: rgb(255,255,255);
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     padding: 0px 300px 0px 0px;
 }
 .headdateh{
@@ -1527,7 +1553,6 @@ nav.scroll{
 }
 .headdates{
     font-size: 16px;
-    color: rgb(255,255,255);
 }
     .hmain_stitl{
         font-size: 26px;
@@ -1579,7 +1604,7 @@ nav.scroll{
 .headtxt2{
     font-size: 14px;
     color: rgb(255,255,255);
-    margin-bottom: 10px;
+    margin-bottom: 6%;
     padding: 0px 260px 0px 0px;
 }
 .headdateh{
