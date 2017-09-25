@@ -284,7 +284,6 @@ nav.scroll{
 .playb{
     height: 100px;
     width: 100px;
-    display: block;
     background-image: url(img/playb.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -730,8 +729,8 @@ nav.scroll{
     .navburger{
         height: 70px;
         width: 50px;
-        display:block;
-        display:-webkit-block;
+        display:flex;
+        display:-webkit-flex;
         background-image: url(img/nav_burger.svg);
         background-size: contain;
         background-repeat: no-repeat;
