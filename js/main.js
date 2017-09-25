@@ -144,10 +144,10 @@ function showSlides(n) {
       slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace("active", "");
   }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += "active";
 };
 var slideIndex2 = 1;
 showSlides2(slideIndex2);
@@ -170,10 +170,10 @@ function showSlides2(n) {
       slides2[i].style.display = "none";  
   }
   for (i = 0; i < dots2.length; i++) {
-      dots2[i].className = dots2[i].className.replace(" active", "");
+      dots2[i].className = dots2[i].className.replace("active", "");
   }
   slides2[slideIndex2-1].style.display = "block";  
-  dots2[slideIndex2-1].className += " active";
+  dots2[slideIndex2-1].className += "active";
 };
 /*jQuery( document ).ready(function() {
 	
