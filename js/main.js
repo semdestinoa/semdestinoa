@@ -7,7 +7,11 @@ window.onscroll = () => {
 		   navbar.addClass('scroll');
 	   }
 };
-
+$('a').on('click touchend', function(e) {
+    var el = $(this);
+    var link = el.attr('href');
+    window.location = link;
+});
 jQuery(document).ready(function(){
    // Do something with the DOM
    jQuery('#head_wrap .playgate').click(function(){
