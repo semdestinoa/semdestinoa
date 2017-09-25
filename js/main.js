@@ -14,7 +14,7 @@ $('a').on('click touchend', function(e) {
 });
 jQuery(document).ready(function(){
    // Do something with the DOM
-   jQuery('#head_wrap .playgate').click(function(){
+   jQuery('#head_wrap .playgate').on('click touchend', function(e){
      jQuery('.main_play').addClass('active');
     jQuery('body').css('overflow','hidden');
        jQuery('#main_vid').attr('src', 'https://www.youtube.com/embed/feA64wXhbjo?rel=0&amp;showinfo=0;autoplay=1');
@@ -27,7 +27,7 @@ jQuery(document).ready(function(){
 });
 jQuery(document).ready(function(){
    // Do something with the DOM
-   jQuery('#head_wrap .playgate').click(function(){
+   jQuery('#head_wrap .playgate').on('click touchend', function(e){
      jQuery('.main_play').addClass('active');
     jQuery('body').css('overflow','hidden');
        jQuery('#main_vid2').attr('src', 'https://www.youtube.com/embed/bR-s4ReIxJo?rel=0&amp;showinfo=0;autoplay=1');
@@ -89,7 +89,7 @@ jQuery( document ).ready(function() {
 
 	// Bind click handler to menu items
 	// so we can get a fancy scroll animation
-	menuItems.click(function(e){
+	menuItems.on('click touchend', function(e){
 	  var href = $(this).attr("href");
 	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.8;
 	  $('html, body').stop().animate({ 
@@ -97,7 +97,7 @@ jQuery( document ).ready(function() {
 	  }, 300);
 	  e.preventDefault();
 	});
-    bmenuItems.click(function(e){
+    bmenuItems.on('click touchend', function(e){
 	  var href = $(this).attr("href");
 	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.8;
 	  $('html, body').stop().animate({ 
