@@ -16,7 +16,7 @@
 .evenhead_shirt{
     width: 1200px;
     box-sizing: border-box;
-    padding: 340px 120px 140px 120px;
+    padding: 0px 120px 280px 120px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -30,10 +30,10 @@
     color: rgb(255,255,255);
 }
 .eve_htitl{
-    font-size: 40px;
+    font-size: 50px;
 }
 .eve_hstxt{
-    font-size: 14px;
+    font-size: 20px;
     margin-bottom: 40px;
     color: rgb(255,255,255);
 }
@@ -110,7 +110,7 @@
 }
 @media only screen and (max-width: 1200px){
     .evenhead_shirt{
-        padding: 340px 100px 140px 100px;
+        padding: 0px 100px 200px 100px;
     width: 100%;
 }
 }
@@ -262,6 +262,9 @@
     }
 }
 @media only screen and (max-width:600px){
+    .eve_htitl{
+    font-size: 40px;
+}
     #evenhead{
         margin-bottom: 80px;
     }

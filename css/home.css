@@ -235,20 +235,21 @@ nav.scroll{
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
+    margin-top: 10%;
 }
 .headtitl{
-    font-size: 40px;
+    font-size: 38px;
     color: rgb(255,255,255);
     margin-bottom: 10px;
     width: 600px;
 }
 .headtxt{
-    font-size: 30px;
+    font-size: 24px;
     color: rgb(255,255,255);
     margin-bottom: 40px;
 }
 .headtxt2{
-    font-size: 30px;
+    font-size: 26px;
     color: rgb(255,255,255);
     margin-bottom: 120px;
     width: 400px;
@@ -261,7 +262,7 @@ nav.scroll{
     margin-bottom: 20px;
 }
 .headdates{
-    font-size: 30px;
+    font-size: 26px;
     color: rgb(255,255,255);
 }
 .playgate{
@@ -648,6 +649,18 @@ nav.scroll{
         display: none;
     }
 @media only screen and (max-width: 1200px) {
+    .headtitl{
+    font-size: 34px;
+}
+.headtxt{
+    font-size: 22px;
+}
+.headtxt2{
+    font-size: 24px;
+}
+.headdates{
+    font-size: 24px;
+}
     #hmain_cont{
         width: 100%;
     }
@@ -908,6 +921,8 @@ nav.scroll{
     #shirttxt{
         font-family: Poppins;
         width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 40px;
         display: flex;
         display: -webkit-flex;
         flex-direction: column;
@@ -916,20 +931,20 @@ nav.scroll{
     .headtitl{
         width: 100%;
         box-sizing: border-box;
-        padding: 0px 80px 0px 0px;
-        font-size: 32px;
+        padding: 0px 200px 0px 0px;
+        font-size: 30px;
         margin-bottom: 20px;
         margin-top: 100px;
     }
     .headtxt{
-        font-size: 24px;
+        font-size: 20px;
     }
     .headtxt2{
         width: 100%;
         box-sizing: border-box;
-        padding: 0px 160px 0px 0px;
-     font-size: 24px;
-        margin-bottom: 200px;
+        padding: 0px 260px 0px 0px;
+     font-size: 22px;
+        margin-bottom: 8%;
     }
     .headdateh{
         width: 100%;
@@ -1393,6 +1408,21 @@ nav.scroll{
         margin: 0px 30px 0px 0px;
         font-size: 20px;
     }
+}
+@media only screen and (max-height: 600px){
+    #head_wrap{
+    min-height: 100vh;
+}
+.vid_wrap{
+    display: none;
+}
+    #head_shirt{
+    min-height: 100vh;
+    padding: 0px 80px 0px 80px;
+}
+#shirttxt{
+    width: 100%;
+}
 }
 @media only screen and (max-height: 420px){
     nav{
