@@ -159,7 +159,7 @@ nav.scroll{
 }
 #head_wrap{
     height: 100vh;
-    min-height: 660px;
+    min-height: 600px;
     width: 100%;
     position:relative;
     box-sizing: border-box;
@@ -179,7 +179,7 @@ nav.scroll{
 }
 .vid_wrap{
     height: 100vh;
-    min-height: 660px;
+    min-height: 600px;
     width: 100%;
     overflow:hidden;
     left: 0;
@@ -211,7 +211,7 @@ nav.scroll{
 }
 #head_shirt{
     height: 100vh;
-    min-height: 660px;
+    min-height: 600px;
     width: 100%;
     background-color: rgba(30,30,30,0.5);
     padding: 80px;
@@ -235,7 +235,7 @@ nav.scroll{
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .headtitl{
     font-size: 38px;
@@ -650,10 +650,11 @@ nav.scroll{
     }
 @media only screen and (max-width: 1200px) {
     .headtitl{
-    font-size: 34px;
+    font-size: 30px;
+        width: 400px;
 }
 .headtxt{
-    font-size: 22px;
+    font-size: 20px;
 }
 .headtxt2{
     font-size: 24px;
@@ -1142,6 +1143,21 @@ nav.scroll{
         padding: 10px;
     }
 }
+@media only screen and (max-width: 800px){
+    #head_wrap{
+    min-height: 100vh;
+}
+.vid_wrap{
+    display: none;
+}
+    #head_shirt{
+    min-height: 100vh;
+    padding: 0px 80px 0px 80px;
+}
+#shirttxt{
+    width: 100%;
+}
+}
 @media only screen and (max-width: 600px){
     nav{
     height: auto;
@@ -1409,7 +1425,7 @@ nav.scroll{
         font-size: 20px;
     }
 }
-@media only screen and (max-height: 600px){
+@media only screen and (max-height:600px){
     #head_wrap{
     min-height: 100vh;
 }
@@ -1422,6 +1438,12 @@ nav.scroll{
 }
 #shirttxt{
     width: 100%;
+}
+}
+@media only screen and (max-height:580px){
+    #head_shirt{
+    min-height: 100vh;
+    padding: 0px 30px 0px 30px;
 }
 }
 @media only screen and (max-height: 420px){
