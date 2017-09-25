@@ -271,6 +271,7 @@ nav.scroll{
     z-index: 15;
     opacity: 0.4;
     padding: 20px;
+    cursor: pointer;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -731,6 +732,7 @@ nav.scroll{
         width: 50px;
         display:flex;
         display:-webkit-flex;
+        cursor: pointer;
         background-image: url(img/nav_burger.svg);
         background-size: contain;
         background-repeat: no-repeat;
@@ -797,6 +799,7 @@ nav.scroll{
         box-sizing: border-box;
         padding: 0px 50px 0px 40px;
         font-family: poppins;
+        cursor: pointer;
         font-size: 50px;
         font-weight: 400;
         -webkit-transition: transform 0.2s ease;
@@ -1229,6 +1232,7 @@ nav.scroll{
 .closex{
     padding: 0px 40px 0px 40px;
     font-size: 46px;
+    cursor: pointer;
 }
     .np_back{
         height: 40px;
