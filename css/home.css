@@ -266,6 +266,7 @@ nav.scroll{
     color: rgb(255,255,255);
 }
 .playgate{
+    position: absolute;
     align-items: center;
     color: rgb(255,255,255);
     z-index: 15;
