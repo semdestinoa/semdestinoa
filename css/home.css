@@ -124,12 +124,10 @@ nav.scroll{
     margin-right: 40px;
     background-image: url(img/faceic.svg);
 }
-#navinsta:hover, #navface:hover{
+#navinsta:hover, #navface:hover,#navinsta:focus, #navface:focus,#navinsta:active, #navface:active{
     transform: scale(1.2,1.2);
 }
-#navinsta:focus, #navface:focus,#navinsta:active, #navface:active{
-    transform: scale(0.8,0.8);
-}
+
 .navlangs{
     box-sizing: border-box;
     padding-left: 20px;
