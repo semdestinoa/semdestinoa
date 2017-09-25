@@ -8,6 +8,7 @@ body{
     font-family: Roboto;
     font-weight: 400;
     align-items: center;
+    position: relative;
     display: flex;
     pointer-events: all;
     flex-direction: column;
