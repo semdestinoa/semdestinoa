@@ -52,6 +52,8 @@ nav{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 30px;
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
 }
 .s_btxt2{
     color: rgb(251,118,96);
@@ -391,7 +393,7 @@ nav{
 }
     .s_btxt{
         box-sizing: border-box;
-        padding:0px 0px 0px 300px;
+        padding:0% 0% 0% 34%;
     }
     #s_holdnames{
         width: 100%;

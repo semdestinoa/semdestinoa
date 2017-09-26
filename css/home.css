@@ -688,6 +688,8 @@ nav.scroll{
     }
     #hmain_simg1, #hmain_simg2{
         width: 400px;
+    }
+    #hmain_simg2{
         height: 480px;
     }
     .hmain_stitl{
@@ -1425,6 +1427,25 @@ nav.scroll{
         margin: 0px 30px 0px 0px;
         font-size: 20px;
     }
+}
+@media only screen and (max-height:700px){
+    .headtitl{
+    font-size: 26px;
+}
+.headtxt{
+    font-size: 20px;
+}
+.headtxt2{
+    font-size: 22px;
+    margin-bottom: 8%;
+}
+    .headdates{
+    font-size: 22px;
+}
+    .np_foot{
+        padding: 20px 20px 40px 20px;
+    }
+}
 }
 @media only screen and (max-height:600px){
     #head_wrap{

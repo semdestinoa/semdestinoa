@@ -88,7 +88,7 @@ nav{
     height: 580px;
 }
 .age_actbox1, .age_actbox2{
-    margin:0px 20px 40px 0px;
+    margin:0px 20px 60px 0px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ nav{
     margin-top: 200px;
 }
 .age_actimg{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     width: 300px;
     height:300px;
     position: relative;
@@ -141,7 +141,6 @@ nav{
 .age_acttxt{
     font-size: 16px;
     font-weight: 400;
-    width: 220px;
 }
 .age_eabox{
     margin:0px 20px 40px 0px;
