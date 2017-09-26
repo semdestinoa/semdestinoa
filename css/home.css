@@ -731,8 +731,8 @@ nav.scroll{
         display: none;
     }
     .navburger{
-        height: 70px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         display:flex;
         display:-webkit-flex;
         cursor: pointer;
@@ -1189,7 +1189,7 @@ nav.scroll{
     }
     .navburger{
         height: 30px;
-        width: 40px;
+        width: 30px;
     }
     #head_wrap{
     min-height: 100vh;
