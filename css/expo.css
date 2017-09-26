@@ -416,6 +416,9 @@ nav{
     width: 140px;
     height: 140px;
 }
+    .expo_datetxtc{
+    font-size: 14px;
+}
 }
 @media only screen and (max-width:340px){
     .prev, .next{
@@ -463,5 +466,8 @@ nav{
 }
     .expo_choice{
     margin: 0px 10px 0px 10px;
+}
+    .expo_datetxtc{
+    font-size: 14px;
 }
 }

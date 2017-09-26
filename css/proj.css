@@ -544,7 +544,7 @@ mh{
     .proj_ttitl{
     font-family: poppins;
     width: 120px;
-    font-size: 16px;
+    font-size: 14px;
         line-height: 20px;
 }
     .proj_ttxt{
@@ -628,6 +628,9 @@ mh{
 .proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
     padding: 8px;
 }
+        .hprojtitl{
+    font-size: 30px;
+}
         .mprojtitl{
             font-size:20px;
         }
@@ -659,7 +662,7 @@ mh{
 }
     .hprojtxtb{
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 6%;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -742,6 +745,9 @@ mh{
     #foot{
         z-index: 100;
     }
+    .hprojtitl{
+        margin-bottom: 10px;
+    }
     .hprojtxt{
     font-size: 14px;
     column-count: 2;
@@ -753,6 +759,15 @@ mh{
         box-sizing: border-box;
         padding: 0px 0px 0px 0px;
 }
+    .mprojtitl{
+    font-size: 20px;
+}
+    .mprojtxt{
+            font-size: 14px;
+        }
+        .mprojstxt{
+           font-size: 12px; 
+        }
 }
 @media only screen and (max-height: 340px){
     .proj_tfence1,.proj_tfence2{
@@ -762,6 +777,26 @@ mh{
         box-sizing: border-box;
         padding: 0px 80px 0px 80px;
 }
+     .hprojtxt{
+    font-size: 14px;
+         line-height: 18px;
+    column-count: 2;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+    .hprojtitl{
+        font-size: 24px;
+        align-self: flex-start;
+    }
+    .mprojtitl{
+    font-size: 20px;
+}
+    .mprojtxt{
+            font-size: 12px;
+        }
+        .mprojstxt{
+           font-size: 10px; 
+        }
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
  .vid_wrap{

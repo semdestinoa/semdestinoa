@@ -450,7 +450,7 @@ nav.scroll{
     line-height: 36px;
 }
 .hmain_btxt1, .hmain_btxt2, .hmain_btxt3{
-    font-weight: 600;
+    font-weight: 400;
     font-family: poppins;
     font-size: 20px;
 }
@@ -1326,6 +1326,16 @@ nav.scroll{
     .hbuylink{
         margin: 0px 60px 0px 0px;
     }
+    #foot{
+    padding:10px 30px 10px 30px;
+}
+    .foottitl{
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+    .foottxt{
+        font-size: 8px;
+    }
 }
 @media only screen and (max-width: 380px){
     nav{
@@ -1430,17 +1440,17 @@ nav.scroll{
 }
 @media only screen and (max-height:700px){
     .headtitl{
-    font-size: 26px;
-}
-.headtxt{
     font-size: 20px;
 }
+.headtxt{
+    font-size: 16px;
+}
 .headtxt2{
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 8%;
 }
     .headdates{
-    font-size: 22px;
+    font-size: 18px;
 }
     .np_foot{
         padding: 20px 20px 40px 20px;
@@ -1590,7 +1600,7 @@ nav.scroll{
     
     .hmain_btxt1, .hmain_btxt2,.hmain_btxt3{
         width: auto;
-        font-size: 18px;
+        font-size: 16px;
     margin: 0px 140px 30px 80px;
 }
     .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
@@ -1604,7 +1614,7 @@ nav.scroll{
         height: 60px;
     }
 }
-@media only screen and (max-height: 360px){
+@media only screen and (max-height: 380px){
     .np_butts{
         margin: 0px 0px 20px 0px;
     }
@@ -1635,17 +1645,50 @@ nav.scroll{
 .headdateh{
     margin-bottom: 8px;
 }
+    .hmain_titl{
+        font-size: 30px;
+    }
 .headdates{
     font-size: 14px;
     color: rgb(255,255,255);
 }
     .hmain_stitl{
-        font-size: 26px;
+        font-size: 20px;
         margin: 0px 200px 0px 80px;
     }
     .hmain_stxt1{
         margin: 0px 0px 0px 80px;
     align-self: flex-start;
+    }
+    .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
+        height: 100px;
+        padding: 0px 0px 0px 30px;
+}
+.hmain_adate{
+    width: 160px;
+    padding: 0px 0px 0px 30px;
+    font-size: 20px;
+}
+.hmain_atitl{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.hmain_attxt{
+    font-size: 14px;
+}
+    .hmain_soico{
+        margin: 0px 20px 100px 20px;
+        display: block;
+        width: 60px;
+        height: 60px;
+    }
+    .hmoreico{
+        font-size: 50px;
+        align-self: auto;
+        margin-bottom: 20px;
+    }
+    .hmain_btxt1{
+        margin-bottom: 0px;
     }
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {

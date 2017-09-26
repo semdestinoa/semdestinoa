@@ -69,7 +69,7 @@ nav{
 .s_stxt{
     font-family: Poppins;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(251,118,96);
     margin-bottom: 10px;
     -webkit-transition: font-weight 0.2s ease;
@@ -459,7 +459,7 @@ nav{
         font-size: 14px;
 }
     .s_stxt{
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
     .s_txt{
     box-sizing: border-box;
@@ -482,6 +482,12 @@ nav{
     #s_holdnames{
          height: auto;
 }  
+    .s_titl{
+        margin-bottom: 0px;
+    }
+    .s_txt{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-height: 420px){
        #sobremain{
