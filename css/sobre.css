@@ -438,12 +438,12 @@ nav{
     padding-right: 40px;
 }
     .s_btxt,.s_btxt2{
-    margin-bottom: 30px;
+    margin-bottom: 24px;
         align-self: flex-end;
     -webkit-align-self: flex-end;
 }
     .s_btxt{
-        font-size: 18px;
+        font-size: 16px;
         box-sizing: border-box;
         padding:0px 40px 0px 0px;
     }
@@ -486,6 +486,9 @@ nav{
         margin-bottom: 0px;
     }
     .s_txt{
+        font-size: 14px;
+    }
+    .s_btxt{
         font-size: 14px;
     }
 }
