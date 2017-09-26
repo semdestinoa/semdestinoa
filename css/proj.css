@@ -423,7 +423,8 @@ mh{
     }
    .hprojtxtb{
     width: 360px;
-} .proj_tplaygrnd1,.proj_tplaygrnd2{
+}
+    .proj_tplaygrnd1,.proj_tplaygrnd2{
     width: 100%;
     margin-bottom: 60px;
     display: flex;
@@ -476,8 +477,13 @@ mh{
    width: 160px;
         height: 160px;
 }
+
 }
 @media only screen and (max-width: 600px){
+    #hps_stamp{
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    }
     .proj_tfence1,.proj_tfence2{
     justify-content: space-between;
         -webkit-justify-content: space-between;
@@ -490,12 +496,9 @@ mh{
         box-sizing: border-box;
         padding: 0px 40px 0px 40px;
 }  
-    .ap2_hold{
-    display: none;
-}
     .projbox{
     margin-bottom: 40px;
-        margin-left: 0;
+        margin-left: 0px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -503,7 +506,7 @@ mh{
 }
 .hprojtxtb{
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 40%;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -518,7 +521,7 @@ mh{
 }
 .hprojtxt{
     font-family: poppins;
-    font-size: 18px;
+    font-size: 16px;
 }
     .mprojtxtb{
     width: auto;
@@ -574,9 +577,7 @@ mh{
     flex-direction: row;
     -webkit-flex-direction: row;
 }
-    .ap_plus, .ap_minus{
-        display: none;
-}
+    
 .apv:hover .ap_minus,.apv:active .ap_minus,.apv:focus .ap_minus{
     display: none;
 }
@@ -588,19 +589,30 @@ mh{
     }
 }
 @media only screen and (max-width: 380px){
+    .hprojtxt{
+    font-size: 14px;
+}
     #proj_cont{
         padding:0px 30px 0px 30px ;
     }
-      
+      .hprojtxtb{
+    margin-bottom: 25%;
+        }
     .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
          padding: 10px;
 }
 .proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
     padding: 10px;
 }
+    .mprojtxt{
+            font-size: 12px;
+        }
+        .mprojstxt{
+           font-size: 10px; 
+        }
 }
     @media only screen and (max-width: 340px){
-        .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
+            .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
          width: 100px;
 }
 .proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
@@ -616,12 +628,31 @@ mh{
 .proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
     padding: 8px;
 }
+        .mprojtitl{
+            font-size:20px;
+        }
 }
-@media only screen and (max-height: 420px){
+@media only screen and (max-height:800px){
+        .ap2_hold{
+    display: none;
+}
+    .ap_plus, .ap_minus{
+        display: none;
+}
+    apv:hover .ap_minus,.apv:active .ap_minus,.apv:focus .ap_minus{
+    display: none;
+}
+    #hps_stamp{
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    }
+}
+@media only screen and (max-height:600px){
     #hprojshirt{
     min-height: 100vh;
 }
-    
+}
+@media only screen and (max-height: 420px){
     #hstamp_logo{
     box-sizing: border-box;
         padding-top: 100px;
@@ -641,9 +672,9 @@ mh{
     margin-bottom: 30px;
 }
 .hprojtxt{
-    font-family: poppins;
-    font-size: 18px;
-    width: 400px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-right: 10%;
 }
     .mprojtxtb{
     width: auto;
@@ -664,6 +695,59 @@ mh{
 }
 }
 @media only screen and (max-height: 380px){
+    #proj_cont{
+        padding:0px 40px 0px 40px ;
+    }
+    #hprojshirt{
+    min-height: 100vh;
+        box-sizing: border-box;
+        padding: 0px 40px 0px 40px;
+}   
+    .projbox{
+    margin-left: 0px;
+}
+    .mh{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 90;
+    list-style: none;
+}
+.sidemenu{
+    background-color: rgb(251,118,96);
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height:50px;
+    margin-left: 0px;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 90;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+    
+.apv:hover .ap_minus,.apv:active .ap_minus,.apv:focus .ap_minus{
+    display: none;
+}
+    .ap{
+    color: rgb(255,255,255);
+}
+    #foot{
+        z-index: 100;
+    }
+    .hprojtxt{
+    font-size: 14px;
+    column-count: 2;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
     .proj_tfence1,.proj_tfence2{
         width: 100%;
         box-sizing: border-box;
