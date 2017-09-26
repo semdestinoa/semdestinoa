@@ -639,16 +639,12 @@ mh{
         .ap2_hold{
     display: none;
 }
-    .ap_plus, .ap_minus{
-        display: none;
-}
-    apv:hover .ap_minus,.apv:active .ap_minus,.apv:focus .ap_minus{
+.ap_minus,.ap_plus{
     display: none;
 }
-    #hps_stamp{
-    align-items: flex-end;
-    -webkit-align-items: flex-end;
-    }
+.apv:hover .ap_plus,.apv:active .ap_plus,.apv:focus .ap_plus,.apv:hover .ap_minus,.apv:active .ap_minus,.apv:focus .ap_minus{
+    display: none;
+}
 }
 @media only screen and (max-height:600px){
     #hprojshirt{

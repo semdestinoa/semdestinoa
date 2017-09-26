@@ -836,7 +836,7 @@ nav.scroll{
     }
     .np_cont{
         width: 100%;
-        margin-top: 14%;
+        margin-top: 10%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1241,7 +1241,7 @@ nav.scroll{
         width: 60px;
     }
     .np_cont{
-        margin-top: 14%;
+        margin-top: 8%;
     }
     .np_butts{
         font-family: poppins;
@@ -1365,7 +1365,7 @@ nav.scroll{
     font-size: 30px;
 }
     .np_cont{
-        margin-top: 60px;
+        margin-top: 8%;
     }
     .np_butts{
         font-size: 18px;
