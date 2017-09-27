@@ -16,7 +16,7 @@
 .evenhead_shirt{
     width: 1200px;
     box-sizing: border-box;
-    padding: 0px 120px 280px 120px;
+    padding: 0px 300px 280px 120px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -30,7 +30,8 @@
     color: rgb(255,255,255);
 }
 .eve_htitl{
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 20px
 }
 .eve_hstxt{
     font-size: 20px;
@@ -110,8 +111,12 @@
 }
 @media only screen and (max-width: 1200px){
     .evenhead_shirt{
-        padding: 0px 100px 200px 100px;
+        padding: 0px 340px 200px 100px;
     width: 100%;
+}
+    .eve_htitl{
+    font-size: 36px;
+    margin-bottom: 20px
 }
 }
 @media only screen and (max-width:1000px){
@@ -217,7 +222,7 @@
         display: none;
     }
     .evenhead_shirt{
-    padding: 340px 80px 140px 80px;
+    padding: 340px 20% 140px 80px;
 }
     .evesec{
         box-sizing: border-box;
@@ -263,7 +268,7 @@
 }
 @media only screen and (max-width:600px){
     .eve_htitl{
-    font-size: 40px;
+    font-size: 30px;
 }
     #evenhead{
         margin-bottom: 80px;
@@ -309,7 +314,7 @@
     padding: 340px 30px 120px 30px;
 }
     .eve_htitl{
-    font-size:34px;
+    font-size:26px;
 }
     .eve_txt{
     font-size: 14px;
@@ -327,7 +332,7 @@
     padding: 340px 30px 80px 30px;
 }
     .eve_htitl{
-    font-size:32px;
+    font-size:22px;
 }
     .eve_htxt{
     font-size: 16px;
