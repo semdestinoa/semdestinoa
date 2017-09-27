@@ -477,7 +477,51 @@ mh{
    width: 160px;
         height: 160px;
 }
-
+.mh{
+    
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 90;
+    list-style: none;
+}
+.sidemenu{
+    background-color: rgb(251,118,96);
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height:50px;
+    margin-left: 0px;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 90;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+   .ap2_hold{
+    display: none;
+}
+.ap_minus,.ap_plus{
+    display: none;
+}
+.apv:hover .ap_plus,.apv:active .ap_plus,.apv:focus .ap_plus,.apv:hover .ap_minus,.apv:active .ap_minus,.apv:focus .ap_minus{
+    display: none;
+} 
+.apv:hover .ap_minus,.apv:active .ap_minus,.apv:focus .ap_minus{
+    display: none;
+}
+    .ap{
+    color: rgb(255,255,255);
+}
+    #foot{
+        z-index: 100;
+    }
 }
 @media only screen and (max-width: 600px){
     #hps_stamp{

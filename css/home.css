@@ -238,18 +238,18 @@ nav.scroll{
     margin-top: 8%;
 }
 .headtitl{
-    font-size: 38px;
+    font-size: 34px;
     color: rgb(255,255,255);
     margin-bottom: 10px;
-    width: 600px;
+    width: 500px;
 }
 .headtxt{
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(255,255,255);
     margin-bottom: 40px;
 }
 .headtxt2{
-    font-size: 26px;
+    font-size: 24px;
     color: rgb(255,255,255);
     margin-bottom: 120px;
     width: 400px;
@@ -262,7 +262,7 @@ nav.scroll{
     margin-bottom: 20px;
 }
 .headdates{
-    font-size: 26px;
+    font-size: 24px;
     color: rgb(255,255,255);
 }
 .playgate{
@@ -435,7 +435,7 @@ nav.scroll{
 .hmain_titl,.hmain_titl2{
     font-weight: 600;
     font-family: poppins;
-    font-size: 40px;
+    font-size: 36px;
     margin: 100px 0px 10px 140px;
 }
 .hmain_titl2{
@@ -445,14 +445,14 @@ nav.scroll{
     width: 430px;
     font-weight: 400;
     font-family: poppins;
-    font-size: 30px;
+    font-size: 24px;
     margin: 40px 0px 10px 300px;
     line-height: 36px;
 }
 .hmain_btxt1, .hmain_btxt2, .hmain_btxt3{
     font-weight: 400;
     font-family: poppins;
-    font-size: 20px;
+    font-size: 18px;
 }
 .hmain_btxt1{
     margin: 0px 0px 0px 300px;
@@ -652,17 +652,17 @@ nav.scroll{
     }
 @media only screen and (max-width: 1200px) {
     .headtitl{
-    font-size: 30px;
+    font-size: 28px;
         width: 400px;
 }
 .headtxt{
-    font-size: 20px;
+    font-size: 16px;
 }
 .headtxt2{
-    font-size: 24px;
+    font-size: 20px;
 }
 .headdates{
-    font-size: 24px;
+    font-size: 20px;
 }
     #hmain_cont{
         width: 100%;
@@ -731,8 +731,8 @@ nav.scroll{
         display: none;
     }
     .navburger{
-        height: 40px;
-        width: 40px;
+        height: 36px;
+        width: 36px;
         display:flex;
         display:-webkit-flex;
         cursor: pointer;
@@ -939,18 +939,18 @@ nav.scroll{
         width: 100%;
         box-sizing: border-box;
         padding: 0px 200px 0px 0px;
-        font-size: 30px;
+        font-size: 28px;
         margin-bottom: 20px;
         margin-top: 100px;
     }
     .headtxt{
-        font-size: 20px;
+        font-size: 16px;
     }
     .headtxt2{
         width: 100%;
         box-sizing: border-box;
         padding: 0px 260px 0px 0px;
-     font-size: 22px;
+     font-size: 20px;
         margin-bottom: 8%;
     }
     .headdateh{
@@ -960,7 +960,7 @@ nav.scroll{
     -webkit-flex-direction: column;
     }
     .headdates{
-        font-size: 24px;
+        font-size: 20px;
     }
     .hmain_btxt2, .hmain_btxt3{
         width: 300px;
@@ -1338,6 +1338,10 @@ nav.scroll{
     }
 }
 @media only screen and (max-width: 380px){
+    .navburger{
+        height: 26px;
+        width: 26px;
+    }
     nav{
     padding: 14px 30px 14px 30px;
 }
@@ -1504,7 +1508,6 @@ nav.scroll{
 }
 .headtxt2{
     font-size: 16px;
-    margin-bottom: 20%;
 }
     .headdates{
     font-size: 16px;
@@ -1553,7 +1556,7 @@ nav.scroll{
     }
     .navburger{
         height: 30px;
-        width: 40px;
+        width: 30px;
     }
     #head_wrap{
     min-height: 100vh;
