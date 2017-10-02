@@ -7,24 +7,19 @@ window.onscroll = () => {
 		   navbar.addClass('scroll');
 	   }
 };
-$('a').click(function() {
-    var el = $(this);
-    var link = el.attr('href');
-    window.location = link;
-});
-$('a').tap(function() {
+$('a').on('click', function(e) {
     var el = $(this);
     var link = el.attr('href');
     window.location = link;
 });
 jQuery(document).ready(function(){
    // Do something with the DOM
-   jQuery('#head_wrap .playgate').click(function(){
+   jQuery('#head_wrap .playgate').on('click', function(e){
      jQuery('.main_play').addClass('active');
     jQuery('body').css('overflow','hidden');
        jQuery('#main_vid').attr('src', 'https://www.youtube.com/embed/feA64wXhbjo?rel=0&amp;showinfo=0;autoplay=1');
    });
-    jQuery('.main_play .closex').click(function(){
+    jQuery('.main_play .closex').on('click', function(e){
      jQuery('.main_play').removeClass('active');
         jQuery('body').css('overflow','visible');
         jQuery('#main_vid').attr('src', '');
@@ -32,25 +27,12 @@ jQuery(document).ready(function(){
 });
 jQuery(document).ready(function(){
    // Do something with the DOM
-   jQuery('#head_wrap .playgate').tap(function(){
-     jQuery('.main_play').addClass('active');
-    jQuery('body').css('overflow','hidden');
-       jQuery('#main_vid').attr('src', 'https://www.youtube.com/embed/feA64wXhbjo?rel=0&amp;showinfo=0;autoplay=1');
-   });
-    jQuery('.main_play .closex').tap(function(){
-     jQuery('.main_play').removeClass('active');
-        jQuery('body').css('overflow','visible');
-        jQuery('#main_vid').attr('src', '');
-   });
-});
-jQuery(document).ready(function(){
-   // Do something with the DOM
-   jQuery('#head_wrap .playgate').click(function(){
+   jQuery('#head_wrap .playgate').on('click', function(e){
      jQuery('.main_play').addClass('active');
     jQuery('body').css('overflow','hidden');
        jQuery('#main_vid2').attr('src', 'https://www.youtube.com/embed/bR-s4ReIxJo?rel=0&amp;showinfo=0;autoplay=1');
    });
-    jQuery('.main_play .closex').click(function(){
+    jQuery('.main_play .closex').on('click', function(e){
      jQuery('.main_play').removeClass('active');
         jQuery('body').css('overflow','visible');
         jQuery('#main_vid2').attr('src', '');
@@ -58,41 +40,23 @@ jQuery(document).ready(function(){
 });
 jQuery(document).ready(function(){
    // Do something with the DOM
-   jQuery('#head_wrap .playgate').tap(function(){
-     jQuery('.main_play').addClass('active');
-    jQuery('body').css('overflow','hidden');
-       jQuery('#main_vid2').attr('src', 'https://www.youtube.com/embed/bR-s4ReIxJo?rel=0&amp;showinfo=0;autoplay=1');
-   });
-    jQuery('.main_play .closex').tap(function(){
-     jQuery('.main_play').removeClass('active');
-        jQuery('body').css('overflow','visible');
-        jQuery('#main_vid2').attr('src', '');
-   });
-});
-jQuery(document).ready(function(){
-   // Do something with the DOM
-   jQuery('#navbar .navburger').click(function(){
+   jQuery('#navbar .navburger').on('click', function(e){
      jQuery('.nav_page').addClass('active');
     jQuery('body').css('overflow','hidden');
    });
-    jQuery('.nav_page .np_close').click(function(){
+    jQuery('.nav_page .np_close').on('click', function(e){
      jQuery('.nav_page').removeClass('active');
         jQuery('body').css('overflow','visible');
    });
 });
 jQuery(document).ready(function(){
-   // Do something with the DOM
-   jQuery('#navbar .navburger').tap(function(){
-     jQuery('.nav_page').addClass('active');
-    jQuery('body').css('overflow','hidden');
-   });
-    jQuery('.nav_page .np_close').tap(function(){
-     jQuery('.nav_page').removeClass('active');
-        jQuery('body').css('overflow','visible');
-   });
+    $('.np_back').on('click', function(e){
+        parent.history.back();
+        return false;
+    });
 });
 jQuery(document).ready(function(){
-   jQuery('.age_locals1').click(function(){
+   jQuery('.age_locals1').on('click', function(e){
        jQuery('.age_locals1').addClass('active');
        jQuery('.age_locals2').removeClass('active');
        jQuery('.age_localv').fadeOut('fast',function(){
@@ -100,24 +64,7 @@ jQuery(document).ready(function(){
     });
    });
     jQuery('.age_locals1').trigger('click');
-   jQuery('.age_locals2').click(function(){
-       jQuery('.age_locals2').addClass('active');
-       jQuery('.age_locals1').removeClass('active');
-       jQuery('.age_localv').fadeOut('fast',function(){
-       jQuery(this).attr('src', 'age_lxfac.html').fadeIn('fast');
-    });
-   });
-});
-jQuery(document).ready(function(){
-   jQuery('.age_locals1').tap(function(){
-       jQuery('.age_locals1').addClass('active');
-       jQuery('.age_locals2').removeClass('active');
-       jQuery('.age_localv').fadeOut('fast',function(){
-       jQuery(this).attr('src', 'age_fbaul.html').fadeIn('fast');
-    });
-   });
-    jQuery('.age_locals1').trigger('tap');
-   jQuery('.age_locals2').tap(function(){
+   jQuery('.age_locals2').on('click', function(e){
        jQuery('.age_locals2').addClass('active');
        jQuery('.age_locals1').removeClass('active');
        jQuery('.age_localv').fadeOut('fast',function(){
@@ -142,7 +89,7 @@ jQuery( document ).ready(function() {
 
 	// Bind click handler to menu items
 	// so we can get a fancy scroll animation
-	menuItems.click(function(){
+	menuItems.on('click', function(e){
 	  var href = $(this).attr("href");
 	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.8;
 	  $('html, body').stop().animate({ 
@@ -150,62 +97,7 @@ jQuery( document ).ready(function() {
 	  }, 300);
 	  e.preventDefault();
 	});
-    bmenuItems.click(function(){
-	  var href = $(this).attr("href");
-	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.8;
-	  $('html, body').stop().animate({ 
-		  scrollTop: offsetTop
-	  }, 300);
-	  e.preventDefault();
-	});
-	// Bind to scroll
-	$(window).scroll(function(){
-	   // Get container scroll position
-	   var fromTop = $(this).scrollTop() + winH/2;
-	   
-	   // Get id of current scroll item
-	   var cur = scrollItems.map(function(){
-		 if ($(this).offset().top < fromTop)
-		   return this;
-	   });
-	   // Get the id of the current element
-	   cur = cur[cur.length-1];
-	   var id = cur && cur.length ? cur[0].id : "";
-	   
-	   if (lastId !== id) {
-		   lastId = id;
-		   // Set/remove active class
-		   menuItems.removeClass("active");
-		   $("a[href='#"+id+"']").addClass("active");
-	   }                
-	});
-});
-jQuery( document ).ready(function() {
-	
-	// Cache selectors
-	var lastId;
-	var topMenu = $(".sidemenu");
-    var winH = $( window ).height();
-	// All list items
-	var menuItems = topMenu.find(".ap");
-    var bmenuItems = topMenu.find(".ap2");
-	// Anchors corresponding to menu items
-	scrollItems = menuItems.map(function(){
-	  var item = $($(this).attr("href"));
-	  if (item.length) { return item; }
-	});
-
-	// Bind click handler to menu items
-	// so we can get a fancy scroll animation
-	menuItems.tap(function(){
-	  var href = $(this).attr("href");
-	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.8;
-	  $('html, body').stop().animate({ 
-		  scrollTop: offsetTop
-	  }, 300);
-	  e.preventDefault();
-	});
-    bmenuItems.tap(function(){
+    bmenuItems.on('click', function(e){
 	  var href = $(this).attr("href");
 	  var offsetTop = href === "#" ? 0 : $(href).offset().top - winH/2.8;
 	  $('html, body').stop().animate({ 
@@ -297,11 +189,5 @@ function showSlides2(n) {
 });
 window.addEventListener("hashchange", function () {
     window.scrollTo(window.scrollX, window.scrollY - (screen.height)/3);
-});
-jQuery(document).ready(function(){
-    $('.np_back').on('click', function(e){
-        parent.history.back();
-        return false;
-    });
 });
 */
