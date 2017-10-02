@@ -96,7 +96,7 @@ mh{
     -webkit-flex-direction: column;
 }
 .ap2_hold{
-    width: 100px;
+    width: 150px;
     height: 0px;
     overflow: hidden;
     margin-left: 20px;
@@ -131,7 +131,7 @@ mh{
     font-weight: 400;
 }
 .apv:hover .ap2_hold,.apv:active .ap2_hold,.apv:focus .ap2_hold{
-    height: 300px;
+    height: 220px;
 }
 .ap_pm{
     display: flex;
@@ -199,7 +199,7 @@ mh{
     font-size: 20px;
 }
 .mprojtxtb{
-    width: 300px;
+    width: 380px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -226,7 +226,7 @@ mh{
 }
 .proj_tplaygrnd1,.proj_tplaygrnd2{
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     display: flex;
     display: -webkit-flex;
 }
@@ -279,7 +279,7 @@ mh{
     margin-left: -160px;
     margin-top: -300px;
 }
-.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
+.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d,.proj_tbox2e{
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -302,10 +302,14 @@ mh{
     margin-left: -420px;
     margin-top: 100px;
 }
-.proj_tbox1a:hover,.proj_tbox1b:hover,.proj_tbox1c:hover,.proj_tbox1d:hover,.proj_tbox1e:hover,.proj_tbox1f:hover,.proj_tbox2a:hover,.proj_tbox2b:hover,.proj_tbox2c:hover,.proj_tbox2d:hover{
+.proj_tbox2e{
+    margin-left: 220px;
+    margin-top: -100px;
+}
+.proj_tbox1a:hover,.proj_tbox1b:hover,.proj_tbox1c:hover,.proj_tbox1d:hover,.proj_tbox1e:hover,.proj_tbox1f:hover,.proj_tbox2a:hover,.proj_tbox2b:hover,.proj_tbox2c:hover,.proj_tbox2d:hover,.proj_tbox2e:hover{
     transform: scale(1.1, 1.1);
 }
-.proj_tbox1a:active,.proj_tbox1a:focus,.proj_tbox1b:active,.proj_tbox1b:focus,.proj_tbox1c:active,.proj_tbox1c:focus,.proj_tbox1d:active,.proj_tbox1d:focus,.proj_tbox2a:active,.proj_tbox2a:focus,.proj_tbox2b:active,.proj_tbox2b:focus,.proj_tbox2c:active,.proj_tbox2c:focus{
+.proj_tbox1a:active,.proj_tbox1a:focus,.proj_tbox1b:active,.proj_tbox1b:focus,.proj_tbox1c:active,.proj_tbox1c:focus,.proj_tbox1d:active,.proj_tbox1d:focus,.proj_tbox1e:active,.proj_tbox1e:focus,.proj_tbox1f:active,.proj_tbox1f:focus,.proj_tbox2a:active,.proj_tbox2a:focus,.proj_tbox2b:active,.proj_tbox2b:focus,.proj_tbox2c:active,.proj_tbox2c:focus,.proj_tbox2d:active,.proj_tbox2d:focus,.proj_tbox2e:active,.proj_tbox2e:focus{
     transform: scale(0.9, 0.9);
 }
 .proj_timg1,.proj_timg2{
@@ -324,14 +328,14 @@ mh{
 .proj_ttitl{
     font-family: poppins;
     width: 160px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: rgb(251,118,96);
     margin-bottom: 6px;
 }
 .proj_ttxt{
     color: rgb(30,30,30);
-    font-size: 12px;
+    font-size: 10px;
 }
 @media only screen and (max-width: 1200px){
     #main_proj{
@@ -376,9 +380,12 @@ mh{
     margin-left: -260px;
     margin-top: -300px;
 }
-.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
+.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d,.proj_tbox2e{
     padding: 16px;
 }
+    .proj_tbox2a{
+        margin-top: 40px;
+    }
 .proj_tbox2b{
     margin-left: 0px;
 }
@@ -389,6 +396,7 @@ mh{
 .proj_tbox2d{
     margin-left: -20px;
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 }
 @media only screen and (max-width: 1000px){
@@ -443,6 +451,7 @@ mh{
      .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
     padding: 16px;
          width: 160px;
+         margin: 0px;
 }
 .proj_tbox1b{
     margin-top: 0px;
@@ -461,9 +470,10 @@ mh{
     margin-left: 0px;
     margin-top: 0px;
 }
-.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
+.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d,.proj_tbox2e{
     padding: 16px;
     width: 160px;
+    margin: 0px;
 }
 .proj_tbox2c{
     margin-left: 0px;
@@ -578,7 +588,7 @@ mh{
     .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
          width: 120px;
 }
-.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
+.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d,.proj_tbox2e{
     width: 120px;
 }
     .proj_timg1,.proj_timg2{
@@ -645,7 +655,7 @@ mh{
     .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
          padding: 10px;
 }
-.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
+.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d,.proj_tbox2e{
     padding: 10px;
 }
     .mprojtxt{
@@ -659,8 +669,9 @@ mh{
             .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
          width: 100px;
 }
-.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
+.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d,.proj_tbox2e{
     width: 100px;
+    padding: 8px;
 }
     .proj_timg1,.proj_timg2{
    width: 100px;
@@ -668,9 +679,6 @@ mh{
 }
         .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
          padding: 8px;
-}
-.proj_tbox2a, .proj_tbox2b, .proj_tbox2c,.proj_tbox2d{
-    padding: 8px;
 }
         .hprojtitl{
     font-size: 30px;
