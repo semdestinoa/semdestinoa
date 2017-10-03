@@ -1702,11 +1702,11 @@ nav.scroll{
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
  .vid_wrap{
-    display: none;
+    display: ;
     }
 }
     @media only screen and (min-device-width: 481px) and (max-device-width: 1366px) and (orientation:landscape) {
   .vid_wrap{
-    display: none;
+    display: ;
     }
 }
