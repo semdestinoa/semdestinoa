@@ -38,8 +38,11 @@ nav{
     -o-transition: font-weight 0.2s ease;
     transition: font-weight 0.2s ease;
 }
-.profl_link:hover, .profl_link:focus, .profl_link:active{
+.profl_link:hover{
     font-weight: 600;
+}
+.profl_link:focus,.profl_link:active{
+    font-weight: 400;
 }
 .profl_tplaygrnd1,.profl_tplaygrnd2{
     width: 100%;
@@ -129,6 +132,7 @@ nav{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 6px;
 }
 .profl_timg1{
     height: 160px;

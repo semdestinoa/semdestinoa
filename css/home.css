@@ -124,11 +124,14 @@ nav.scroll{
     margin-right: 40px;
     background-image: url(img/faceic.svg);
 }
-#navinsta:hover, #navface:hover,{
+#navinsta:hover, #navface:hover{
     transform: scale(1.2,1.2);
 }
-#navinsta:focus, #navface:focus,#navinsta:active, #navface:active{
+#navinsta:active, #navface:active{
     transform: scale(0.8,0.8);
+}
+#navinsta:focus, #navface:focus{
+    transform: scale(auto);
 }
 .navlangs{
     box-sizing: border-box;
@@ -903,8 +906,11 @@ nav.scroll{
     .np_social:hover{
        transform: scale(1.2,1.2);
     }
-    .np_social:active,.np_social:focus{
+    .np_social:active{
         transform: scale(0.8,0.8);
+    }
+    .np_social:focus{
+        transform: scale(auto);
     }
     .np_foot{
         width: 100%;
