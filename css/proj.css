@@ -83,7 +83,7 @@ mh{
     -o-transition: font-weight 0.2s ease;
     transition: font-weight 0.2s ease;
 }
-.ap:hover,.ap:active{
+.ap:hover,.ap:active,.ap:focus{
     font-weight: 600;
 }
 .ap.active {
@@ -99,7 +99,7 @@ mh{
     width: 150px;
     height: 0px;
     overflow: hidden;
-    margin-left: 20px;
+    margin-left: 10px;
     line-height:40px;
     display: flex;
     display: -webkit-flex;
