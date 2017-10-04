@@ -120,10 +120,10 @@ jQuery( document ).ready(function() {
 	   var id = cur && cur.length ? cur[0].id : "";
 	   
 	   if (lastId !== id) {
-		   lastId = id;
+           lastId = id;
 		   // Set/remove active class
 		   menuItems.removeClass("active");
-		   $("a[href='#"+id+"']").addClass("active");
+		   $("div[href='#"+id+"']").addClass("active");
 	   }                
 	});
 });

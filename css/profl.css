@@ -27,7 +27,7 @@ nav{
 .profl_links{
     margin-top: 20px;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 30px;
     color: rgb(251,118,96);
     text-align: right;
 }
@@ -146,6 +146,7 @@ nav{
     font-family: poppins;
     width: 160px;
     font-size: 18px;
+    line-height: 24px;
     font-weight: 600;
     color: rgb(251,118,96);
     margin-bottom: 6px;
@@ -160,12 +161,12 @@ nav{
 }
     .profl_sec{
     box-sizing: border-box;
-        padding: 0px 40px 0px 40px;
-        margin-bottom: 6%;
+        padding: 0px 60px 0px 60px;
+        margin-bottom: 20%;
 }
     .profl_tplaygrnd1,.profl_tplaygrnd2{
         box-sizing: border-box;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 60px 0px 60px;
     }
     .profl_tbox1a, .profl_tbox1b,.profl_tbox1c,.profl_tbox1d, .profl_tbox1e, .profl_tbox1f{
     padding: 16px;
@@ -197,17 +198,32 @@ nav{
         height: 180px;
     }
 }
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 600px){
+    #proflmain{
+    margin-top: 120px;
+}
     .profl_sec{
     flex-direction: column;
     -webkit-flex-direction: column;
 }
+    .profl_sec,.profl_tplaygrnd1,.profl_tplaygrnd2{
+    padding: 0px 30px 0px 30px;
+}
     .profl_links{
     text-align: left;
 }
+    .profl_ttitl{
+    font-family: poppins;
+    width: auto;
+    font-size: 14px;
+        line-height: 20px;
+    font-weight: 600;
+    color: rgb(251,118,96);
+    margin-bottom: 6px;
+}
 .profl_tplaygrnd1,.profl_tplaygrnd2{
     width: 100%;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 30px 0px 30px;
     margin-bottom: 70px;
     display: flex;
     display: -webkit-flex;
@@ -278,7 +294,12 @@ nav{
 }
 }
 @media only screen and (max-width: 380px){
-    .profl_sec,.profl_tplaygrnd1,.profl_tplaygrnd2{
+     #proflmain{
+    margin-top: 100px;
+}
+   .profl_sec{
+        margin-bottom: 10%;
+} .profl_sec,.profl_tplaygrnd1,.profl_tplaygrnd2{
     padding: 0px 30px 0px 30px;
 }
     .profl_titl{

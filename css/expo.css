@@ -299,22 +299,24 @@ nav{
     display: none;
 }
     .expo_datetxtc{
-    margin: 80px 150px 0px 0px;
+    margin: 80px 100px 0px 0px;
     width: auto;
 }
 .expo_datetxtd{
     margin: 0px 60px 0px 0px;
-    width: 40%;
+    width: 46%;
 }
     .expo_holde{
-    width:420px;
-        justify-content: center;
-        -webkit-justify-content: center;
+    width:auto;
+        box-sizing: border-box;
+        padding: 0px 40px 0px 0px;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
 }
     .expo_holda{
     width:100%;
         box-sizing: border-box;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 60px 0px 60px;
 }
     .expo_holdd{
         flex-direction: column;
@@ -336,6 +338,11 @@ nav{
 }
 }
 @media only screen and (max-width:740px){
+    .expo_holde{
+        padding: 0px 0px 0px 0px;
+        justify-content: center;
+        -webkit-justify-content: center;
+}
     .expo_holdd{
     margin-bottom: 0px;
 }

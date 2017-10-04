@@ -40,6 +40,10 @@ nav{
     font-family: Poppins;
     font-weight: 600;
     font-size: 40px;
+    line-height:46px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-right: 30%;
 }
 .sproj_stitl{
     font-weight: 600;
@@ -204,9 +208,7 @@ nav{
    box-sizing: border-box;
         padding: 0px 40px 0px 40px;
 }
-.sproj_lhold{
-    display: none;
-}
+
 .sproj_plhold{
     margin-top: 80px;
     line-height: 22px;
@@ -222,10 +224,16 @@ nav{
 }
 .sproj_titl{
     box-sizing: border-box;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 20% 20px 40px;
 }
 }
 @media only screen and (max-width: 600px) {
+    .sproj_lhold{
+    display: none;
+}
+    #sprojmain{
+    margin-top: 120px;
+}
   .dot {
   height: 10px;
   width: 10px;
@@ -241,9 +249,10 @@ nav{
         -webkit-align-items: center;
 }
 .sproj_plhold{
-    margin-top: 60px;
+    margin-top: 10%;
     text-align: center;
 }
+    
 .sproj_intro{
     width: 100%;
     column-count: 1;
@@ -251,21 +260,28 @@ nav{
 }
     .sproj_titl{
     text-align: center;
+        font-size: 34px;
+    line-height:38px;
+        padding: 0px 40px 10px 40px;
 }
 }
 @media only screen and (max-width: 380px){
+    #sprojmain{
+    margin-top: 100px;
+}
     .sproj_hold{
         padding: 0px 30px 0px 30px;
 }
     .sproj_titl{
-        font-size: 34px;
-        padding: 0px 30px 0px 30px;
+        line-height: 34px;
+        font-size: 30px;
+        padding: 0px 30px 10px 30px;
 }
     .sproj_txt{
         font-size: 14px;
     }
     .sproj_plhold{
-    margin-top: 40px;
+    margin-top: 10%;
 }
     .sproj_intro{
     margin-top: 60px;

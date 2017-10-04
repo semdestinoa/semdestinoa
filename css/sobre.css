@@ -313,7 +313,7 @@ nav{
 @media only screen and (max-width: 1200px) {
     #sobremain{
         box-sizing: border-box;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 0px 0px 0px;
     width:100%;
 }
 }
@@ -337,6 +337,10 @@ nav{
         -o-transition: opacity 0.6s ease;
         transition: opacity 0.6s ease;
     }
+    .s_stitl{
+        padding: 0px 60px 0px 60px;
+        box-sizing: border-box;
+    }
     .nav_page.active{
         opacity: 1;
         pointer-events: all;
@@ -356,7 +360,7 @@ nav{
 }
     .s_hold{
     box-sizing: border-box;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 60px 0px 60px;
 }
     .s_holdficha{
         display: none;
@@ -364,7 +368,7 @@ nav{
     .etap_hold{
     width: 100%;
         box-sizing: border-box;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 60px 0px 60px;
         margin-left: 0px;
     margin-bottom: 100px;
     display: flex;

@@ -70,7 +70,7 @@
 .ifrm_box:hover .ifrm_date{
     font-weight: 600
 }
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 500px){
     .ageifrm_m{
         justify-content: space-between;
         -webkit-justify-content: space-between;
