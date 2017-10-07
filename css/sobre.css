@@ -41,7 +41,7 @@ nav{
     font-weight: 600;
     font-size: 30px;
 }
-.s_stitl{
+.s_stitl1,.s_stitl2{
     font-family: Poppins;
     font-weight: 600;
     font-size: 24px;
@@ -316,6 +316,28 @@ nav{
         padding: 0px 0px 0px 0px;
     width:100%;
 }
+    .s_hold{
+        padding: 0px 80px 0px 80px;
+}
+    .s_intro{
+        column-count: 2;
+        -webkit-column-count: 2;
+    }
+    .s_stitl2{
+        padding: 0px 80px 0px 80px;
+        box-sizing: border-box;
+    }
+    .s_holdficha{
+        box-sizing: border-box;
+        padding: 0px 80px 0px 80px
+    }
+    #s_holdfcont{
+    margin: 100px 0px 0px 200px;
+}
+    .etap_cols{
+        box-sizing: border-box;
+        padding-right: 80px;
+    }
 }
 @media only screen and (max-width: 1000px) {
     .nav_page{
@@ -337,7 +359,11 @@ nav{
         -o-transition: opacity 0.6s ease;
         transition: opacity 0.6s ease;
     }
-    .s_stitl{
+    .s_stitl1{
+        padding: 0px 0px 0px 0px;
+        box-sizing: border-box;
+    }
+    .s_stitl2{
         padding: 0px 60px 0px 60px;
         box-sizing: border-box;
     }
@@ -377,11 +403,13 @@ nav{
     -webkit-flex-direction: column;
 }
 .etap_cols{
+    padding: 0px;
     justify-content: space-between;
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
     -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
 }
 .etap_col{
     width: 48%;
@@ -469,7 +497,8 @@ nav{
     box-sizing: border-box;
         padding-right: 40px;
 }
-    .s_stitl{
+    .s_stitl1,.s_stitl2{
+        padding: 0;
         text-align: center;
     }
 .dot {
@@ -550,7 +579,7 @@ nav{
     box-sizing: border-box;
         padding-right: 40px;
 }
-    .s_stitl{
+    .s_stitl1,.s_stitl2{
         text-align: center;
     }
         .s_btxt{
