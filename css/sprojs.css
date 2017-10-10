@@ -33,8 +33,10 @@ nav{
 .sproj_intro{
     width: 700px;
     margin-top: 80px;
+    column-gap: 30px;
     column-count: 2;
     -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
 }
 .sproj_titl{
     font-family: Poppins;
@@ -224,8 +226,6 @@ nav{
 .sproj_intro{
     justify-content: center;
     width: auto;
-    column-count: 2;
-    -webkit-column-count: 2;
 }
 .sproj_titl{
     box-sizing: border-box;

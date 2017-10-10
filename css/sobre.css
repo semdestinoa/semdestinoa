@@ -33,8 +33,10 @@ nav{
 .s_intro{
     margin-left: 240px;
     margin-top: -30px;
+    column-gap: 30px;
     column-count: 3;
     -webkit-column-count: 3;
+    -webkit-column-gap: 30px;
 }
 .s_titl{
     font-family: Poppins;
