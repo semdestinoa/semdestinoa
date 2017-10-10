@@ -7,6 +7,46 @@
         <link rel="stylesheet" href="css/sprojs.css">
         <title>sem destino a</title>
         <link rel="icon" href="css/img/sda_icon.png" type="image/x-icon">
+        <style>
+            .slideshow-container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+                align-items: center;
+}
+            img{
+                height: 90vh;
+                width: auto;
+            }
+            .prev{
+                left: 0;
+            }
+            .prev, .next{
+                color: rgba(150,150,150,0.4);
+            }
+            .prev:hover, .next:hover {
+  color: rgba(150,150,150,1);
+}
+            @media only screen and (max-width: 600px){
+                img{
+                height:inherit;
+                width: 100%;
+            }
+                .prev, .next{
+                color: rgba(255,255,255,0.4);
+            }
+            .prev:hover, .next:hover {
+  color: rgba(255,255,255,1);
+}
+            }
+        </style>
     </head>
     <body>
         <script>
@@ -65,16 +105,16 @@
             </div>
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="css/img/totido/ttmab/2.r1r2.mafaldamota/r2/1-001.jpg" style="width:100%">
+                    <img src="css/img/totido/ttmab/2.r1r2.mafaldamota/r2/1-001.jpg">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/totido/ttmab/2.r1r2.mafaldamota/r2/2-001.jpg" style="width:100%">
+                    <img src="css/img/totido/ttmab/2.r1r2.mafaldamota/r2/2-001.jpg">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/totido/ttmab/2.r1r2.mafaldamota/r2/3-001.jpg" style="width:100%">
+                    <img src="css/img/totido/ttmab/2.r1r2.mafaldamota/r2/3-001.jpg">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/totido/ttmab/2.r1r2.mafaldamota/r2/4-001.jpg" style="width:100%">
+                    <img src="css/img/totido/ttmab/2.r1r2.mafaldamota/r2/4-001.jpg">
                 </div>
                 <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
                 <div class="next" onclick="plusSlides(1)">&#10095;</div>
