@@ -25,7 +25,7 @@ p{
 }
 a {
     text-decoration: none;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     cursor: pointer;
 }
 t{
@@ -92,7 +92,7 @@ nav.scroll{
 .navbttns{
     box-sizing: border-box;
     padding-left: 40px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     font-size: 16px;
     font-weight: 400;
     font-family: Poppins;
@@ -136,7 +136,7 @@ nav.scroll{
 .navlangs{
     box-sizing: border-box;
     padding-left: 20px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     font-size: 16px;
     font-weight: 400;
     font-family: Poppins;
@@ -470,7 +470,7 @@ nav.scroll{
 }
 .hmain_stxt2{
     font-weight: 400;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
     -o-transition: font-weight 0.2s ease;
@@ -513,7 +513,7 @@ nav.scroll{
     font-weight: 600;
     font-family: poppins;
     font-size: 20px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     align-self: flex-end;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
@@ -549,7 +549,7 @@ nav.scroll{
     top: 0;
     left: 0;
     transform: translate(0%,0%);
-    background-color: rgba(251,118,96, 0);
+    background-color: rgba(240,132,101, 0);
     -webkit-transition: background-color 0.2s ease;
     -moz-transition: background-color 0.2s ease;
     -o-transition: background-color 0.2s ease;
@@ -576,7 +576,7 @@ nav.scroll{
 }
 .hmain_atitl{
     font-size: 18px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin-bottom: 6px;
 }
 .hmain_attxt{
@@ -584,7 +584,7 @@ nav.scroll{
     color: rgb(30,30,30);
 }
 .hmain_ablk1:hover .apics_over, .hmain_ablk2:hover .apics_over, .hmain_ablk3:hover .apics_over,.hmain_ablk1:active .apics_over, .hmain_ablk2:active .apics_over, .hmain_ablk3:active .hmain_adate,.hmain_ablk1:focus .apics_over, .hmain_ablk2:focus .apics_over, .hmain_ablk3:focus .apics_over{
-    background-color: rgba(251,118,96, 0.4);
+    background-color: rgba(240,132,101, 0.4);
 }
 .hmain_ablk1:hover .hmain_adate, .hmain_ablk2:hover .hmain_adate, .hmain_ablk3:hover .hmain_adate,.hmain_ablk1:active .hmain_adate, .hmain_ablk2:active .hmain_adate, .hmain_ablk3:active .hmain_adate,.hmain_ablk1:focus .hmain_adate, .hmain_ablk2:focus .hmain_adate, .hmain_ablk3:focus .hmain_adate{
     font-weight: 600;
@@ -623,7 +623,7 @@ nav.scroll{
     text-align: right;
     align-items: center;
     justify-content: flex-end;
-    background-color: rgb(251,118,96);
+    background-color: rgb(240,132,101);
     box-sizing: border-box;
     padding:20px 100px 20px 100px;
     display: flex;
@@ -747,7 +747,7 @@ nav.scroll{
     .nav_page{
         width: 100%;
         height: 100vh;
-        background-color: rgb(251,118,96);
+        background-color: rgb(240,132,101);
         opacity: 0;
         top: 0;
         left: 0;
@@ -1010,7 +1010,7 @@ nav.scroll{
     width: 240px;
     box-sizing: border-box;
     padding: 0px 0px 0px 40px;
-    background-color: rgb(251,118,96);
+    background-color: rgb(240,132,101);
     margin:0px 0px 0px 0px;
     color: rgb(255,255,255);
     font-size: 30px;
@@ -1023,7 +1023,7 @@ nav.scroll{
 }
 .hmain_atitl{
     font-size: 20px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin-bottom: 10px;
 }
 .hmain_attxt{
@@ -1119,7 +1119,7 @@ nav.scroll{
     align-items: center;
         text-align: center;
     justify-content: center;
-    background-color: rgb(251,118,96);
+    background-color: rgb(240,132,101);
     box-sizing: border-box;
     padding:20px 100px 20px 100px;
     display: flex;

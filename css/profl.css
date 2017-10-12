@@ -28,7 +28,7 @@ nav{
     margin-top: 20px;
     font-size: 14px;
     line-height: 30px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     text-align: right;
 }
 .profl_link{
@@ -116,16 +116,22 @@ nav{
 }
 .profl_tbox2c{
     margin-left: 660px;
-    margin-top: -640px;
+   transform: translateY(-640px);
+}
+.profl_tbox2c:hover{
+   transform: scale(1.1, 1.1)translateY(-640px);
+}
+.profl_tbox2c:focus,.profl_tbox2c:active{
+    transform: scale(0.9, 0.9)translateY(-640px);
 }
 .profl_tbox2d{
     margin-left: -420px;
     margin-top: 100px;
 }
-.profl_tbox1a:hover,.profl_tbox1b:hover,.profl_tbox1c:hover,.profl_tbox1d:hover,.profl_tbox1e:hover,.profl_tbox1f:hover,.profl_tbox2a:hover,.profl_tbox2b:hover,.profl_tbox2c:hover,.profl_tbox2d:hover{
+.profl_tbox1a:hover,.profl_tbox1b:hover,.profl_tbox1c:hover,.profl_tbox1d:hover,.profl_tbox1e:hover,.profl_tbox1f:hover,.profl_tbox2a:hover,.profl_tbox2b:hover,.profl_tbox2d:hover{
     transform: scale(1.1, 1.1);
 }
-.profl_tbox1a:active,.profl_tbox1a:focus,.profl_tbox1b:active,.profl_tbox1b:focus,.profl_tbox1c:active,.profl_tbox1c:focus,.profl_tbox1d:active,.profl_tbox1d:focus,.profl_tbox2a:active,.profl_tbox2a:focus,.profl_tbox2b:active,.profl_tbox2b:focus,.profl_tbox2c:active,.profl_tbox2c:focus{
+.profl_tbox1a:active,.profl_tbox1a:focus,.profl_tbox1b:active,.profl_tbox1b:focus,.profl_tbox1c:active,.profl_tbox1c:focus,.profl_tbox1d:active,.profl_tbox1d:focus,.profl_tbox2a:active,.profl_tbox2a:focus,.profl_tbox2b:active,.profl_tbox2b:focus,.profl_tbox2d:active,.profl_tbox2d:focus{
     transform: scale(0.9, 0.9);
 }
 .profl_timg1,.profl_timg2{
@@ -148,7 +154,7 @@ nav{
     font-size: 16px;
     line-height: 22px;
     font-weight: 600;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin-bottom: 6px;
 }
 .profl_ttxt{
@@ -185,10 +191,16 @@ nav{
 .profl_tbox2b{
     margin-left: 0px;
 }
-.profl_tbox2c{
+  .profl_tbox2c{
     margin-left: 400px;
-    margin-top: -540px;
+   transform: translateY(-540px);
 }
+.profl_tbox2c:hover{
+   transform: scale(1.1, 1.1)translateY(-540px);
+}
+.profl_tbox2c:focus,.profl_tbox2c:active{
+    transform: scale(0.9, 0.9)translateY(-540px);
+} 
     .profl_timg1{
    width: 140px;
         height: 140px;
@@ -218,7 +230,7 @@ nav{
     font-size: 14px;
         line-height: 20px;
     font-weight: 600;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin-bottom: 6px;
 }
 .profl_tplaygrnd1,.profl_tplaygrnd2{
@@ -246,6 +258,7 @@ nav{
      .profl_tbox1a, .profl_tbox1b,.profl_tbox1c,.profl_tbox1d, .profl_tbox1e, .profl_tbox1f{
     padding: 0px 0px 40px 0px;
          width: 180px;
+         margin: 0;
 }
 .profl_tbox1b{
     margin-top: 0px;
@@ -267,10 +280,17 @@ nav{
 .profl_tbox2a, .profl_tbox2b, .profl_tbox2c,.profl_tbox2d{
     padding: 0px 0px 40px 0px;
     width: 180px;
+    margin: 0;
 }
 .profl_tbox2c{
-    margin-left: 0px;
-    margin-top: 0px;
+    margin:0px;
+   transform: translateY(40px);
+}
+..profl_tbox2c:hover{
+   transform: scale(1.1, 1.1)translateY(0px);
+}
+.profl_tbox2c:focus,.profl_tbox2c:active{
+    transform: scale(0.9, 0.9)translateY(0px);
 }
 .profl_tbox2d{
     margin-left: 0px;
@@ -320,7 +340,7 @@ nav{
     width: auto;
     font-size: 14px;
     font-weight: 600;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin-bottom: 6px;
 }
 .profl_ttxt{

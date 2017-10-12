@@ -35,14 +35,14 @@
     top: 0;
     left: 0;
     transform: translate(0%,0%);
-    background-color: rgba(251,118,96, 0);
+    background-color: rgba(240,132,101, 0);
     -webkit-transition: background-color 0.2s ease;
     -moz-transition: background-color 0.2s ease;
     -o-transition: background-color 0.2s ease;
     transition: background-color 0.2s ease;
 }
 .ifrm_box:hover .ifrm_over{
-    background-color: rgba(251,118,96, 0.4);
+    background-color: rgba(240,132,101, 0.4);
 }
 .ifrm_date{
     font-family: poppins;
@@ -64,7 +64,7 @@
     font-family: poppins;
     font-weight: 600;
     font-size: 18px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin-bottom: 6px;
 }
 .ifrm_box:hover .ifrm_date{

@@ -133,7 +133,7 @@ nav{
 .expo_over{
     height: 100%;
     width: 100%;
-    background-color: rgba(251,118,96,0);
+    background-color: rgba(240,132,101,0);
     position: absolute;
     left: 0%;
     top: 0%;
@@ -158,7 +158,7 @@ nav{
     text-align: center;
 }
 .expo_choice1:hover .expo_over,.expo_choice1:focus .expo_over,.expo_choice1:active .expo_over,.expo_choice2:hover .expo_over,.expo_choice2:focus .expo_over,.expo_choice2:active .expo_over{
-    background-color: rgba(251,118,96,0.4);
+    background-color: rgba(240,132,101,0.4);
 }
 .mySlides,.mySlides2 {display:none}
 /* Slideshow container */
@@ -269,7 +269,7 @@ nav{
     .nav_page{
         width: 100%;
         height: 100vh;
-        background-color: rgb(251,118,96);
+        background-color: rgb(240,132,101);
         opacity: 0;
         top: 0;
         left: 0;

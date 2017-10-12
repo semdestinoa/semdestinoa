@@ -43,7 +43,7 @@ nav{
     font-family: Poppins;
     font-weight: 400;
     font-size: 12px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin-top: 12px;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
@@ -70,7 +70,7 @@ nav{
     font-size: 16px;
     font-weight: 400;
     font-family: poppins;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin-bottom: 6px;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
@@ -133,7 +133,7 @@ nav{
     top: 0;
     left: 0;
     transform: translate(0%,0%);
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
     margin: 30px 0px 0px 20px;
     line-height: 24px;
     z-index: 10;
@@ -167,20 +167,20 @@ nav{
     top: 0;
     left: 0;
     transform: translate(0%,0%);
-    background-color: rgba(251,118,96, 0);
+    background-color: rgba(240,132,101, 0);
     -webkit-transition: background-color 0.2s ease;
     -moz-transition: background-color 0.2s ease;
     -o-transition: background-color 0.2s ease;
     transition: background-color 0.2s ease;
 }
 .age_eabox:hover .eaimg_over,.age_eabox:active .eaimg_over,.age_eabox:focus .eaimg_over{
-    background-color: rgba(251,118,96, 0.4);
+    background-color: rgba(240,132,101, 0.4);
 }
 .age_eatitl{
     font-family: poppins;
     font-weight: 600;
     font-size: 18px;
-    color: rgb(251,118,96);
+    color: rgb(240,132,101);
 }
 .age_eatxt{
     font-family: poppins;
