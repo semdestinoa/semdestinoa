@@ -119,10 +119,10 @@ nav{
    transform: translateY(-640px);
 }
 .profl_tbox2c:hover{
-   transform: scale(1.1, 1.1)translateY(-640px);
+   transform: scale(1.1, 1.1)translateY(-580px);
 }
 .profl_tbox2c:focus,.profl_tbox2c:active{
-    transform: scale(0.9, 0.9)translateY(-640px);
+    transform: scale(0.9, 0.9)translateY(-710px);
 }
 .profl_tbox2d{
     margin-left: -420px;
@@ -196,10 +196,10 @@ nav{
    transform: translateY(-540px);
 }
 .profl_tbox2c:hover{
-   transform: scale(1.1, 1.1)translateY(-540px);
+   transform: scale(1.1, 1.1)translateY(-500px);
 }
 .profl_tbox2c:focus,.profl_tbox2c:active{
-    transform: scale(0.9, 0.9)translateY(-540px);
+    transform: scale(0.9, 0.9)translateY(-600px);
 } 
     .profl_timg1{
    width: 140px;
@@ -252,8 +252,6 @@ nav{
     -webkit-flex-direction: row;
     justify-content: space-between;
     -webkit-justify-content: space-between;
-    align-items: center;
-    -webkit-align-items: center;
 }
      .profl_tbox1a, .profl_tbox1b,.profl_tbox1c,.profl_tbox1d, .profl_tbox1e, .profl_tbox1f{
     padding: 0px 0px 40px 0px;
@@ -284,13 +282,13 @@ nav{
 }
 .profl_tbox2c{
     margin:0px;
-   transform: translateY(40px);
+   transform: translateY(0px);
 }
 ..profl_tbox2c:hover{
-   transform: scale(1.1, 1.1)translateY(0px);
+   transform: scale(1.1, 1.1)translate(-110px);
 }
 .profl_tbox2c:focus,.profl_tbox2c:active{
-    transform: scale(0.9, 0.9)translateY(0px);
+    transform: scale(0.9, 0.9)translate(-110px);
 }
 .profl_tbox2d{
     margin-left: 0px;
