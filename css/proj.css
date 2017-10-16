@@ -96,11 +96,11 @@ mh{
     -webkit-flex-direction: column;
 }
 .ap2_hold{
-    width: 150px;
+    width: 130px;
     height: 0px;
     overflow: hidden;
     margin-left: 10px;
-    line-height:40px;
+    line-height:20px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -115,6 +115,7 @@ mh{
     font-family: poppins;
     color: rgb(240,132,101);
     font-weight: 600;
+    margin-bottom: 14px;
 }
 .ap2{
     font-size: 12px;
@@ -122,6 +123,7 @@ mh{
     color: rgb(240,132,101);
     font-family: poppins;
     font-weight: 300;
+    margin-bottom: 20px;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
     -o-transition: font-weight 0.2s ease;
@@ -131,7 +133,7 @@ mh{
     font-weight: 400;
 }
 .apv:hover .ap2_hold,.apv:active .ap2_hold,.apv:focus .ap2_hold{
-    height: 220px;
+    height: 240px;
 }
 .ap_pm{
     display: flex;

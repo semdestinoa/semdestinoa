@@ -42,7 +42,7 @@ nav{
     font-family: Poppins;
     font-weight: 600;
     font-size: 40px;
-    line-height:46px;
+    line-height:50px;
     box-sizing: border-box;
     padding-bottom: 20px;
     padding-right: 30%;
@@ -124,7 +124,7 @@ nav{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  color: rgba(180,180,180,1);
+  color: rgba(240,240,240,1);
 }
 .dot_holder{
     width: 100%;
@@ -154,7 +154,7 @@ nav{
 }
 
 .active, .dot:hover {
-  background-color: rgba(180,180,180,1);
+  background-color: rgba(240,240,240,1);
 }
 
 /* Fading animation */
