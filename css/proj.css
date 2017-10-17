@@ -768,7 +768,7 @@ mh{
             font-size: 14px;
         }
 }
-@media only screen and (max-height:800px){
+@media only screen and (max-height:700px){
         .ap2_hold{
     display: none;
 }
