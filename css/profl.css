@@ -117,12 +117,15 @@ nav{
 .profl_tbox2c{
     margin-left: 660px;
    transform: translateY(-640px);
+    -webkit-transform: translateY(-640px);
 }
 .profl_tbox2c:hover{
    transform: scale(1.1, 1.1)translateY(-580px);
+    -webkit-transform: scale(1.1, 1.1)translateY(-580px);
 }
 .profl_tbox2c:focus,.profl_tbox2c:active{
     transform: scale(0.9, 0.9)translateY(-710px);
+    -webkit-transform: scale(0.9, 0.9)translateY(-710px);
 }
 .profl_tbox2d{
     margin-left: -420px;
@@ -130,9 +133,11 @@ nav{
 }
 .profl_tbox1a:hover,.profl_tbox1b:hover,.profl_tbox1c:hover,.profl_tbox1d:hover,.profl_tbox1e:hover,.profl_tbox1f:hover,.profl_tbox2a:hover,.profl_tbox2b:hover,.profl_tbox2d:hover{
     transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
 }
 .profl_tbox1a:active,.profl_tbox1a:focus,.profl_tbox1b:active,.profl_tbox1b:focus,.profl_tbox1c:active,.profl_tbox1c:focus,.profl_tbox1d:active,.profl_tbox1d:focus,.profl_tbox2a:active,.profl_tbox2a:focus,.profl_tbox2b:active,.profl_tbox2b:focus,.profl_tbox2d:active,.profl_tbox2d:focus{
     transform: scale(0.9, 0.9);
+    -webkit-transform: scale(0.9, 0.9);
 }
 .profl_timg1,.profl_timg2{
     background-position: center;
@@ -194,12 +199,15 @@ nav{
   .profl_tbox2c{
     margin-left: 400px;
    transform: translateY(-540px);
+      -webkit-transform: translateY(-540px);
 }
 .profl_tbox2c:hover{
    transform: scale(1.1, 1.1)translateY(-500px);
+    -webkit-transform: scale(1.1, 1.1)translateY(-500px);
 }
 .profl_tbox2c:focus,.profl_tbox2c:active{
     transform: scale(0.9, 0.9)translateY(-600px);
+    -webkit-transform: scale(0.9, 0.9)translateY(-600px);
 } 
     .profl_timg1{
    width: 140px;
@@ -283,12 +291,15 @@ nav{
 .profl_tbox2c{
     margin:0px;
    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
 }
 ..profl_tbox2c:hover{
    transform: scale(1.1, 1.1)translate(-110px);
+    -webkit-transform: scale(1.1, 1.1)translate(-110px);
 }
 .profl_tbox2c:focus,.profl_tbox2c:active{
     transform: scale(0.9, 0.9)translate(-110px);
+    -webkit-transform: scale(0.9, 0.9)translate(-110px);
 }
 .profl_tbox2d{
     margin-left: 0px;

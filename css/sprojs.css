@@ -114,6 +114,7 @@ nav{
     display: -webkit-flex;
     -webkit-flex-direction: row;
     justify-content: center;
+    -webkit-justify-content: center;
 }
 
 /* Position the "next button" to the right */
