@@ -498,7 +498,8 @@ nav.scroll{
 #hmain_simg1{
     margin-top: -100px;
     height: 600px;
-    background-image: url(img/img1.jpg);
+    background-size: contain;
+    background-image: url(img/home_sobre.jpg);
 }
 #hmain_simg2{
     background-image: url(img/img3.jpg);
@@ -1040,7 +1041,7 @@ nav.scroll{
         -webkit-align-items: center;
 }
     .hmain_secs{
-        background-image: url(img/img1.jpg);
+        background-image: url(img/home_sobre.jpg);
     }
     .hmain_sece{
         background-image: url(img/img6.jpg);
