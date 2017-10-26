@@ -1115,6 +1115,9 @@ nav.scroll{
     .hsocialbox{
         display: none;
     }
+    .fb-page{
+        display: none;
+    }
     .hmain_soico{
         margin: 0px 40px 100px 40px;
         display: block;
