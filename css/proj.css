@@ -77,17 +77,17 @@ mh{
     cursor: pointer;
     font-family: poppins;
     color: rgb(240,132,101);
-    font-weight: 500;
+    font-weight: 400;
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
     -o-transition: font-weight 0.2s ease;
     transition: font-weight 0.2s ease;
 }
 .ap:hover,.ap:active,.ap:focus{
-    font-weight: 700;
+    font-weight: 600;
 }
 .ap.active {
-    font-weight: 700;
+    font-weight: 600;
 }
 .apv{
     display: flex;
@@ -254,7 +254,7 @@ mh{
     -webkit-flex-direction: column;
 }
 .proj_tfence3,.proj_tfence4{
-    margin-bottom: 160px;
+    margin-bottom: 60px;
       flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
 }
@@ -394,7 +394,7 @@ mh{
     margin-left: 200px;
 }
     .proj_tfence3,.proj_tfence4{
-        margin-bottom: 100px;
+        margin-bottom: 40px;
     }
     .proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
     padding: 16px;
@@ -615,7 +615,7 @@ mh{
         -webkit-justify-content: space-between;
 }
     .proj_tfence3,.proj_tfence4{
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     #proj_cont{
         padding:0px 40px 0px 40px ;

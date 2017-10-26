@@ -469,7 +469,7 @@ nav.scroll{
     font-weight: 600;
 }
 .hmain_stxt2{
-    font-weight: 400;
+    font-weight: 500;
     color: rgb(240,132,101);
     -webkit-transition: font-weight 0.2s ease;
     -moz-transition: font-weight 0.2s ease;
@@ -477,7 +477,7 @@ nav.scroll{
     transition: font-weight 0.2s ease;
 }
 .hmain_stxt2:hover,.hmain_stxt2:focus,.hmain_stxt2:active{
-    font-weight: 600;
+    font-weight: 700;
 }
 .hmain_txt{
     font-weight: 400;
@@ -991,6 +991,7 @@ nav.scroll{
 }
     .hmain_ablk1{
         background-image: url(img/img2.jpg);
+        position: relative;
     }
     .hmain_ablk2{
         background-image: url(img/img5.jpg);
@@ -1040,14 +1041,21 @@ nav.scroll{
         align-items: center;
         -webkit-align-items: center;
 }
-    .hmain_secs{
-        background-image: url(img/home_sobre.jpg);
-    }
-    .hmain_sece{
-        background-image: url(img/img6.jpg);
-    }
-    #hmain_simg1, #hmain_simg2, #hmain_simg3{
+
+    #hmain_simg1{
         display: none;
+    }
+    #hmain_simg2{
+        width: 100%;
+        margin: 40px 0px 0px 0px;
+    }
+    #hmain_simg3{
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        margin: 10% 0px 0px 30px;
+        height: 240px;
+        width: 54%;
     }
     .hmain_blkt1,.hmain_blkt5,.hmain_blkt3,.hmain_blkt2{
         margin: 0px 0px 40px 0px;

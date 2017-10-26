@@ -143,7 +143,6 @@ nav{
     -webkit-flex-direction: row;
 }
 .s_holdfsec3{
-    height: 264px;
     flex-direction: column;
     -webkit-flex-direction: column;
 }
@@ -166,16 +165,10 @@ nav{
     margin-right: 30px;
 }
 .s_fiblks{
-    margin-left: 80px;
+    margin-left: 60px;
     margin-top: 20px;
 }
 .s_fbblk1{
-}
-.s_fbblk2{
-    margin-top: 124px;
-}
-.s_fbblk3{
-    margin-top: 248px;
 }
 .s_fbtitl{
     font-family: poppins;

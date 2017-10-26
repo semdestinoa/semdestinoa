@@ -50,7 +50,6 @@ nav{
     -webkit-mask-position: center;
 }
 .fi_holdfsec3{
-    height: 264px;
     flex-direction: column;
     -webkit-flex-direction: column;
 }
@@ -75,14 +74,6 @@ nav{
 .fi_fiblks{
     margin-left: 0px;
     margin-top: 20px;
-}
-.fi_fbblk1{
-}
-.fi_fbblk2{
-    margin-top: 124px;
-}
-.fi_fbblk3{
-    margin-top: 248px;
 }
 .fi_fbtitl{
     color: rgb(255,255,255);
