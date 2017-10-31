@@ -106,7 +106,7 @@ nav{
     font-weight: 600;
     font-size: 20px;
     text-align: center;
-    margin:10px 0px 60px 0px;
+    margin:10px 30px 60px 30px;
 }
 .expo_choice1,.expo_choice2{
     width: 300px;
@@ -416,6 +416,10 @@ nav{
         font-size: 20px;
         line-height: 28px;
     }
+    .expo_btxtb{
+    font-size: 14px;
+    margin:10px 30px 60px 30px;
+}
 }
 @media only screen and (max-width:380px){
     .expo_choice1{
