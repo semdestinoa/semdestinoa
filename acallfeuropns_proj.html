@@ -10,36 +10,34 @@
         <link rel="icon" href="css/img/sda_icon.png" type="image/x-icon">
         <style>
             .slideshow-container {
-                display: table;
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-	height: 0;
-                overflow: hidden;
+                width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
 }
             .mySlides{
-                position: absolute;
-                top: 0;
-	left: 0;
-                transform: translate(0%,0%);
-                width: 100%;
-	height: 100%;
+                display: none;
             }
-            .slideshow-container iframe {
+            .slidewrap{
+                width: 100%;
+                box-sizing: border-box;
+	padding-bottom: 56.25vh; /* 16:9 */
+	padding-top: 30px;
+                overflow: hidden;
+	height: 0;
     display: flex;
     display: -webkit-flex;
-	position: absolute;
-	top: 0;
+            }
+                .slideshow-container iframe{
+                    position: absolute;
+	bottom: 0;
 	left: 0;
-                transform: translate(0%,0%);
 	width: 100%;
 	height: 100%;
-}
-            @media only screen and (max-height: 420px){
-                .slideshow-container {
-	padding-bottom: 50%;
-}
-            }
+                }
         </style>
     </head>
     <body>
@@ -99,6 +97,11 @@
             </div>
             <div class="slideshow-container">
                 <div class="mySlides fade">
+                    <div class="slidewrap">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XoUvnvtssWY?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="mySlides fade">
                     <img src="css/img/o1/ana_ganilho/ana_ganilho_1_dcv_guioes.jpg" style="width:100%">
                 </div>
                 <div class="mySlides fade">
@@ -109,9 +112,6 @@
                 </div>
                 <div class="mySlides fade">
                     <img src="css/img/o1/ana_ganilho/ana_ganilho_4_dcv_guioes.jpg" style="width:100%">
-                </div>
-                <div class="mySlides fade">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XoUvnvtssWY?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
                 <div class="next" onclick="plusSlides(1)">&#10095;</div>
@@ -127,7 +127,7 @@
         <div id="foot">
             <div id="footword">
                 <div class="foottitl">Sem destino a</div> 
-                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2016/2017
+                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2017
                 <br>Faculdade de Belas-Artes de Lisboa
                 </div>
                 <a class="foot_ficha" href="fichtec.html" target="_self">ficha técnica</a>

@@ -10,13 +10,16 @@
         <link rel="icon" href="css/img/sda_icon.png" type="image/x-icon">
         <style>
             #evenhead{
-                background-image: url(css/img/img1.jpg);
+                background-image: url(css/img/events/dear_europe/deareurope-header.jpg);
             }
+            .eve_htitl,.eve_hstxt{
+    color: rgb(240,132,101);
+}
             .eve_poster{
-                background-image: url(css/img/img1.jpg);
+                background-image: url(css/img/events/dear_europe/1_div.jpg);
             }
             .evesecl{
-                height: 1070px;
+                height: 1170px;
                 align-items: flex-end;
                 justify-content: space-between;
                 margin-top: -160px;
@@ -33,28 +36,201 @@
             }
             #eve_img1{
                 width: 390px;
-                height: 390px;
-                background-image: url(css/img/img2.jpg);
+                height: 530px;
+                background-image: url(css/img/events/dear_europe/2.jpg);
             }
             #eve_img2{
                 width: 300px;
-                height: 370px;
-                background-image: url(css/img/img3.jpg);
+                height: 380px;
+                background-image: url(css/img/events/dear_europe/4.jpg);
             }
             #eve_img3{
                 width: 300px;
-                height: 270px;
-                background-image: url(css/img/img4.jpg);
+                height: 360px;
+                background-image: url(css/img/events/dear_europe/5.jpg);
             }
             #eve_img4{
                 width: 1600px;
                 height: 300px;
-                background-image: url(css/img/img5.jpg);
+                background-image: url(css/img/events/dear_europe/3.jpg);
             }
             .eve_leg3{
                 width: 200px;
                 font-size: 10px;
-                margin-top: 148px;
+                margin-top: 150px;
+            }
+            .mySlides2 {
+                display: none;
+            }
+            .slideshow-alpha {
+  width: 100%;
+                position: relative;
+                box-sizing: border-box;
+	padding-bottom: 0; /* 16:9 */
+	padding-top: 30px;
+	height: auto;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+                align-items: center;
+                -webkit-align-items: center;
+}
+            .slidewrap2{
+                width: 100%;
+                box-sizing: border-box;
+	padding-bottom: 56.25vh; /* 16:9 */
+	padding-top: 30px;
+                overflow: hidden;
+	height: 0;
+    display: flex;
+    display: -webkit-flex;
+            }
+            .slideshow-alpha iframe {
+                position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+            .prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    padding: 10px;
+    margin-top: -22px;
+    color: rgba(180,180,180,0.5);
+    font-weight: bold;
+    font-size: 50px;
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    border-radius: 0 3px 3px 0;
+    display: flex;
+    flex-direction: row;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    justify-content: center;
+}
+.prev,.prev2{
+                left: 0;
+            }
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+img{
+                height: 90vh;
+                width: auto;
+            }
+.prev2:hover, .next2:hover {
+  color: rgba(240,240,240,1);
+}
+            .dot_holder2{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    
+}
+.dot2 {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin:0 4px;
+  background-color: rgba(180,180,180,0.5);
+  border-radius: 50%;
+  display: inline-block;
+    -webkit-transition: background-color 0.6s ease;
+    -moz-transition: background-color 0.6s ease;
+    -o-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+.active2, .dot2:hover {
+  background-color: rgba(240,240,240,1);
+}
+            .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+            .text {
+  color: rgb(255,255,255);
+  font-size: 16px;
+  position: absolute;
+                left: 0;
+                bottom: 0;
+                transform: translate(0%,0%);
+  bottom: 60px;
+  width: 100%;
+  text-align: center;
+}
+            @media only screen and (max-width:1000px){
+                .slideshow-alpha{
+                    display: none;
+                }
+                .slideshow-container {
+  width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+                align-items: center;
+                -webkit-align-items: center;
+}
+                .slidewrap{
+                width: 100%;
+                box-sizing: border-box;
+	padding-bottom: 56.25vh; /* 16:9 */
+	padding-top: 30px;
+                overflow: hidden;
+	height: 0;
+    display: flex;
+    display: -webkit-flex;
+            }
+                .slideshow-container iframe{
+                    position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+                }
+            }
+            @media only screen and (max-width: 600px){
+                img{
+                height:inherit;
+                width: 100%;
+            }
+                .text {
+  font-size: 10px;
+  bottom:40px;
+}
             }
         </style>
     </head>
@@ -105,7 +281,6 @@
         <div id="evenhead">
             <div class="evenhead_shirt">
                 <div class="eve_htitl">Dear Europe</div>
-                <div class="eve_hstxt">de 17 Julho a 20 Agosto</div>
             </div>
         </div>
         <div id="evenmain">
@@ -114,14 +289,12 @@
                 <p>O desafio "Dear Europe" consiste numa série de mensagens concebidas por pessoas de diferentes nacionalidades a quem foi proposto a criação de uma carta política, com os seus meios e métodos próprios, para um destinatário comum - a Europa. Deste modo, partimos das diferenças que separam nacionalidades para pensar o que nos é comum, através dos mais diversos suportes (vídeo, ilustração, pintura, escultura, cartazes, postais, performances, etc).</p><p>O resultado final deste projecto é apresentado como uma mensagem seja visual, sonora e/ou textual para a Europa, reunindo os contributos de diferentes pessoas do meio criativo.</p></div>
                 <div class="eve_pbox1">
                     <div class="eve_poster"></div>
-                    <div class="eve_leg1">Happy Timmy</div>
                 </div>
             </div>
             <div class="eveseci">
                 <div class="evesecl">
                     <div class="eve_ibox1">
                         <div id="eve_img1"></div>
-                        <div class="eve_leg1">Legenda</div>
                     </div>
                     <div class="eve_ibox1">
                         <div id="eve_img2"></div>
@@ -130,33 +303,109 @@
                 <div class="evesecr">
                     <div class="eve_ibox2">
                         <div id="eve_img3"></div>
-                        <div class="eve_leg2">Apathetic Timmy</div>
                         </div>
                     <div class="eve_ibox2">
                         <div id="eve_img4"></div>
-                        <div class="eve_leg2">Legenda</div>
                     </div>
-                    <div class="eve_leg3">Plotting Timmy</div>
+                </div>
+            </div>
+            <div class="slideshow-alpha">
+                <div class="mySlides2 fade">
+                    <img src="css/img/events/dear_europe/1wegotthis.jpg" style="width:100%; height: auto;">
+                    <div class="text">Diana Magalhães (Portugal) We got this</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="css/img/events/dear_europe/2doina.jpg">
+                    <div class="text">Doina Cressevich (França, Roménia e Itália) But you said union / @doinacressevich</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="css/img/events/dear_europe/3nightmare_yishan_qin.jpg">
+                    <div class="text">Yishan Qin (China) Nightmare / cloris-qin.tumblr.com</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="css/img/events/dear_europe/4mane_ap_deareurope.jpg" style="width:100%; height: auto;">
+                    <div class="text">Manuela Peixoto (Portugal) Sem título / @mane.ap</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="css/img/events/dear_europe/5angelo.jpg">
+                    <div class="text">Another Ângelo (Portugal) Europe is not only yours / @anotherangelo</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="css/img/events/dear_europe/6serafim_beenthere.jpg" style="width:100%; height: auto;">
+                    <div class="text">Cat Serafim (Portugal, Reino Unido) Been there, done that, got the t-shirt / @catserafim_illustration</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="css/img/events/dear_europe/7ines%20borges-1.jpg">
+                    <div class="text">Inês Pedro Borges (Portugal) Dear Europe, Remember Peace / behance.net/inpbo</div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="slidewrap2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4XvNSiz6nig?rel=0" frameborder="0" allowfullscreen></iframe>
+                        <div class="text">Guilherme Figueiredo (Portugal) Azurill talks politics</div>
+                    </div>
+                </div>
+                <div class="prev2" onclick="plusSlides2(-1)">&#10094;</div>
+                <div class="next2" onclick="plusSlides2(1)">&#10095;</div>
+                <div class="dot_holder2">
+                    <span class="dot2" onclick="currentSlide2(1)"></span>
+                    <span class="dot2" onclick="currentSlide2(2)"></span> 
+                    <span class="dot2" onclick="currentSlide2(3)"></span>
+                    <span class="dot2" onclick="currentSlide2(4)"></span>
+                    <span class="dot2" onclick="currentSlide2(5)"></span>
+                    <span class="dot2" onclick="currentSlide2(6)"></span>
+                    <span class="dot2" onclick="currentSlide2(7)"></span>
+                    <span class="dot2" onclick="currentSlide2(8)"></span>
                 </div>
             </div>
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="css/img/img1.jpg" style="width:100%">
+                    <img src="css/img/events/dear_europe/1_div.jpg">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/img2.jpg" style="width:100%">
+                    <img src="css/img/events/dear_europe/2.jpg">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/img3.jpg" style="width:100%">
+                    <img src="css/img/events/dear_europe/3.jpg" style="width:100%; height: auto;">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/img4.jpg" style="width:100%">
+                    <img src="css/img/events/dear_europe/4.jpg">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/img5.jpg" style="width:100%">
+                    <img src="css/img/events/dear_europe/5.jpg">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/img6.jpg" style="width:100%">
+                    <img src="css/img/events/dear_europe/1wegotthis.jpg" style="width:100%; height: auto;">
+                    <div class="text">Diana Magalhães (Portugal) We got this</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/events/dear_europe/2doina.jpg">
+                    <div class="text">Doina Cressevich (França, Roménia e Itália) But you said union / @doinacressevich</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/events/dear_europe/3nightmare_yishan_qin.jpg">
+                    <div class="text">Yishan Qin (China) Nightmare / cloris-qin.tumblr.com</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/events/dear_europe/4mane_ap_deareurope.jpg" style="width:100%; height: auto;">
+                    <div class="text">Manuela Peixoto (Portugal) Sem título / @mane.ap</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/events/dear_europe/5angelo.jpg">
+                    <div class="text">Another Ângelo (Portugal) Europe is not only yours / @anotherangelo</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/events/dear_europe/6serafim_beenthere.jpg" style="width:100%; height: auto;">
+                    <div class="text">Cat Serafim (Portugal, Reino Unido) Been there, done that, got the t-shirt / @catserafim_illustration</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/events/dear_europe/7ines%20borges-1.jpg">
+                    <div class="text">Inês Pedro Borges (Portugal) Dear Europe, Remember Peace / behance.net/inpbo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="slidewrap">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4XvNSiz6nig?rel=0" frameborder="0" allowfullscreen></iframe>
+                        <div class="text">Guilherme Figueiredo (Portugal) Azurill talks politics</div>
+                    </div>
                 </div>
                 <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
                 <div class="next" onclick="plusSlides(1)">&#10095;</div>
@@ -167,13 +416,20 @@
                     <span class="dot" onclick="currentSlide(4)"></span>
                     <span class="dot" onclick="currentSlide(5)"></span>
                     <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+                    <span class="dot" onclick="currentSlide(11)"></span>
+                    <span class="dot" onclick="currentSlide(12)"></span>
+                    <span class="dot" onclick="currentSlide(13)"></span>
                 </div>
             </div>
         </div>
         <div id="foot">
             <div id="footword">
                 <div class="foottitl">Sem destino a</div> 
-                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2016/2017
+                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2017
                 <br>Faculdade de Belas-Artes de Lisboa
                 </div>
                 <a class="foot_ficha" href="fichtec.html" target="_self">ficha técnica</a>

@@ -8,6 +8,37 @@
         <link rel="stylesheet" href="css/sprojs.css">
         <title>Aprés Dejéuner | sem destino a</title>
         <link rel="icon" href="css/img/sda_icon.png" type="image/x-icon">
+        <style>
+            .slideshow-container {
+                width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+            .mySlides{
+                display: none;
+            }
+            .slidewrap{
+                width: 100%;
+                box-sizing: border-box;
+	padding-bottom: 56.25vh; /* 16:9 */
+	padding-top: 30px;
+                overflow: hidden;
+	height: 0;
+    display: flex;
+    display: -webkit-flex;
+            }
+                .slideshow-container iframe{
+                    position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+                }
+        </style>
     </head>
     <body>
         <script>
@@ -66,6 +97,11 @@
             </div>
             <div class="slideshow-container">
                 <div class="mySlides fade">
+                    <div class="slidewrap">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/guT-OOvnHiQ?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="mySlides fade">
                     <img src="css/img/o1/leonor_carvalho/leonor_carvalho_1_dcv_guioes.jpg" style="width:100%">
                 </div>
                 <div class="mySlides fade">
@@ -88,13 +124,14 @@
                     <span class="dot" onclick="currentSlide(3)"></span>
                     <span class="dot" onclick="currentSlide(4)"></span>
                     <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
                 </div>
             </div>
         </div>
         <div id="foot">
             <div id="footword">
                 <div class="foottitl">Sem destino a</div> 
-                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2016/2017
+                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2017
                 <br>Faculdade de Belas-Artes de Lisboa
                 </div>
                 <a class="foot_ficha" href="fichtec.html" target="_self">ficha técnica</a>

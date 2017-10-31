@@ -25,7 +25,25 @@
     justify-content: center;
     -webkit-justify-content: center;
                 align-items: center;
+                -webkit-align-items: center;
 }
+            .slidewrap{
+                width: 100%;
+                box-sizing: border-box;
+	padding-bottom: 56.25vh; /* 16:9 */
+	padding-top: 30px;
+                overflow: hidden;
+	height: 0;
+    display: flex;
+    display: -webkit-flex;
+            }
+                .slideshow-container iframe{
+                    position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+                }
             img{
                 height: 90vh;
                 width: auto;
@@ -97,7 +115,7 @@
                     <a class="sproj_plinks" href="rodrsilva.html" target="_self">Rodrigo Silva</a>
                 </div>
                 <div class="sproj_intro">
-                    <div class="sproj_txt"><p>“Entre Frequências” pretende preencher o vazio deixado entre as ondas, actuando sobre o próprio ruído estático ininteligível ao ouvido que sintoniza entre as várias estações de rádio. O intervalo produzido, de índole breve e transitória, é o nosso meio de exploração para a criação de um campo relacional entre dois espaços distintos, analisando a reverberação temporal da música até ao panorama contemporâneo assim como a sua personalidade migratória. Um olhar político e sem fronteiras lê através do contra-ponto de interferências, desvendando as difusas e complexas narrativas melódicas que compõe o próprio ruído.</p><p>A presente edição do projecto visita o museu da sonoridade europeia, deslocando-se através das suas salas de exposição, repletas de músicas cantando outros locais que não este, exóticas e familiares. Um eco colonialista ouve-se através de uma melodia africana, esta que se re-inventa sucessivamente. O compasso que se segue, distinto do anterior, revela o som de uma metrópole, até aí camuflada sob as restantes camadas da composição. As ondas sonoras arrastam-nos em direcções distintas, deixando o ouvido à deriva entre a corrente africana e lisboeta, flutuando numa frequência confluente sem lugar e sem nome concreto. As classificações de “música africana” e “música europeia” discutem entre si, numa argumentação de caraterísticas geográficas, referenciais e históricas - um dissonante diálogo desconversando o uníssono.</p><p><a href="#" onclick='window.open("https://entrefrequenciasblog.wordpress.com/");return false;'>entrefrequenciasblog.wordpress.com</a></p><p><a href="#" onclick='window.open("https://www.facebook.com/entrefrequencias/");return false;'>facebook.com/entrefrequencias</a></p><p><a href="#" onclick='window.open("https://www.youtube.com/channel/UCxA646wRz8I3qwiUDikf9iQ");return false;'>youtube.com/entrefrequencias</a></p></div>
+                    <div class="sproj_txt"><p>“Entre Frequências” pretende preencher o vazio deixado entre as ondas, actuando sobre o próprio ruído estático ininteligível ao ouvido que sintoniza entre as várias estações de rádio. O intervalo produzido, de índole breve e transitória, é o nosso meio de exploração para a criação de um campo relacional entre dois espaços distintos, analisando a reverberação temporal da música até ao panorama contemporâneo assim como a sua personalidade migratória. Um olhar político e sem fronteiras lê através do contra-ponto de interferências, desvendando as difusas e complexas narrativas melódicas que compõe o próprio ruído.</p><p>A presente edição do projecto visita o museu da sonoridade europeia, deslocando-se através das suas salas de exposição, repletas de músicas cantando outros locais que não este, exóticas e familiares. Um eco colonialista ouve-se através de uma melodia africana, esta que se re-inventa sucessivamente. O compasso que se segue, distinto do anterior, revela o som de uma metrópole, até aí camuflada sob as restantes camadas da composição. As ondas sonoras arrastam-nos em direcções distintas, deixando o ouvido à deriva entre a corrente africana e lisboeta, flutuando numa frequência confluente sem lugar e sem nome concreto. As classificações de “música africana” e “música europeia” discutem entre si, numa argumentação de caraterísticas geográficas, referenciais e históricas - um dissonante diálogo desconversando o uníssono.</p><p><a href="#" onclick='window.open("https://entrefrequenciasblog.wordpress.com/");return false;'>entrefrequenciasblog.wordpress.com</a></p><p><a href="#" onclick='window.open("https://www.facebook.com/entrefrequencias/");return false;'>facebook.com/entrefrequencias</a></p></div>
                 </div>
             </div>
             <div class="slideshow-container">
@@ -116,6 +134,16 @@
                 <div class="mySlides fade">
                     <img src="css/img/o2/lisboa_entre_frequencias/lisboa_entre_frequencias_5.jpg" style="width:100%;height: auto;">
                 </div>
+                <div class="mySlides fade">
+                    <div class="slidewrap">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gWGEgYoawW8?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="slidewrap">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/e8gnyvfsoXk?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
                 <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
                 <div class="next" onclick="plusSlides(1)">&#10095;</div>
                 <div class="dot_holder">
@@ -124,13 +152,15 @@
                     <span class="dot" onclick="currentSlide(3)"></span>
                     <span class="dot" onclick="currentSlide(4)"></span>
                     <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
                 </div>
             </div>
         </div>
         <div id="foot">
             <div id="footword">
                 <div class="foottitl">Sem destino a</div> 
-                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2016/2017
+                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2017
                 <br>Faculdade de Belas-Artes de Lisboa
                 </div>
                 <a class="foot_ficha" href="fichtec.html" target="_self">ficha técnica</a>

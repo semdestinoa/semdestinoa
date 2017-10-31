@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
    jQuery('#head_wrap .playgate').on('click', function(e){
      jQuery('.main_play').addClass('active');
     jQuery('body').css('overflow','hidden');
-       jQuery('#main_vid').attr('src', 'https://www.youtube.com/embed/feA64wXhbjo?rel=0&amp;showinfo=0;autoplay=1');
+       jQuery('#main_vid').attr('src', 'https://www.youtube.com/embed/J5Q6Vebzsb8?rel=0&amp;showinfo=0;autoplay=1');
    });
     jQuery('.main_play .closex').on('click', function(e){
      jQuery('.main_play').removeClass('active');
@@ -156,28 +156,28 @@ function showSlides(n) {
 var slideIndex2 = 1;
 showSlides2(slideIndex2);
 
-function plusSlides2(n) {
-  showSlides2(slideIndex2 += n);
+function plusSlides2(m) {
+  showSlides2(slideIndex2 += m);
 }
 
-function currentSlide2(n) {
-  showSlides2(slideIndex2 = n);
+function currentSlide2(m) {
+  showSlides2(slideIndex2 = m);
 }
 
-function showSlides2(n) {
-  var ib;
+function showSlides2(m) {
+  var a;
   var slides2 = document.getElementsByClassName("mySlides2");
   var dots2 = document.getElementsByClassName("dot2");
-  if (n > slides2.length) {slideIndex2 = 1}    
-  if (n < 1) {slideIndex2 = slides2.length}
-  for (i = 0; i < slides2.length; i++) {
-      slides2[i].style.display = "none";  
+  if (m > slides2.length) {slideIndex2 = 1}    
+  if (m < 1) {slideIndex2 = slides2.length}
+  for (a = 0; a < slides2.length; a++) {
+      slides2[a].style.display = "none";  
   }
-  for (i = 0; i < dots2.length; i++) {
-      dots2[i].className = dots2[i].className.replace(" active", "");
+  for (a = 0; a < dots2.length; a++) {
+      dots2[a].className = dots2[a].className.replace(" active2", "");
   }
   slides2[slideIndex2-1].style.display = "block";  
-  dots2[slideIndex2-1].className += " active";
+  dots2[slideIndex2-1].className += " active2";
 };
 /*jQuery( document ).ready(function() {
 	

@@ -25,6 +25,7 @@
     justify-content: center;
     -webkit-justify-content: center;
                 align-items: center;
+                -webkit-align-items: center;
 }
             img{
                 height: 90vh;
@@ -33,6 +34,23 @@
             .prev{
                 left: 0;
             }
+            .slidewrap{
+                width: 100%;
+                box-sizing: border-box;
+	padding-bottom: 56.25vh; /* 16:9 */
+	padding-top: 30px;
+                overflow: hidden;
+	height: 0;
+    display: flex;
+    display: -webkit-flex;
+            }
+                .slideshow-container iframe{
+                    position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+                }
             @media only screen and (max-width: 600px){
                 img{
                 height:inherit;
@@ -103,6 +121,15 @@
             </div>
             <div class="slideshow-container">
                 <div class="mySlides fade">
+                    <img src="css/img/o2/eurotopia/eurotopia_6.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/o2/eurotopia/eurotopia_5.jpg" style="width:100%;height: auto;">
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/o2/eurotopia/eurotopia_9.jpg" style="width:100%;height: auto;">
+                </div>
+                <div class="mySlides fade">
                     <img src="css/img/o2/eurotopia/eurotopia_1.jpg">
                 </div>
                 <div class="mySlides fade">
@@ -115,7 +142,15 @@
                     <img src="css/img/o2/eurotopia/eurotopia_4.jpg" style="width:100%;height: auto;">
                 </div>
                 <div class="mySlides fade">
-                    <img src="css/img/o2/eurotopia/eurotopia_5.jpg" style="width:100%;height: auto;">
+                    <img src="css/img/o2/eurotopia/eurotopia_8.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="css/img/o2/eurotopia/eurotopia_7.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="slidewrap">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GNA67KnIFRs?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
                 <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
                 <div class="next" onclick="plusSlides(1)">&#10095;</div>
@@ -125,13 +160,18 @@
                     <span class="dot" onclick="currentSlide(3)"></span>
                     <span class="dot" onclick="currentSlide(4)"></span>
                     <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
                 </div>
             </div>
         </div>
         <div id="foot">
             <div id="footword">
                 <div class="foottitl">Sem destino a</div> 
-                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2016/2017
+                <div class="foottxt">Exposição de Finalistas Design de Comunicação 2017
                 <br>Faculdade de Belas-Artes de Lisboa
                 </div>
                 <a class="foot_ficha" href="fichtec.html" target="_self">ficha técnica</a>
