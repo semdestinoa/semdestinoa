@@ -222,7 +222,7 @@ nav{
 .mySlides {display:none}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container,.slideshow-container2 {
   width: 100%;
   position: relative;
   margin-bottom: 40px;
