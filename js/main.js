@@ -30,7 +30,7 @@ jQuery(document).ready(function(){
    jQuery('#head_wrap .playgate').on('click', function(e){
      jQuery('.main_play').addClass('active');
     jQuery('body').css('overflow','hidden');
-       jQuery('#main_vid2').attr('src', 'https://www.youtube.com/embed/bR-s4ReIxJo?rel=0&amp;showinfo=0;autoplay=1');
+       jQuery('#main_vid2').attr('src', 'https://www.youtube.com/embed/qJmJPRmdGQ4?rel=0&amp;showinfo=0;autoplay=1');
    });
     jQuery('.main_play .closex').on('click', function(e){
      jQuery('.main_play').removeClass('active');

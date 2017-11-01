@@ -167,7 +167,7 @@ nav.scroll{
     position:relative;
     box-sizing: border-box;
     background-color: rgb(30,30,30);
-    background-image: url(img/trent-erwin-338084.jpg);
+    background-image: url(img/homepage_mobile_video.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -502,7 +502,7 @@ nav.scroll{
     background-image: url(img/home_sobre.jpg);
 }
 #hmain_simg2{
-    background-image: url(img/img3.jpg);
+    background-image: url(img/div-expo.gif);
 }
 #hmain_simg3{
     margin:0px 0px 0px 300px ;
@@ -1053,7 +1053,7 @@ nav.scroll{
         position: absolute;
         z-index: -1;
         left: 0;
-        margin: 10% 0px 0px 30px;
+        margin: 12% 0px 0px 30px;
         height: 240px;
         width: 54%;
     }
@@ -1353,6 +1353,10 @@ nav.scroll{
     }
 }
 @media only screen and (max-width: 380px){
+    #hmain_simg3{
+        margin: 14% 0px 0px 30px;
+        height: 200px;
+    }
     .navburger{
         height: 26px;
         width: 26px;

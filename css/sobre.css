@@ -34,8 +34,8 @@ nav{
     margin-left: 240px;
     margin-top: -30px;
     column-gap: 30px;
-    column-count: 3;
-    -webkit-column-count: 3;
+    column-count: 2;
+    -webkit-column-count: 2;
     -webkit-column-gap: 30px;
 }
 .s_titl{
