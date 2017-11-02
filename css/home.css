@@ -1028,10 +1028,11 @@ nav.scroll{
     color: rgb(240,132,101);
     margin-bottom: 10px;
     margin-right: 42%;
-    text-shadow: 0px 0px 10px rgb(30,30,30);
+    text-shadow: 0px 0px 6px rgb(30,30,30);
 }
 .hmain_attxt{
     font-size: 16px;
+    text-shadow: 0px 0px 6px rgb(100,100,100);
 }
     .hmain_secs, .hmain_secp, .hmain_sece, .hmain_seca, .hmain_secr{
     padding: 0px 0px 0px 0px;
