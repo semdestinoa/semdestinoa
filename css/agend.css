@@ -1,0 +1,415 @@
+nav{
+    background-color: rgba(255,255,255,0.96);
+}
+#agendmain{
+    margin-top: 200px;
+    width:940px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.age_hold, .age_holda, .age_holdb{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+}
+.age_hold, .age_holda{
+    width: 100%;
+}
+.age_holdb{
+    width: 720px;
+}
+.age_titl{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.age_stitl{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    width: 200px;
+}
+.age_titllink{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(240,132,101);
+    margin-top: 12px;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.age_titllink:hover, .age_titllink:active,.age_titllink:focus{
+    font-weight: 600;
+}
+.age_btxt{
+    width: 380px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.age_localh, .age_holdsec1{
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.age_locals1, .age_locals2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+    color: rgb(240,132,101);
+    margin-bottom: 6px;
+    -webkit-transition: font-weight 0.2s ease;
+    -moz-transition: font-weight 0.2s ease;
+    -o-transition: font-weight 0.2s ease;
+    transition: font-weight 0.2s ease;
+}
+.age_locals1:hover,.age_locals1:active,.age_locals2:hover,.age_locals2:active{
+    font-weight: 600;
+}
+.age_locals1.active,.age_locals2.active{
+    font-weight: 600;
+}
+.age_localv{
+    width: 740px;
+    height: 580px;
+}
+.age_actbox1, .age_actbox2{
+    margin:0px 20px 60px 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+.age_actbox2{
+    margin-top: 200px;
+}
+.age_actimg{
+    margin-bottom: 40px;
+    width: 300px;
+    height:300px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+    background-color: rgba(255,255,255, 0);
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+.age_actimg:hover .img_over,.age_actimg:focus .img_over,.age_actimg:active .img_over{
+    background-color: rgba(255,255,255, 0.75);
+}
+.age_acttitl{
+    font-family: poppins;
+    font-weight: 600;
+    width: 200px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0%,0%);
+    color: rgb(240,132,101);
+    margin: 0px 0px 30px 20px;
+    text-shadow: 0px 0px 10px rgb(30,30,30);
+    line-height: 24px;
+    z-index: 10;
+}
+.age_acttxt{
+    font-size: 16px;
+    font-weight: 400;
+}
+.age_eabox{
+    margin:0px 20px 40px 0px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column; 
+}
+.age_eaimg{
+    margin-bottom: 10px;
+    width: 220px;
+    height:200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.eaimg_over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+    background-color: rgba(240,132,101, 0);
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+.age_eabox:hover .eaimg_over,.age_eabox:active .eaimg_over,.age_eabox:focus .eaimg_over{
+    background-color: rgba(240,132,101, 0.4);
+}
+.age_eatitl{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(240,132,101);
+}
+.age_eatxt{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(30,30,30);
+}
+@media only screen and (max-width: 1000px){
+    #agendmain{
+    width: 100%;
+        box-sizing: border-box;
+        padding: 0px 60px 0px 60px;
+}
+    .age_stitl{
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    .age_holdb,.age_holda{
+        width: 100%;
+    }
+    .age_hold{
+        flex-direction: column;
+        -webkit-flex-direction:column;
+    }
+    .age_btxt{
+    width: 100%;
+        margin-left: 200px;
+}
+    .age_actbox1, .age_actbox2{
+    margin-right: 0px; 
+}
+    .age_eabox{
+    margin:0px 0px 0px 0px; 
+}
+}
+@media only screen and (max-width: 900px){
+    .age_localv{
+    height: 860px;
+}
+}
+@media only screen and (max-width: 750px){
+    .age_localv{
+    height: 860px;
+}
+    .age_eabox{
+    width: 200px;
+}
+.age_eaimg{
+    width: 200px;
+    height:180px;
+}
+}
+@media only screen and (max-width: 700px){
+    #agendmain{
+        margin-top: 180px;
+        padding: 0px 0px 0px 0px;
+}
+    .age_localh{
+        width: 100%;
+        box-sizing: border-box;
+        padding:0% 20% 0% 20%;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        flex-direction: row;
+        -webkit-justify-content: space-between;
+        -webkit-flex-direction: row;
+    }
+    .age_localv{
+        width: 100%;
+    }
+    .age_holda,.age_holdb{
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+    .age_holda{
+        box-sizing: border-box;
+        padding: 0px 40px 0px 40px;
+    }
+    .age_btxt{
+        margin-left:0px;
+}
+    .age_actbox1, .age_actbox2{
+    margin:0px 0px 20px 0px;
+    width: 100%;
+}
+.age_actbox2{
+    margin-top: 0px;
+}
+    .age_actimg{
+    margin-bottom: 0px;
+    width: 100%;
+    height:200px;
+}
+    .age_acttxt{
+        display: none;
+    }
+    .age_acttitl{
+        width: auto;
+        margin-right: 40%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .age_stitl{
+        box-sizing: border-box;
+        padding: 0px 40px 0px 40px;
+    }
+    .age_eabox{
+    margin:0px 0px 10px 0px;
+    width: 100%;
+        position: relative;
+}
+.age_eaimg{
+    margin-bottom: 0px;
+    width: 100%;
+    height:120px;
+}
+    .age_eatitl{
+        font-size: 20px;
+        position: absolute;
+        margin: 40px 0px 0px 20px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+}
+.age_eatxt{
+    position: absolute;
+        margin: 80px 0px 0px 20px;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+    color: rgb(255,255,255);
+}
+}
+@media only screen and (max-width: 600px){
+    .age_stitl{
+        padding: 0px 160px 0px 30px;
+    }
+    .age_holda{
+        padding: 0px 30px 0px 30px;
+    }
+    .age_titl{
+        width: 100%;
+        align-items: center;
+    }
+    .age_localv{
+    height: 760px;
+}
+}
+@media only screen and (max-width: 540px){
+    .age_holda{
+        box-sizing: border-box;
+        padding: 0px 0px 0px 0px;
+    }
+    .age_localv{
+    height: 700px;
+}
+    .age_btxt{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 30px 0px 30px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .age_holda{
+        box-sizing: border-box;
+        padding: 0px 0px 0px 0px;
+    }
+    .age_localv{
+        width: 100%;
+    height: 860px;
+}
+    .age_actbox1, .age_actbox2{
+    margin:0px 0px 20px 0px;
+    width: 100%;
+}
+.age_actbox2{
+    margin-top: 0px;
+}
+    .age_actimg{
+    margin-bottom: 0px;
+    width: 100%;
+    height:180px;
+}
+    .age_acttitl{
+        width: auto;
+        margin-right: 40%;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 380px){
+    .age_btxt{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .age_eatitl{
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .age_eatxt{
+        font-size: 12px;
+    }
+    .age_acttitl{
+        font-size: 16px;
+        line-height: 20px;
+         margin-right: 20%;
+        margin-bottom: 20px
+    }
+}
+@media only screen and (max-width: 340px){
+     #agendmain{
+        margin-top: 100px;
+        padding: 0px 0px 0px 0px;
+}
+}
+@media only screen and (max-height: 420px){
+    #agendmain{
+        margin-top: 100px;
+}
+}
+@media only screen and (max-height: 380px){
+    #agendmain{
+        padding: 0px 0px 0px 0px;
+}
+    .age_localv{
+        width: 100%;
+    height: 900px;
+}
+}
