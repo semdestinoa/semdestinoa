@@ -419,6 +419,7 @@ nav.scroll{
 }
 .hmain_blk1, .hmain_blk2, .hmain_blk3{
     width: 50%;
+    position: relative;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -1007,6 +1008,23 @@ nav.scroll{
     font-weight: 600;
     
 }
+    .ablk_over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transform: translate(0%,0%);
+    background-color: rgba(255,255,255, 0.8);
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+    .hmain_ablk1:hover .ablk_over,.hmain_ablk1:active .ablk_over,.hmain_ablk1:focus .ablk_over, .hmain_ablk2:hover .ablk_over,.hmain_ablk2:active .ablk_over,.hmain_ablk2:focus .ablk_over, .hmain_ablk3:hover .ablk_over,.hmain_ablk3:active .ablk_over,.hmain_ablk3:focus .ablk_over{
+        background-color: rgba(240,132,101, 0.2);
+    }
 .hmain_adate{
     height: 100%;
     width: 200px;
@@ -1018,22 +1036,31 @@ nav.scroll{
     font-size: 30px;
     right: 0%;
     left: auto;
+    z-index: 5;
     top: 0%;
     transform: translate(-0%,-0%);
     display: flex;
     align-items: center;
 }
 .hmain_atitl{
+    z-index: 5;
     font-size: 18px;
     color: rgb(240,132,101);
     margin-bottom: 10px;
     margin-right: 42%;
-    text-shadow: 0px 0px 6px rgb(30,30,30);
+    text-shadow: 0px 0px 0px rgb(30,30,30);
 }
+    .hmain_ablk1:hover .hmain_atitl,.hmain_ablk1:active .hmain_atitl,.hmain_ablk1:focus .hmain_atitl, .hmain_ablk2:hover .hmain_atitl,.hmain_ablk2:active .hmain_atitl,.hmain_ablk2:focus .hmain_atitl, .hmain_ablk3:hover .hmain_atitl,.hmain_ablk3:active .hmain_atitl,.hmain_ablk3:focus .hmain_atitl{
+        text-shadow: 0px 0px 10px rgb(30,30,30);
+    }
 .hmain_attxt{
+    z-index: 5;
     font-size: 16px;
-    text-shadow: 0px 0px 6px rgb(100,100,100);
+    text-shadow: 0px 0px 0px rgb(30,30,30);
 }
+    .hmain_ablk1:hover .hmain_attxt,.hmain_ablk1:active .hmain_attxt,.hmain_ablk1:focus .hmain_attxt, .hmain_ablk2:hover .hmain_attxt,.hmain_ablk2:active .hmain_attxt,.hmain_ablk2:focus .hmain_attxt, .hmain_ablk3:hover .hmain_attxt,.hmain_ablk3:active .hmain_attxt,.hmain_ablk3:focus .hmain_attxt{
+        text-shadow: 0px 0px 10px rgb(100,100,100);
+    }    
     .hmain_secs, .hmain_secp, .hmain_sece, .hmain_seca, .hmain_secr{
     padding: 0px 0px 0px 0px;
     margin:60px 0px 0px 0px;
@@ -1054,11 +1081,14 @@ nav.scroll{
     }
     #hmain_simg3{
         position: absolute;
+        top: 0;
         z-index: -1;
         left: 0;
-        margin: 12% 0px 0px 30px;
+        transform: translate(0%,0%);
+        margin: 0px 0px 0px 30px;
         height: 240px;
         width: 54%;
+        opacity: 0.4;
     }
     .hmain_blkt1,.hmain_blkt5,.hmain_blkt3,.hmain_blkt2{
         margin: 0px 0px 40px 0px;
@@ -1319,7 +1349,7 @@ nav.scroll{
         margin: 0px 0px 0px 0px;
     }
     .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
-        height: 120px;
+        height: 140px;
         padding: 0px 0px 0px 40px;
         margin: 10px 0px 0px 0px;
 }
@@ -1358,7 +1388,7 @@ nav.scroll{
 }
 @media only screen and (max-width: 380px){
     #hmain_simg3{
-        margin: 14% 0px 0px 30px;
+        margin: 0px 0px 0px 30px;
         height: 200px;
     }
     .navburger{
@@ -1439,7 +1469,7 @@ nav.scroll{
         margin: 0px 0px 0px 0px;
     }
     .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
-        height: 120px;
+        height: 140px;
         padding: 0px 0px 0px 30px;
 }
 .hmain_adate{
