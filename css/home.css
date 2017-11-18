@@ -216,7 +216,7 @@ nav.scroll{
     height: 100vh;
     min-height: 600px;
     width: 100%;
-    background-color: rgba(30,30,30,0.5);
+    background-color: rgba(30,30,30,0.2);
     padding: 80px;
     left: 0;
     top: 0;
@@ -356,7 +356,7 @@ nav.scroll{
     color: rgba(255,255,255,1);
     transform: scale(0.8,0.8);
 }
-#hmain_cont{
+.hmain_cont{
     width: 1200px;
     display: flex;
     flex-direction: column;
@@ -380,6 +380,16 @@ nav.scroll{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
 }
 .hmain_blkt1,.hmain_blkt3,.hmain_blkt5{
     width: 100%;
@@ -461,13 +471,16 @@ nav.scroll{
 .hmain_btxt1{
     margin: 0px 0px 0px 300px;
 }
-.hmain_stxt1,.hmain_stxt2{
+.hmain_stxt1{
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px 0px 0px 140px;
+}
+.hmain_stxt2{
     font-family: poppins;
     font-size: 30px;
     margin: 0px 0px 0px 300px;
-}
-.hmain_stxt1{
-    font-weight: 600;
 }
 .hmain_stxt2{
     font-weight: 500;
@@ -670,7 +683,7 @@ nav.scroll{
 .headdates{
     font-size: 20px;
 }
-    #hmain_cont{
+    .hmain_cont{
         width: 100%;
     }
     .hmain_titl,.hmain_titl2{
@@ -701,7 +714,11 @@ nav.scroll{
     .hmain_stitl{
         margin: 40px 0px 10px 200px;
     }
-    .hmain_stxt1,.hmain_stxt2{
+    .hmain_stxt1{
+        font-size: 26px;
+        margin: 0px 0px 0px 80px;
+    }
+    .hmain_stxt2{
         font-size: 26px;
         margin: 0px 0px 0px 200px;
     }
@@ -1132,8 +1149,8 @@ nav.scroll{
         font-size: 26px;
     }
 .hmain_stxt1{
-        margin: 20px 0px 0px 100px;
-    align-self: flex-start;
+        margin: 20px 0px 0px 0px;
+    align-self: center;
     }
     .hmain_stxt2{
         margin: 30px 0px 0px 0px;
@@ -1331,8 +1348,8 @@ nav.scroll{
         margin: 0px 60px 0px 30px;
     }
     .hmain_stxt1{
-        margin: 0px 0px 0px 30px;
-    align-self: flex-start;
+        margin: 0px 0px 0px 0px;
+    align-self: center;
     }
     .hmain_secs, .hmain_secp, .hmain_sece, .hmain_seca, .hmain_secr{
     padding: 0px 0px 60px 0px;
@@ -1454,8 +1471,8 @@ nav.scroll{
         margin: 0px 30px 0px 30px;
     }
     .hmain_stxt1{
-        margin: 0px 0px 0px 30px;
-    align-self: flex-start;
+        margin: 0px 0px 0px 0px;
+    align-self: center;
     }
     .hmain_stxt2{
         font-size: 24px;
@@ -1651,8 +1668,8 @@ nav.scroll{
         margin: 0px 200px 0px 80px;
     }
     .hmain_stxt1{
-        margin: 0px 0px 0px 80px;
-    align-self: flex-start;
+        margin: 0px 0px 0px 0px;
+    align-self: center;
     }
     
     .hmain_btxt1, .hmain_btxt2,.hmain_btxt3{
@@ -1714,8 +1731,8 @@ nav.scroll{
         margin: 0px 200px 0px 80px;
     }
     .hmain_stxt1{
-        margin: 0px 0px 0px 80px;
-    align-self: flex-start;
+        margin: 0px 0px 0px 0px;
+    align-self: center;
     }
     .hmain_ablk1, .hmain_ablk2, .hmain_ablk3{
         height: 100px;

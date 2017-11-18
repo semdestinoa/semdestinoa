@@ -38,10 +38,10 @@ nav{
     width:640px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     display: -webkit-flex;
     -webkit-flex-direction: row;
-    -webkit-justify-content: space-between;
+    -webkit-justify-content: flex-end;
 }
 .expo_datediagr{
     margin-top: 80px;
@@ -73,7 +73,7 @@ nav{
 }
 .expo_datetxtd{
     margin: 0px 60px 0px 0px;
-    width: 30%;
+    width: 70%;
 }
 .expo_datebar{
     margin: 30px 0px 20px 0px;

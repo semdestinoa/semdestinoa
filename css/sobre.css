@@ -20,21 +20,23 @@ nav{
 }
 #s_holdnames{
     height: 860px;
-    margin-left: 240px;
+    margin-left: 260px;
     margin-top: -30px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     display: -webkit-flex;
     -webkit-flex-wrap: wrap;
     -webkit-flex-direction: column;
-    
 }
 .s_intro{
-    margin-left: 240px;
+    margin-left: 160px;
     margin-top: -30px;
     column-gap: 30px;
     column-count: 2;
+    column-fill: auto;
+    -webkit-column-fill: auto;
     -webkit-column-count: 2;
     -webkit-column-gap: 30px;
 }
@@ -90,7 +92,7 @@ nav{
     font-weight:600; 
 }
 .etap_hold{
-    margin-left: 490px;
+    margin-left: 560px;
     margin-bottom: 100px;
     display: flex;
     display: -webkit-flex;
@@ -103,9 +105,10 @@ nav{
     display: -webkit-flex;
     flex-direction: row;
     -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
 }
 .etap_col{
-    width: 210px;
+    width: 180px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;

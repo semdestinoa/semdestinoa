@@ -36,8 +36,10 @@
     height: 100vh;
     min-height: 600px;
     width: 100%;
-    background-color: rgba(30,30,30,0.5);
+    background-color: rgba(30,30,30,0.2);
     left: 0;
+    top: 0;
+    transform: translate(0%,0%);
     z-index: 10;
     position: absolute;
     box-sizing: border-box;
@@ -203,7 +205,7 @@ mh{
     -webkit-flex-direction: column; 
 }
 .hprojtxtb{
-    width: 500px;
+    width: 520px;
     margin-bottom: 40px;
     display: flex;
     display: -webkit-flex;
@@ -219,9 +221,11 @@ mh{
 .hprojtxt{
     font-family: poppins;
     font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 40px;
 }
 .mprojtxtb{
-    width: 380px;
+    width: 500px;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -231,10 +235,13 @@ mh{
     font-family: poppins;
     font-weight: 600;
     font-size: 30px;
+    line-height: 36px;
     margin-bottom: 10px;
 }
 .mprojtxt{
+    font-family: poppins;
     font-size: 16px;
+    line-height: 24px;
     margin-bottom: 20px;
 }
 .mprojstxt{
@@ -495,8 +502,11 @@ mh{
         transition: opacity 0.4s ease;
     }
    .hprojtxtb{
-    width: 360px;
+    width: 400px;
 }
+    .mprojtxtb{
+        width: 380px;
+    }
     .projbox{
         margin-left: 25%;
 }
@@ -671,14 +681,17 @@ mh{
 .hprojtxt{
     font-family: poppins;
     font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
 }
     .mprojtxtb{
     width: auto;
         box-sizing: border-box;
-        padding: 0px 60px 0px 0px;
+        padding: 0px 30px 0px 0px;
 }
 .mprojtitl{
     font-size: 24px;
+    line-height: 30px;
 }
     .proj_tdsbox1,.proj_tdsbox2,.proj_tdsbox3,.proj_tbox1a, .proj_tbox1b,.proj_tbox1c,.proj_tbox1d, .proj_tbox1e, .proj_tbox1f{
          width: 120px;
@@ -744,6 +757,7 @@ mh{
 @media only screen and (max-width: 380px){
     .hprojtxt{
     font-size: 14px;
+        line-height: 22px;
 }
     #proj_cont{
         padding:0px 30px 0px 30px ;
@@ -762,6 +776,7 @@ mh{
     }
     .mprojtxt{
             font-size: 12px;
+        line-height: 20px;
         }
         .mprojstxt{
            font-size: 10px; 
@@ -794,12 +809,14 @@ mh{
 }
         .mprojtitl{
             font-size:20px;
+            line-height: 24px;
         }
         .hprojtxtb{
     margin-bottom: 10%;
         }
         .hprojtxt{
             font-size: 14px;
+            line-height: 22px;
         }
 }
 @media only screen and (max-height:700px){
@@ -839,16 +856,18 @@ mh{
 }
 .hprojtxt{
     font-size: 16px;
+    line-height: 24px;
     box-sizing: border-box;
     padding-right: 10%;
 }
     .mprojtxtb{
     width: auto;
         box-sizing: border-box;
-        padding: 0px 60px 0px 0px;
+        padding: 0px 30px 0px 0px;
 }
 .mprojtitl{
     font-size: 24px;
+    line-height: 30px;
 }
     .ap2_hold{
     display: none;
@@ -913,6 +932,7 @@ mh{
     }
     .hprojtxt{
     font-size: 14px;
+        line-height: 22px;
     column-count: 2;
     box-sizing: border-box;
     padding-right: 10%;
@@ -924,9 +944,11 @@ mh{
 }
     .mprojtitl{
     font-size: 20px;
+        line-height: 26px;
 }
     .mprojtxt{
             font-size: 14px;
+        line-height: 22px;
         }
         .mprojstxt{
            font-size: 12px; 
@@ -942,7 +964,7 @@ mh{
 }
      .hprojtxt{
     font-size: 14px;
-         line-height: 16px;
+         line-height: 22px;
     column-count: 2;
     box-sizing: border-box;
     padding-right: 10%;
@@ -953,9 +975,11 @@ mh{
     }
     .mprojtitl{
     font-size: 20px;
+        line-height: 26px;
 }
     .mprojtxt{
             font-size: 12px;
+        line-height: 20px;
         }
         .mprojstxt{
            font-size: 10px; 
